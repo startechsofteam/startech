@@ -1,0 +1,58 @@
+= Java 9
+
+== Overview
+
+* Date de release 2017/03/23
+
+== New features planned
+
+=== Jigsaw
+
+=== HTTP/2
+
+La version actuellement supportée est toujours la 1.1, datant de 1999. +
+La nouvelle API supportant la version 2 sera bien plus simple à utiliser (utilisatio du pattern *Builder*)
+
+=== Process API
+
+Mise à jour de l'API Process afin de simplifier la récupération et la gestion des processus systèmes :
+
+[source,java]
+----
+// Get PIDs of own or started processes
+out.println("Your pid is " + ProcessHandle.current().getPid());
+
+Process p = Runtime.getRuntime().exec("sleep 1h");
+ProcessHandle h = ProcessHandle.of(p.getPid())  // Optional
+        .orElseThrow(IllegalStateException::new);
+
+// Do things on exiting process          // CompletableFuture
+h.onExit().thenRun( ()-> out.println("Sleeper exited") );
+
+// Get info on process
+out.printf("[%d] %s - %s\n", h.getPid(),
+           h.info().user().orElse("unknown"),
+           h.info().commandLine().orElse("none"));
+
+// Kill a process
+h.destroy();
+----
+
+=== REPL (JShell)
+
+REPL = Read Eval Print Loop
+
+=== Immutable collection factories
+
+Merci Guava !
+
+=== HTML5 Javadoc
+
+=== Garbage Collector G1
+
+Devient le garbage collector par défaut
+
+== Ressources
+
+* https://bentolor.github.io/java9-in-action
+* Programmez! 199
