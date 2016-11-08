@@ -1,2 +1,3 @@
-# starTECH-meetings-reports
+= Comptes-rendus des réunions du StarTECH Java
+
 Repo contenant les comptes-rendus des réunions du StarTECH Java
