@@ -69,7 +69,7 @@ Il y a quelques mois, on nous avait communiqué que nous disposions d'assez de l
 * HTTP/2
 * Process API
 * REPL
-* voir https://github.com/softeamfr/startech-meetings-reports[notre repo GitHub] pour plus de détails.
+* voir https://github.com/softeamfr/startech-meetings-reports/blob/master/resources/Java9-new-features.adoc[notre repo GitHub] pour plus de détails.
 --
 +
 Pour rappel, [red]*l'objectif de ce débat était de commencer à travailler ensemble sur une future présentation Java 9*. +
