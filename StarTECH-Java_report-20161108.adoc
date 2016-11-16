@@ -1,0 +1,79 @@
+= [StarTech] Compte rendu de la réunion du StarTech Java du 2016/11/08
+:toc:
+:toclevels: 3
+:toc-placement!:
+:lb: pass:[<br> +]
+:imagesdir: images
+:icons: font
+:source-highlighter: highlightjs
+:sectnums:
+
+toc::[]
+
+== Overview
+
+Etaient présents :
+
+* Soufiane
+* Bastien
+* Guillaume
+* Lanto
+* Thomas
+
+== Logistique
+
+* [red]*Trombinoscope* : +
+Votre rappel préféré : envoyez une photo (où l’on vous reconnaît) et votre description, et je vous ajoute dans la foulée emoji:wink[2x]
+* Afin de permettre au groupe d'être davantage connu des autres softeamiens, merci à *tous les contributeurs* de se créer une *signature* sur le modèle de la mienne (vous pouvez la prendre en copier / coller du présent mail)
+* Afin de faciliter notre communication, il serait bon que nous nous connections beaucoup plus régulièrement à notre channel Slack : https://startechjava.slack.com/ +
+Donc, si vous pouviez, tous les jours en buvant votre café du matin, venir y jeter un oeil, voire vous mettre à troller, ce serait parfait ! emoji:wink[2x]
+* *Nous avons créé https://github.com/softeamfr/startech-meetings-reports[un repo GitHub] pour héberger les comptes-rendus de réunions*, et tous les documents associés à ces dernières. +
+Ainsi, si vous avez des remarques, ou souhaitez apporter des modifications, vous pouvez : 
+** soit utiliser https://github.com/softeamfr/startech-meetings-reports/issues[le bug tracker]
+** soit soumettre une *pull request*.
+
+== Tech
+
+* *Devoxx France 2017* se rapproche à grands pas, aussi, si vous voulez être présents, [red]*n'hésitez pas à vous manifester*. +
+Nous avons des places sponsors pour les premiers à se faire connaître, mais vous pouvez également utiliser vos Starpoints (rappel : votre solde est disponible sur https://intranet.softeam.fr/communaute/13/page/1913[l'Intranet]). +
+Actuellement, ont déjà demandé une place :
++
+--
+** *Bastien* : place sponsor
+** *Lanto* : place sponsor
+** *Soufiane* : place sponsor
+** *Thomas* : Starpoints
+--
++
+[blue]*Hervé, peux-tu nous redonner le contact qui gère l'organisation du salon côté Softeam ?*
+* Toujours au sujet de Devoxx France 2017, le CFP ferme plus tôt cette année : le 07/01, et non plus le 31. +
+Faites donc attention si vous voulez présenter un sujet ! +
+J'en profite pour vous rappeler que le CFP du ParisJUG Young Blood est actuellement ouvert, ferme le 23/11 et permet à l'heureux gagnant de décrocher une place de speaker à Devoxx France. +
+Si vous voulez tenter votre chance, voici https://docs.google.com/forms/d/e/1FAIpQLScJruj0pKIXu-EXALXWVMBCTwJfKfO3-k5Ljq_rXMFOszZocg/viewform?c=0&w=1[le lien d'inscription]. +
+La https://www.parisjug.org/xwiki/wiki/oldversion/view/Meeting/20170110[soirée de présentation] aura lieu le 10/01/2017.
+
+* Bastien nous a présenté une 1ere version de [red]*l'outil de gestion des Starpoints*, basé sur une stack *JHipster* (donc Spring Boot / AngularJS). +
+Plusieurs fonctionnalités sont déjà accessibles (création des utilisateurs, saisie d'une activité, etc.), et le mieux pour s'en rendre compte est encore de builder l'outil ! emoji:wink[2x] +
+Le https://github.com/bgiegel/Starpoints-app[code source] est accessible sur GitHub, ainsi que la procédure de build. +
+Si vous avez des remarques, n'hésitez pas à les communiquer sur le https://startechjava.slack.com/messages/outil_starpoints/[channel Slack _outils_starpoints_] +
+Et si vous voulez participter au développer, n'hésitez pas à *soumettre votre pull request* emoji:wink[2x]
+* Pour faciliter le développement de l'outil, nous réfléchissons à *passer tous les contributeurs sur notre JIRA*. +
+Cela nous permettrait de saisir les spec dessus, et de gérer le développement de façon Agile. +
+Il y a quelques mois, on nous avait communiqué que nous disposions d'assez de licences pour le faire. +
+[blue]*Hervé, si tu as moyen de confirmer, ce serait parfait.*
+
+* Côté sujets débattus, comme annoncé, nous avons parlé des *nouvelles features de Java 9*. Ont été évoquées : 
++
+--
+* Jigsaw
+* HTTP/2
+* Process API
+* REPL
+* voir https://github.com/softeamfr/startech-meetings-reports[notre repo GitHub] pour plus de détails.
+--
++
+Pour rappel, [red]*l'objectif de ce débat était de commencer à travailler ensemble sur une future présentation Java 9*. +
+Il s'agirait davantage d'un format en soirée que d'un 12@13.
+
+@+, +
+Thomas
