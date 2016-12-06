@@ -51,11 +51,23 @@ Bastien,  une remarque à ce sujet, plutôt que de passer le suivi du projet sur
 === Veille technologique
 
 * Nouvelle fonctionnalité `projects` de GitHub : permet de disposer d'un outil de project management au sein même de GitHub.
+* Faycal nous a parlé de svelt, un nouveau framework front en Javascript. Il s'agit d'un transpilateur, le fichier généré pouvant être utilisé tel quel, sans ajout. +
+Voir le https://github.com/sveltejs/svelte[repo GitHub] du projet, ainsi que le https://svelte.technology/[site].
 
 === Projet de présentation sur Java 9
+
+Dispatch des sujets :
+
+* Jigsaw : Guillaume + Passam + Abdoulaye + Thomas
+* HTTP/2 : Guillaume + Passam
+* Process API : Thomas
+* REPL : Soufiane + Thomas
+* Immutable collection factories : Walid
+* HTML 5 Javadoc : Soufiane
+* G1 : Soufiane
 
 === Sujets débattus
 
 
-@+, +
+@+,
 Thomas
