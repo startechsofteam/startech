@@ -1,0 +1,61 @@
+= [StarTech] Compte rendu de la réunion du StarTech Java du 2016/12/06
+:toc:
+:toclevels: 3
+:toc-placement!:
+:lb: pass:[<br> +]
+:imagesdir: images
+:icons: font
+:source-highlighter: highlightjs
+:sectnums:
+
+toc::[]
+
+== Overview
+
+Etaient inscrits :
+
+* Thomas SCHWENDER : présent
+* Abdoulaye OUATTARA : 
+* Soufiane KHATTAB : 
+* Faycal TIRICH : 
+* Walid DEBBECH : 
+* Pierre LEPLAY :
+
+== Logistique
+
+* [red]*Trombinoscope* : +
+Votre rappel préféré : envoyez une photo (où l’on vous reconnaît) et votre description, et je vous ajoute dans la foulée emoji:wink[2x]
+* Afin de permettre au groupe d'être davantage connu des autres softeamiens, merci à *tous les contributeurs* de se créer une *signature* sur le modèle de la mienne (vous pouvez la prendre en copier / coller du présent mail)
+* Afin de faciliter notre communication, il serait bon que nous nous connections beaucoup plus régulièrement à notre channel Slack : https://startechjava.slack.com/ +
+Donc, si vous pouviez, tous les jours en buvant votre café du matin, venir y jeter un oeil, voire vous mettre à troller, ce serait parfait ! emoji:wink[2x]
+* *Nous avons créé https://github.com/softeamfr/startech-meetings-reports[un repo GitHub] pour héberger les comptes-rendus de réunions*, et tous les documents associés à ces dernières. +
+Ainsi, si vous avez des remarques, ou souhaitez apporter des modifications, vous pouvez : 
+** soit utiliser https://github.com/softeamfr/startech-meetings-reports/issues[le bug tracker]
+** soit soumettre une *pull request*.
+
+== Tech
+
+=== Divers et rappels
+
+* *Devoxx France 2017* se rapproche à grands pas, et, d'ici peu, nous devrions avoir une réponse pour les places sponsor demandées par les contributeurs. +
+Autre rappel à ce sujet, le CFP de Devoxx France ferme le 07/01. Faites vite si vous vous déposer un sujet de conférence.
+
+* Mon sujet *Sorcellerie en Java : outrepasser les limites avec sun.misc.Unsafe* a été retenu pour le prochain https://www.parisjug.org/xwiki/wiki/oldversion/view/Meeting/20170110[ParisJUG YoungBlood], qui aura lieu le 10/01 emoji:smile[2x] +
+Si à cette occasion je suis retenu comme meilleur quicky, je pourrai également aller le présenter lors du prochain Devoxx France. +
+Si vous êtes intéressés par les sujets tournant autour de la performance en Java, n'hésite pas à passer.
+
+* Un rappel de notre précédente réunion : aller jeter un oeil à https://github.com/bgiegel/Starpoints-app[l'outil de gestion des StarPoints commencé par Bastien] ! +
+N'hésitez pas à faire part de vos retours, et à saisir des *pull requests* si besoin. +
+Bastien,  une remarque à ce sujet, plutôt que de passer le suivi du projet sur JIRA, nous pourrions utiliser la nouvelle fonctionnalité `projects` de GitHub pour cela.
+
+=== Veille technologique
+
+* Nouvelle fonctionnalité `projects` de GitHub : permet de disposer d'un outil de project management au sein même de GitHub.
+
+=== Projet de présentation sur Java 9
+
+=== Sujets débattus
+
+
+@+, +
+Thomas

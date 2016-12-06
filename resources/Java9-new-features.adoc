@@ -50,11 +50,31 @@ h.destroy();
 
 === REPL (JShell)
 
-REPL = Read Eval Print Loop
+*REPL* = _Read Eval Print Loop_
+
+Correspond au https://bugs.openjdk.java.net/browse/JDK-8043364[projet Kulla], maintenant connu comme *JShell*.
 
 === Immutable collection factories
 
 Merci Guava !
+
+[source,java]
+----
+/* Comment sections would break ... */
+List<Integer> listOfNumbers = List.of(1, 2, 3, 4, 5/*, null*/);
+
+Set<Integer> setOfNumbers = Set.of(1, 2, 3, 4, 5/*, 1*/);
+
+Map<String, String> mapOfString =
+    Map.of("key1", "value1", "key2", "value2");
+
+Map<String, String> moreMapOfString =
+    Map.ofEntries(
+        Map.entry("key1", "value1"),
+        Map.entry("key2", "value2")/*,
+        Map.entry("key1", "value3")*/
+);
+----
 
 === HTML5 Javadoc
 
@@ -66,3 +86,4 @@ Devient le garbage collector par défaut
 
 * https://bentolor.github.io/java9-in-action
 * Programmez! 199
+* http://openjdk.java.net/projects/jdk9/[la liste complète des évolutions prévues pour Java 9]
