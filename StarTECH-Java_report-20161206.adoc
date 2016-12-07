@@ -14,12 +14,13 @@ toc::[]
 
 Etaient inscrits :
 
-* Thomas SCHWENDER : présent
-* Abdoulaye OUATTARA : 
-* Soufiane KHATTAB : 
-* Faycal TIRICH : 
-* Walid DEBBECH : 
-* Pierre LEPLAY :
+* *Thomas SCHWENDER* : présent
+* *Abdoulaye OUATTARA* : présent
+* *Soufiane KHATTAB* : présent
+* *Faycal TIRICH* : présent
+* *Walid DEBBECH* : présent
+* *Pierre LEPLAY* : présent
+* *Guillaume LEMONT* : présent
 
 == Logistique
 
@@ -50,24 +51,31 @@ Bastien,  une remarque à ce sujet, plutôt que de passer le suivi du projet sur
 
 === Veille technologique
 
-* Nouvelle fonctionnalité `projects` de GitHub : permet de disposer d'un outil de project management au sein même de GitHub.
-* Faycal nous a parlé de svelt, un nouveau framework front en Javascript. Il s'agit d'un transpilateur, le fichier généré pouvant être utilisé tel quel, sans ajout. +
+* Nouvelle fonctionnalité `projects` de GitHub : permet de disposer d'un outil de *project management au sein même de GitHub*.
+* Faycal nous a parlé de *svelte*, un nouveau framework front en Javascript (n'existe que depuis quelques jours, mais fait déjà le buzz sur GitHub avec plus de 3000 stars). +
+Il s'agit d'un transpilateur, le fichier généré pouvant être utilisé tel quel, sans ajout. +
 Voir le https://github.com/sveltejs/svelte[repo GitHub] du projet, ainsi que le https://svelte.technology/[site].
 
 === Projet de présentation sur Java 9
 
-Dispatch des sujets :
+Nous avons rediscuté de la future présentation des nouveautés Java 9, et nous sommes dispatchés les sujets :
 
-* Jigsaw : Guillaume + Passam + Abdoulaye + Thomas
-* HTTP/2 : Guillaume + Passam
-* Process API : Thomas
-* REPL : Soufiane + Thomas
-* Immutable collection factories : Walid
-* HTML 5 Javadoc : Soufiane
-* G1 : Soufiane
+* *Jigsaw* : Guillaume + Passam + Abdoulaye + Thomas
+* *HTTP/2* : Guillaume + Passam
+* *Process API* : Thomas
+* *REPL* : Soufiane + Thomas
+* *Immutable collection factories* : Walid
+* *HTML 5 Javadoc* : Soufiane
+* *Garbage Collector G1* : Soufiane
+
+Afin de faciliter le travail collaboratif, nous avons créer un repo spécifique pour la présentation : https://github.com/softeamfr/java9-presentation
+
+Si vous êtes intéressés par rejoindre un groupe, [red]*n'hésitez pas à vous manifester sur notre https://startechjava.slack.com/messages/java9-presentation/[channel Slack dédié] !*
 
 === Sujets débattus
 
+Du fait des autres activités de la réunion, nous n'avons pas eu le temps de débattre ce soir emoji:sob[2x] +
+Mais, nous recommençons sans faute le 03/01/2017 !
 
-@+,
+@+, +
 Thomas
