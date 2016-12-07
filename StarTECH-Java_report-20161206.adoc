@@ -52,8 +52,17 @@ Bastien,  une remarque à ce sujet, plutôt que de passer le suivi du projet sur
 === Veille technologique
 
 * Nouvelle fonctionnalité `projects` de GitHub : permet de disposer d'un outil de *project management au sein même de GitHub*.
-* Faycal nous a parlé de *svelte*, un nouveau framework front en Javascript (n'existe que depuis quelques jours, mais fait déjà le buzz sur GitHub avec plus de 3000 stars). +
-Il s'agit d'un transpilateur, le fichier généré pouvant être utilisé tel quel, sans ajout. +
+* Fayçal nous a parlé de `svelte`, un nouveau *framework Front en Javascript* (n'existe que depuis quelques jours, mais fait déjà le buzz sur GitHub avec plus de 3000 stars) 
++ 
+À la différence d'un transpilateur qui va générer du code JS, compatible avec les anciens navigateurs, à partir d'un autre code JS implémentant des standards plus réçents, `svelte` offre plutôt un vrai compilateur. +
+Le but principal de ce dernier est de générer un fichier de build final très léger, ne contenant que du code JS vanilla, et pouvant être interprété par les navigateurs tel quel, sans ajout, sans même intégrer une petite librairie du framework lui-même.
+{lb} 
+Cela explique les slogans mis en avance par le créateur de `svelte`:
+[quote,"Rich Harris","Créateur de svelte"]
+Svelte: The magical disappearing UI framework! The web's obesity crisis, solved!
++
+image:https://i.imgur.com/AEkqoRn.jpg[alt="not bad.",width=256,height=256]
++
 Voir le https://github.com/sveltejs/svelte[repo GitHub] du projet, ainsi que le https://svelte.technology/[site].
 
 === Projet de présentation sur Java 9
