@@ -1,0 +1,75 @@
+= [StarTech] Compte rendu de la réunion du StarTech Java du 2017/01/03
+:toc:
+:toclevels: 3
+:toc-placement!:
+:lb: pass:[<br> +]
+:imagesdir: images
+:icons: font
+:source-highlighter: highlightjs
+:sectnums:
+
+toc::[]
+
+== Overview
+
+Etaient inscrits :
+
+* *Thomas SCHWENDER*
+* *Passam KASSEM*
+* *Guillaume LEMONT*
+* *Faycal TIRICH*
+* *Walid DEBBECH*
+* *Abdoulaye OUATTARA*
+* *Romain BEGHI*
+* *Soufiane KHATTAB*
+* *Pierre LEPLAY*
+* *Nafia AMAZIANE*
+
+== Logistique
+
+* [red]*Trombinoscope* : +
+Votre rappel préféré : envoyez une photo (où l’on vous reconnaît) et votre description, et je vous ajoute dans la foulée emoji:wink[2x]
+* Afin de permettre au groupe d'être davantage connu des autres softeamiens, merci à *tous les contributeurs* de se créer une *signature* sur le modèle de la mienne (vous pouvez la prendre en copier / coller du présent mail)
+* Tous les contributeurs doivent basculer sur le *NOUVEAU* channel Slack : https://startechs.slack.com/ +
+Et, si vous pouviez, tous les jours en buvant votre café du matin, y jeter un oeil, voire vous mettre à troller, ce serait parfait ! emoji:wink[2x]
+* Rappel : *les comptes-rendus de réunions* sont maintenant disponibles dans https://github.com/softeamfr/startech-meetings-reports[notre repo GitHub]. +
+Ainsi, si vous avez des remarques, ou souhaitez apporter des modifications, vous pouvez : 
+** soit utiliser https://github.com/softeamfr/startech-meetings-reports/issues[le bug tracker]
+** soit soumettre une *pull request*.
+* A partir de cette année, *la présence aux réunions mensuelles est récompensée de 40 Starpoints* !
+
+== Tech
+
+=== Divers et rappels
+
+* Le CFP de Devoxx France 2017 ferme le 08/01. Faites vite si vous voulez déposer un sujet de conférence. +
+A ce jour, toutes les demandes de places sponsor des contributeurs ont été acceptées emoji:smile[2x]
+
+* Je défends mon sujet *Sorcellerie en Java : outrepasser les limites avec sun.misc.Unsafe* le 10/01 au https://www.parisjug.org/xwiki/wiki/oldversion/view/Meeting/20170110[ParisJUG YoungBlood]. +
+Si vous êtes intéressés par les sujets tournant autour de la performance en Java, n'hésite pas à passer.
+
+
+=== Veille technologique
+
+
+=== Projet de présentation sur Java 9
+
+Rappel du dispatching des sujets à ce jour :
+
+* *Jigsaw* : Guillaume + Passam + Abdoulaye + Thomas
+* *HTTP/2* : Guillaume + Passam
+* *Process API* : Thomas
+* *REPL* : Soufiane + Thomas
+* *Immutable collection factories* : Walid
+* *HTML 5 Javadoc* : Soufiane
+* *Garbage Collector G1* : Soufiane
+
+Afin de faciliter le travail collaboratif, nous avons créer un repo spécifique pour la présentation : https://github.com/softeamfr/java9-presentation
+
+Si vous êtes intéressés par rejoindre un groupe, [red]*n'hésitez pas à vous manifester sur notre https://startechjava.slack.com/messages/java9-presentation/[channel Slack dédié] !*
+
+=== Sujets débattus
+
+
+@+, +
+Thomas
