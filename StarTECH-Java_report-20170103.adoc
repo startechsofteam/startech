@@ -14,16 +14,16 @@ toc::[]
 
 Etaient inscrits :
 
-* *Thomas SCHWENDER*
-* *Passam KASSEM*
-* *Guillaume LEMONT*
-* *Faycal TIRICH*
-* *Walid DEBBECH*
-* *Abdoulaye OUATTARA*
-* *Romain BEGHI*
-* *Soufiane KHATTAB*
-* *Pierre LEPLAY*
-* *Nafia AMAZIANE*
+* *Thomas SCHWENDER* : présent
+* *Passam KASSEM* : présent
+* *Guillaume LEMONT* : présent
+* *Faycal TIRICH* : présent
+* *Walid DEBBECH* : présent
+* *Abdoulaye OUATTARA* : présent
+* *Romain BEGHI* : présent
+* *Soufiane KHATTAB* : présent
+* *Pierre LEPLAY* : a prévenu qu'il ne pourrait finalement pas venir
+* *Nafia AMAZIANE* : présent
 
 == Logistique
 
@@ -45,36 +45,36 @@ Ainsi, si vous avez des remarques, ou souhaitez apporter des modifications, vous
 * Le CFP de Devoxx France 2017 ferme le 08/01. Faites vite si vous voulez déposer un sujet de conférence. +
 A ce jour, toutes les demandes de places sponsor des contributeurs ont été acceptées emoji:smile[2x]
 
-* Je défends mon sujet *Sorcellerie en Java : outrepasser les limites avec sun.misc.Unsafe* le 10/01 au https://www.parisjug.org/xwiki/wiki/oldversion/view/Meeting/20170110[ParisJUG YoungBlood]. +
-Si vous êtes intéressés par les sujets tournant autour de la performance en Java, n'hésite pas à passer.
+* Je défends mon sujet *Sorcellerie en Java : outrepasser les limites avec sun.misc.Unsafe* le 10/01 au https://www.parisjug.org/xwiki/wiki/oldversion/view/Meeting/20170110[ParisJUG YoungBlood IV]. +
+Si vous êtes intéressés par les sujets tournant autour de la performance en Java, n'hésitez pas à passer.
 
 === Questions, remarques & Co : 
 
-* Question de Walid : possibilité de faire du retro engineering d'un schéma de BDD *existant*, afin d'obtenir le JSON du schéma, en vue de faire tourner JHipster dessus. +
+* Question de Walid : possibilité de faire du retro engineering d'un schéma de BDD *existant*, afin d'en obtenir le JSON associé, en vue de faire tourner JHipster dessus. +
 -> Pas de solution évidente / immédiate à notre connaissance (?)
-* https://www.githubarchive.org/[GitHub archive] : permet d'accéder à la timeline GitHub, et même de la requêter avec Google BigQuery
-* workflow de validation des articles du blog : sauvegarde en draft et publication par un des leaders du blog.
+* https://www.githubarchive.org/[*GitHub archive*] : permet d'accéder à la timeline GitHub, et même de la requêter avec https://cloud.google.com/bigquery/what-is-bigquery[*Google BigQuery*].
+* workflow de validation des articles du blog : sauvegarde de l'article en draft par les contributeurs, puis validation et publication par un des leaders du blog.
 
 === Veille technologique
 
 * Site conseillé par Romain : https://springframework.guru/ +
-Détaille les différents *design patterns* du GOF en Java (ex: https://springframework.guru/gang-of-four-design-patterns/factory-method-design-pattern/[Factory pattern])
-* TSC : TODO, ressortir le repo GitHub d'implémentation du GOF en Java.
-* Passam : On va passer directement de Angular 2 à 4 (pas de 3), voir cet https://www.infoq.com/news/2016/12/angular-4[article d'InfoQ].
-* Fayçal : Java 9, pour conserver la date de release de juillet 2017, va publier certains modules *SANS TESTS UNITAIRES*. +
+Détaille les différents *design patterns* du GOF en Java (ex: https://springframework.guru/gang-of-four-design-patterns/factory-method-design-pattern/[Factory pattern]) +
+Toujours au sujet des design patterns, comme promis, je vous donne une de mes ressources préférées sur le sujet : http://java-design-patterns.com/ / https://github.com/iluwatar/java-design-patterns. +
+Tous les patterns du GOF y sont détaillés, triés par catégorie, ainsi que bien d'autres. C'est vraiment une [red]*fantastique* ressource à consommer sans modération.
+* News de Passam : On va passer directement de Angular 2 à 4 (pas de 3), voir cet https://www.infoq.com/news/2016/12/angular-4[article d'InfoQ].
+* News de Fayçal : Java 9, pour conserver la date de release de juillet 2017, va publier certains modules [line-through]*SANS TESTS UNITAIRES*. +
 Voir https://lescastcodeurs.com/2016/12/19/lcc-159-si-les-mechants-se-mettent-a-etre-gentils/[cet épisode des Cast Codeurs (159)], pour plus d'informations à ce sujet. +
 Pour plus d'info, voir également cet article d'InfoQ : https://www.infoq.com/news/2016/12/java9-latest-schedule-at-risk[Latest Java 9 Schedule Appears to Be at Risk from the Outset]. +
-Il semblerait qu'il y ait bien des tests dans tous les cas, mais que la 1ere alpha (_2017/01/05 Rampdown Start_) soit livrée avant fin du passage de tous les TU (_2017/02/09 All Tests Run_)
+-> En fait, il semblerait qu'*il y ait bien des tests dans tous les cas*, mais que la 1ere alpha (_2017/01/05 Rampdown Start_) soit livrée avant la fin du passage de tous les TU (_2017/02/09 All Tests Run_).
 
-=== Débats
+=== Sujets débattus
 
-Nafia demandé au groupe de fournir une explication *claire* du concept de *monade*. +
+Nafia demandé au groupe de fournir une explication *claire* du concept de [red]*monade*. +
 Résultat -> CHEVEUX BLANCS POUR TOUT LE MONDE !!!!
 
-Nous nous sommes penchés sur le site https://medium.com/@sinisalouc/demystifying-the-monad-in-scala-cc716bb6f534#.ufnv1b35i
-Et... Et on se donne rendez-vous la prochaine fois !!!! +
-C'est le challenge pour février : *tous les contributeurs doivent chercher, et donner, leur définition d'une monade* +
-On se fera ensuite un Doodle pour élire la meilleure définition, et le vainqueur aura de faire un bel article sur le sujet.
+Nous nous sommes penchés sur le site https://medium.com/@sinisalouc/demystifying-the-monad-in-scala-cc716bb6f534#.ufnv1b35i et... et on se donne rendez-vous la prochaine fois !!!! +
+[red]*C'est le challenge pour février* : *tous les contributeurs doivent chercher, et donner, leur définition d'une monade*. +
+On se fera ensuite un Doodle pour élire la meilleure définition, et cette dernière sera fièrement exposée dans un bel article du blog !.
 
 Pour une autre explication du `flatmap` des monades, Fayçal propose cet article : https://www.mkyong.com/java8/java-8-flatmap-example/
 
@@ -93,9 +93,6 @@ Rappel du dispatching des sujets à ce jour :
 Afin de faciliter le travail collaboratif, nous avons créer un repo spécifique pour la présentation : https://github.com/softeamfr/java9-presentation
 
 Si vous êtes intéressés par rejoindre un groupe, [red]*n'hésitez pas à vous manifester sur notre https://startechjava.slack.com/messages/java9-presentation/[channel Slack dédié] !*
-
-=== Sujets débattus
-
 
 @+, +
 Thomas
