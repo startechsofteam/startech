@@ -1,0 +1,70 @@
+== Qu'est-ce qu'une monade ?
+
+De manière très formelle une monade est un *type de donnée générique* destiné à *encapsuler* un autre type de donnée.
+
+Notons Monad[T] une monade basée sur le type T.
+
+Une monade dispose des deux opérations suivantes : +
+unit : T -> Monad[T] +
+permettant de construire une monade à partir d'un élément de type T. +
+apply : Monad[T] -> (T -> Monad[U]) -> Monad[U] +
+qui permet de *transformer* une monade de T en monade de U.
+
+
+=== Ok, soit, mais alors pourquoi les monades ?
+
+La programmation structurée est trop rigide ?
+
+----
+for (...) {
+	...
+}
+----
+
+Les callbacks sont impossibles à réutiliser avec leurs effets de bord ?
+
+----
+result = new List
+list.forEach( x -> {
+    y = f x
+	result.add y
+})
+return result
+----
+
+La monade est une approche *fonctionnelle* de haut niveau !
+
+Euh, oui, ok, mais encore ?
+
+On peut chaîner les tranformations... +
+monad.apply(x -> Monad(...)).apply(y -> Monad(...)) +
+Et les fonctions sont facilement réutilisables. +
+
+=== Et concrètement ?
+
+Par exemple avec une liste ça donnerait quoi ? +
+Si je pars de List(1, 2, 3, 4, 5) et que j'applique une fonction de type string -> List(int) : +
+genre on ne garde que les éléments impairs 1 : List(1), 2 : List(), 3 : List(3), 4 : List()... +
+Ah, et je dois aussi retourner un type List(int), ça veut dire que les résultats doivent être aplati ! +
+Tout de suite on pense à concaténer les résultats en List(1, 3, 5) même si on pourrait envisager autre chose... C'est flatMap en fait notre fonction ! +
+
+=== Map aussi c'est de la programmation de haut niveau, c'est bien aussi non ?
+
+Oui, mais bon, map c'est simpliste ça ne permet pas de modifier en profondeur notre liste, difficile de coder des filtres et des générateurs avec... +
+On peut coder map avec flatMap, l'inverse est compromis. flatMap est le plus puissant ! +
+De par la signature de apply, il y a une recombinaison possible  de la monade. +
+Il y a également une certaine homogénéité dans le résultat fournit par une monade, il n'y a pas besoin de multiplier les consommateurs pour traiter des types différents (List, List de List, etc). +
+
+=== Y a quoi comme exemples de monades ?
+
+Le très classique : +
+Option[T]
+
+On peut reporter l'exécution d'un calcul... +
+Lazy[T]
+
+On peut encapsuler les effets de bords d'un traitement : +
+Try[T]
+
+Plein d'autres... +
+Stream[T], Future[T], ...

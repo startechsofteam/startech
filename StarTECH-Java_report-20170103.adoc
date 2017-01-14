@@ -78,6 +78,8 @@ On se fera ensuite un Doodle pour élire la meilleure définition, et cette dern
 
 Pour une autre explication du `flatmap` des monades, Fayçal propose cet article : https://www.mkyong.com/java8/java-8-flatmap-example/
 
+G-Lem : link:Contribs/G-Lem_monade_kezako.adoc[ma tentative d'explication]
+
 === Projet de présentation sur Java 9
 
 Rappel du dispatching des sujets à ce jour :
