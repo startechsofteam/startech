@@ -52,8 +52,8 @@ Tout de suite on pense à concaténer les résultats en List(1, 3, 5) même si o
 
 Oui, mais bon, map c'est simpliste ça ne permet pas de modifier en profondeur notre liste, difficile de coder des filtres et des générateurs avec... +
 On peut coder map avec flatMap, l'inverse est compromis. flatMap est le plus puissant ! +
-De par la signature de apply, il y a une recombinaison possible  de la monade. +
-Il y a également une certaine homogénéité dans le résultat fournit par une monade, il n'y a pas besoin de multiplier les consommateurs pour traiter des types différents (List, List de List, etc). +
+De par la signature de apply, il y a une recombinaison possible de la monade. +
+Il y a également une certaine homogénéité dans le résultat fourni par une monade, il n'y a pas besoin de multiplier les consommateurs pour traiter des types différents (List, List de List, etc). +
 
 === Y a quoi comme exemples de monades ?
 
