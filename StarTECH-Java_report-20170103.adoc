@@ -80,7 +80,8 @@ Pour une autre explication du `flatmap` des monades, Fayçal propose cet article
 
 ==== Définitions proposées par les contributeurs
 
-*Guillaume LEMONT* : link:monad-definition/GLE_monade-kezako.adoc[ma tentative d'explication]
+* *Guillaume LEMONT* : link:monad-definition/GLE_monade-kezako.adoc[ma tentative d'explication]
+* *Bastien GIEGEL* : https://github.com/bgiegel/Definition_Monade/
 
 === Projet de présentation sur Java 9
 
