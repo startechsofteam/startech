@@ -82,6 +82,7 @@ Pour une autre explication du `flatmap` des monades, Fayçal propose cet article
 
 * *Guillaume LEMONT* : link:monad-definition/GLE_monade-kezako.adoc[ma tentative d'explication]
 * *Bastien GIEGEL* : https://github.com/bgiegel/Definition_Monade/
+* *Walid DEBBECH* : link:monad-definition/WDE_monade-chocolat.adoc[La monade, c'est du chocolat]
 
 === Projet de présentation sur Java 9
 
