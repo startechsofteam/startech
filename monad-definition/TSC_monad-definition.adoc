@@ -41,9 +41,10 @@ En programmation fonctionnelle, *une fonction doit garantir la même output pour
 Cas pratique avec la monade Optional (ou Maybe).
 
 Soit les fonctions :
+
 [stem]
 ++++
-f(x) = 42 * x
+f(x) = 42 * x \\
 g(x,y) = x / y
 ++++
  
