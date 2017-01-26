@@ -24,7 +24,7 @@ Et, avant même de se lancer dans les explications sur le sujet, un rappel : his
 Et, la programmation fonctionnelle : 
 
 * *adore la composition*, le chaînage *de Fonctions*. + 
-(Si je mets un grand "F", c'est pour insister sur le fait que la PF (comme son nom l'indique) place le concept de "fonctions" au-dessus de tous les autres.)
+(Si je mets un grand "F", c'est pour insister sur le fait que la PF (comme son nom l'indique) place le concept de "fonction" au-dessus de tous les autres.)
 * *déteste les effets de bords*, dont nos petites Exceptions Java sont un bel exemple... +
 
 Avec ces rappels bien en tête, on attaque :
@@ -42,16 +42,15 @@ Cas pratique avec la *monade Optional* (ou Maybe).
 
 Soit la fonction :
 
-[stem]
-++++
+====
 g(x,y) = x / y
-++++
+====
 
 Dans le cas d'une division par 0, on se retrouverait avec une *exception à la place du nombre réel* normalement attendu. +
 Or, en programmation fonctionnelle, on ne doit normalement *PAS* avoir à gérer d'exceptions.
 
 *Solution* : on pourrait imaginer que notre fonction puisse avoir 2 retours possibles : `Real` pour les "cas normaux", et un nouveau type `Nothing` pour tous les autres. +
-A la place de stem:[g : Real,Real -> Real], nous aurions donc stem:[g : Real,Real -> Real | Nothing] +
+A la place de `g : Real,Real -> Real`, nous aurions donc `g : Real,Real -> Real | Nothing` +
 -> Mais là, autre problème : en programmation fonctionnelle, le concept de "fonction" est très proche de celui utilisé en mathématiques. +
 A savoir *1 unique retour pour une entrée donnée*.
 
@@ -60,7 +59,7 @@ A savoir *1 unique retour pour une entrée donnée*.
 * peut-être (MayBe) un réel
 * et rien sinon
 
-Ce qui nous donnerait stem:[g : Real,Real -> Maybe Real]
+Ce qui nous donnerait `g : Real,Real -> Maybe Real`
 
 Ainsi, nous avons bien *amplifié* le type Real initial, en lui ajoutant la gestion de certains cas particuliers (notre `Maybe Real` pouvant être `Nothing` là où une exception était lancée avec le simple `Real`).
 
@@ -70,22 +69,21 @@ Passons maintenant à l'autre caractéristique d'une monade, la *composition de 
 
 Considérons maintenant les 2 fonctions suivantes :
 
-[stem]
-++++
-f(x) = 42 * x \\
+====
+f(x) = 42 * x +
 g(x,y) = x / y
-++++
+====
 
 Afin de pouvoir enchaîner "naturellement" différents comportements, la programmation fonctionnelle utilise massivement la composition de fonctions.
 
-Dans notre cas, si nous souhaitons enchaîner `g(x,y)`, *puis* `f(x)`, il nous suffit de les composer ainsi : stem:[f(g(x,y))]
+Dans notre cas, si nous souhaitons enchaîner `g(x,y)`, *puis* `f(x)`, il nous suffit de les composer ainsi : `f(g(x,y))`
 
 . [red]*1er problème* : Nous avons vu que g(x,y) pouvait renvoyer une exception en cas de division par 0. +
 Or, `f(x)` ne peut pas être appliquée sur une exception. +
 [green]*-> Solution* : amplifier le type renvoyé par `g(x,y)` afin qu'il puisse être utilisé, *DANS TOUS LES CAS*, par `f(x,y)` +
 Ce type amplifié, c'est notre précéent `Maybe Real` ;)
 
-. [red]*2e problème* : Nous avons maintenant stem:[g(x,y) -> Maybe Real] +
+. [red]*2e problème* : Nous avons maintenant `g(x,y) -> Maybe Real` +
 Seulement, `f(x)` prend un `Real` en entrée, pas un `Maybe Real`. +
 [green]*-> Solution* : Définir une nouvelle fonction servant de lien entre nos 2 fonctions à chaîner. +
 Il s'agit ici de la fameuse opération `Bind` (`flatMap` en Java, `SelectMany` en C#, `>>=` en Haskell) dont le but est [red]*d'adapter le retour d'une fonction à l'entrée de celle à laquelle elle va être chaînée*. +
