@@ -15,7 +15,7 @@ By Thomas SCHWENDER (Softeam StarTech Java)
 Commençons par une définition courte :
 
 ____
-Une monade peut être vue comme un *amplificateur de type*, permettant la *composition de fonctions* sur ce nouveau "type amplifié".
+Une monade peut être vue comme un [red]*amplificateur de type*, permettant la [red]*composition de fonctions* sur ce nouveau "type amplifié".
 ____
 
 Là, on respire un grand coup, et on se dit que cela ne fait qu'une petite phrase à expliquer ;) 
@@ -23,58 +23,84 @@ Là, on respire un grand coup, et on se dit que cela ne fait qu'une petite phras
 Et, avant même de se lancer dans les explications sur le sujet, un rappel : historiquement, *les monades nous viennent de la programmation fonctionnelle*. +
 Et, la programmation fonctionnelle : 
 
-* *adore la composition*, le chaînage de Fonctions (avec un grand "F") 
-* *déteste les effets de bords*, dont nos petites Exceptions Java sont un bel exemple...
+* *adore la composition*, le chaînage *de Fonctions*. + 
+(Si je mets un grand "F", c'est pour insister sur le fait que la PF (comme son nom l'indique) place le concept de "fonctions" au-dessus de tous les autres.)
+* *déteste les effets de bords*, dont nos petites Exceptions Java sont un bel exemple... +
 
 Avec ces rappels bien en tête, on attaque :
 
-== Amplicateur de type
+=== Amplicateur de type
 
 Je rapproche ce concept d'amplificateur de type avec notre bon vieux https://en.wikipedia.org/wiki/Decorator_pattern[Design Pattern Décorateur].
 
-Le concept est finalement simple : nous venons "wrapper" un type, afin d'en étendre les fonctionnalités.
+Le concept est finalement simple : nous venons "wrapper" (encapsuler) un type, afin d'en *étendre les fonctionnalités*.
 
-Pour faire cela ? +
-Dans le but de *gérer au mieux les effets de bords* ! (d'où les rappels précédents). +
-En programmation fonctionnelle, *une fonction doit garantir la même output pour une input donnée*, principe qui n'est pas respecté dès lors que l'on utilise des exceptions.
+Mais pourquoi faire cela ? +
+Dans le but de *gérer au mieux les effets de bords* ! (d'où les rappels précédents).
 
-Cas pratique avec la monade Optional (ou Maybe).
+Cas pratique avec la *monade Optional* (ou Maybe).
 
-Soit les fonctions :
+Soit la fonction :
+
+[stem]
+++++
+g(x,y) = x / y
+++++
+
+Dans le cas d'une division par 0, on se retrouverait avec une *exception à la place du nombre réel* normalement attendu. +
+Or, en programmation fonctionnelle, on ne doit normalement *PAS* avoir à gérer d'exceptions.
+
+*Solution* : on pourrait imaginer que notre fonction puisse avoir 2 retours possibles : `Real` pour les "cas normaux", et un nouveau type `Nothing` pour tous les autres. +
+A la place de stem:[g : Real,Real -> Real], nous aurions donc stem:[g : Real,Real -> Real | Nothing] +
+-> Mais là, autre problème : en programmation fonctionnelle, le concept de "fonction" est très proche de celui utilisé en mathématiques. +
+A savoir *1 unique retour pour une entrée donnée*.
+
+*Nouvelle solution* : créer un nouveau type, qui "wrapperait" les retours possibles, à savoir :
+
+* peut-être (MayBe) un réel
+* et rien sinon
+
+Ce qui nous donnerait stem:[g : Real,Real -> Maybe Real]
+
+Ainsi, nous avons bien *amplifié* le type Real initial, en lui ajoutant la gestion de certains cas particuliers (notre `Maybe Real` pouvant être `Nothing` là où une exception était lancée avec le simple `Real`).
+
+=== Composition de fonctions
+ 
+Passons maintenant à l'autre caractéristique d'une monade, la *composition de fonctions*.
+
+Considérons maintenant les 2 fonctions suivantes :
 
 [stem]
 ++++
 f(x) = 42 * x \\
 g(x,y) = x / y
 ++++
- 
 
+Afin de pouvoir enchaîner "naturellement" différents comportements, la programmation fonctionnelle utilise massivement la composition de fonctions.
 
+Dans notre cas, si nous souhaitons enchaîner `g(x,y)`, *puis* `f(x)`, il nous suffit de les composer ainsi : stem:[f(g(x,y))]
 
-  A monad is an "amplifier" of types that obeys certain rules and which has certain operations provided.
+. [red]*1er problème* : Nous avons vu que g(x,y) pouvait renvoyer une exception en cas de division par 0. +
+Or, `f(x)` ne peut pas être appliquée sur une exception. +
+[green]*-> Solution* : amplifier le type renvoyé par `g(x,y)` afin qu'il puisse être utilisé, *DANS TOUS LES CAS*, par `f(x,y)` +
+Ce type amplifié, c'est notre précéent `Maybe Real` ;)
 
-  First, what is an "amplifier of types"? By that I mean some system which lets you take a type and turn it into a more special type. For example, in C# consider Nullable<T>. This is an amplifier of types. It lets you take a type, say int, and add a new capability to that type, namely, that now it can be null when it couldn't before.
+. [red]*2e problème* : Nous avons maintenant stem:[g(x,y) -> Maybe Real] +
+Seulement, `f(x)` prend un `Real` en entrée, pas un `Maybe Real`. +
+[green]*-> Solution* : Définir une nouvelle fonction servant de lien entre nos 2 fonctions à chaîner. +
+Il s'agit ici de la fameuse opération `Bind` (`flatMap` en Java, `SelectMany` en C#, `>>=` en Haskell) dont le but est [red]*d'adapter le retour d'une fonction à l'entrée de celle à laquelle elle va être chaînée*. +
++ 
+Donc, dans le cas de notre `bind(g,f)`, nous voulons que `bind` récupère le retour de `g`, notre `Maybe Real`, *l'inspecte*, et :
 
-  What are the "certain rules"? Briefly, that there is a sensible way for functions on the underlying type to work on the amplified type such that they follow the normal rules of functional composition.
+* s'il contient `Nothing`, n'appelle *PAS* `f` et renvoie `Nothing`
+* s'il contient un `Real`, extraie ce `Real` et le transmette en entrée à `f`
 
-
-composition de fonction
-
-  the three operations you need: turning a value into an amplified value, turning an amplified value into a value, and transforming a function on unamplified values into a function on amplified values.
-
-Voir la MayBe monade
-
-
-
-The bind operation on a monad is what makes composition of functions on amplified types work.
-
-== Composition de fonctions
-
+Notre opération *bind* est donc juste le moyen de permettre *la composition de fonctions sur des types amplifiés*.
 
 == Resources
 
 * http://stackoverflow.com/a/2704795/1809195[Monad in plain English? (For the OOP programmer with no FP background)]
-* http://stackoverflow.com/a/2704795/1809195[Why do we need monads?] : très bonne explication par l'exemple, incrémentale
+* http://stackoverflow.com/a/28135478[Why do we need monads?] : très bonne explication par l'exemple, incrémentale
 * http://blog.sigfpe.com/2006/08/you-could-have-invented-monads-and.html[You could have invented Monads]
 * https://medium.com/@sinisalouc/demystifying-the-monad-in-scala-cc716bb6f534#.68n4rnifd[Demystifying the Monad in Scala]
 * https://www.mkyong.com/java8/java-8-flatmap-example/ : de la pratique autour du `flatMap` (bind)
