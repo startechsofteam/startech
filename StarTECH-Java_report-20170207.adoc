@@ -27,52 +27,72 @@ Etaient inscrits :
 
 == Logistique
 
-* [red]*Trombinoscope* : +
-Votre rappel préféré : envoyez une photo (où l’on vous reconnaît) et votre description, et je vous ajoute dans la foulée emoji:wink[2x]
+Vos rappels préférés :
+
+* [red]*Trombinoscope* : envoyez une photo (où l’on vous reconnaît) et votre description, et je vous ajoute dans la foulée emoji:wink[2x]
 * Afin de permettre au groupe d'être davantage connu des autres softeamiens, merci à *tous les contributeurs* de se créer une *signature* sur le modèle de la mienne (vous pouvez la prendre en copier / coller du présent mail)
-* Tous les contributeurs doivent basculer sur le *NOUVEAU* channel Slack : https://startechs.slack.com/ +
-Et, si vous pouviez, tous les jours en buvant votre café du matin, y jeter un oeil, voire vous mettre à troller, ce serait parfait ! emoji:wink[2x]
-* Rappel : *les comptes-rendus de réunions* sont maintenant disponibles dans https://github.com/softeamfr/startech-meetings-reports[notre repo GitHub]. +
+* Plutôt que d'utiliser la mailing list, les contributeurs sont encouragés à utiliser le *channel Slack* : https://startechs.slack.com/ +
+Essayez d'y jeter un coup d'oeil quotidien, en sirotant votre café du matin par exemple emoji:wink[2x]
+* *Les comptes-rendus de réunions* sont maintenant disponibles dans https://github.com/softeamfr/startech-meetings-reports[notre repo GitHub]. +
 Ainsi, si vous avez des remarques, ou souhaitez apporter des modifications, vous pouvez : 
 ** soit utiliser https://github.com/softeamfr/startech-meetings-reports/issues[le bug tracker]
 ** soit soumettre une *pull request*.
-* A partir de cette année, *la présence aux réunions mensuelles est récompensée de 40 Starpoints* !
+* *La présence aux réunions mensuelles est maintenant récompensée de 40 Starpoints*, n'hésitez donc pas à venir emoji:smile[2x]
+
+* *Réunion écourtée*, fin à 20h suite à un problème de digicode avec la porte du 5e. +
+-> Au final, la personne à l'accueil est partie un peu vite, mais comme la porte semblait finalement fonctionner, *nous avons pu rester jusqu'à 21h*.
 
 == Tech
 
 === Divers et rappels
 
-* mon sujet *Sorcellerie en Java : outrepasser les limites avec sun.misc.Unsafe* passera en quickie à Devoxx, suite à la victoire au Paris JUG du 10/01.
-* réunion écourtée suite à pb de digicode
-
-=== Questions, remarques & Co : 
-
-* On ne passe plus par l'éditeur du blog, mais on link simplement un article écrit ailleurs (GitHub ou autre, en AsciiDoctor bien sûr ;) ) 
+* Suite au *IV Young Blood* (janvier 2017) du *ParisJUG*, mon sujet *Sorcellerie en Java : outrepasser les limites avec sun.misc.Unsafe* a été choisi pour passer au prochain Devoxx France d'avril emoji:simple_smile[2x]
+* Afin de faciliter l'écriture de nouveaux articles du blog, nous ne passerons plus par l'éditeur interne. +
+A la place, il est conseillé d'*écrire ses articles sur GitHub*, et d'ajouter un simple lien s'y référant dans le blog (plus un abstract si besoin). +
+En passant par une *pull request* sur https://github.com/softeamfr/startech-meetings-reports[notre repo GitHub], nous pourrions même ajouter la peer review des articles, dans une version plus puissante que ce que propose actuellement le blog.
 
 === Veille technologique
 
-* Faycal conseille Pocket pour lire des articles offline sur mobile (ex : dans le métro) +
-Permet également de suivre les articles likés par une personne en particulier.
+* Faycal conseille https://getpocket.com[Pocket] pour *lire des articles offline sur mobile* (ex : dans le métro) +
+L'outil permet également de suivre les articles likés par une personne en particulier.
 
-* Medium.com : bon site de veille, héberge de nombreux articles avec possibilité de suivre une personne en particulier. +
-Possibilité de suivre des tags, mais ces derniers ne sont pas disponibles sous forme de flux RSS spécifiques.
-
-
+* https://medium.com/[Medium.com] : bon site de veille, héberge de nombreux articles avec, là aussi, la possibilité de suivre une personne en particulier. +
+Les sujets sont *catégorisés par tags*, mais ces derniers ne sont malheureusement pas disponibles sous forme de flux RSS spécifiques (et donc, non utilisables via le plugin RSS de notre Slack).
 
 === Challenge de janvier
 
-1 semaine de plus pour répondre !
+Tout les contributeurs n'ayant pas eu le temps de voter, il a été décidé de *laisser http://doodle.com/poll/m2m984fgdd777iq7[le sondage] ouvert une semaine de plus !* +
+*A tous les contributeurs ne l'ayant pas déjà fait, je compte sur vous pour [red]#aller voter# pour votre définition de monade préférée !* :smile:
 
-==== Définitions proposées par les contributeurs
+Pour rappel, les définitions proposées sont accessibles dans https://github.com/softeamfr/startech-meetings-reports/blob/master/StarTECH-Java_report-20170103.adoc#définitions-proposées-par-les-contributeurs[le compte rendu de janvier]. +
+En revoici la liste :
 
 * *Guillaume LEMONT* : link:monad-definition/GLE_monade-kezako.adoc[ma tentative d'explication]
 * *Bastien GIEGEL* : https://github.com/bgiegel/Definition_Monade/
 * *Walid DEBBECH* : link:monad-definition/WDE_monade-chocolat.adoc[La monade, c'est du chocolat]
 * *Thomas SCHWENDER* : link:monad-definition/TSC_monad-definition.adoc[Monade Kezako ?]
 
+Pour la petite histoire, nous nous sommes de nouveau bien pris la tête sur cette belle définition.
+
+Et, pour les présents, voici un petit diagramme résumant bien notre discussion, où il fut question de *petits pois extraits d'un sac*, puis chacun transformés en *sac de cubes Knorr*, donnant lieu à un énorme et unique sac de cubes Knorr... +
+Si vous préférez, vous pouvez également remplacer les petits pois et les cubes par des *ganaches framboise et pistache enrobées d'un sac en chocolat*... (oui, la folie n'était pas loin...)
+
+image::20170207_monade-en-folie.jpg[title="La monade en folie...", width="1000"]
+
+En partant, nous nous disions avec Guillaume qu'il faudrait plancher sur un exemple concret du style :
+
+. La fonction `f` passée en paramètre à la monade (`f:T → Monad[U]`) devrait être vu comme une fonction transformant un petit pois en la promesse d'avoir 2 carottes.
+. Ainsi, dans le cadre du `flatmap` de notre monade (` Monad[T] → (T → Monad[U]) → Monad[U]`), nous transformerions donc nos petits pois en plusieurs promesses de 2 carottes.
+. Mais, n promesses de 2 carottes, c'est bien équivalent à 1 promesse de n x 2 carottes !
+. Nous avons donc bien notre [red]**flat**Map (et le `Monad[U]` final)
+
+(et sur ce, allons tous nous pendre...)
+
 === Projet de présentation sur Java 9
 
-* Guillaume a souffert sur HTTP/2 qui est passé en fonctionnalité incubator suite à un retard par rapport au planning initial.
+* Guillaume a souffert sur https://www.infoq.com/news/2017/01/java9-rampdown-phase-start?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Java[HTTP/2 qui a été rétrogradé en incubating feature] (et donc changé de package...) suite à un retard par rapport au planning initial.
+
+Sinon, il n'y a pas eu d'évolutions de la présentation sur ce mois (la faute à la monade ! :stuck_out_tongue: ), mais nous allons nous rattraper sur le mois à venir :wink: (pour rappel, nous étions partis sur mars comme date de présentation)
 
 Rappel du dispatching des sujets à ce jour :
 
@@ -83,8 +103,6 @@ Rappel du dispatching des sujets à ce jour :
 * *Immutable collection factories* : Walid
 * *HTML 5 Javadoc* : Soufiane
 * *Garbage Collector G1* : Soufiane
-
-On va essayer d'avancer les différents sujets pour mars.
 
 repo spécifique pour la présentation : https://github.com/softeamfr/java9-presentation
 
