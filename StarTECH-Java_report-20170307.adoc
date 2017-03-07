@@ -1,0 +1,178 @@
+= [StarTech] Compte rendu de la réunion du StarTech Java du 2017/01/03
+:toc:
+:toclevels: 3
+:toc-placement!:
+:lb: pass:[<br> +]
+:imagesdir: images
+:icons: font
+:source-highlighter: highlightjs
+:sectnums:
+
+toc::[]
+
+== Overview
+
+Etaient inscrits :
+
+* *Thomas SCHWENDER* : présent
+* *Faycal TIRICH* : présent
+* *Soufiane KHATTAB* : présent
+* *Thibaut RETY* : présent
+* *Joseph VERRON* : présent
+* *Passam KASSEM* : présent
+* *Alessandro DE LUNA ALMEIDA* : présent
+* *Romain BEGHI* : présent
+* *Aymen BEN SALAH* : présent
+* *Guillaume LEMONT* : présent
+* *Daniel CHAFFIOL* : présent
+
+== Logistique
+
+Vos rappels préférés :
+
+* [red]*Trombinoscope* : envoyez une photo (où l’on vous reconnaît) et votre description, et je vous ajoute dans la foulée emoji:wink[2x]
+* Afin de permettre au groupe d'être davantage connu des autres softeamiens, merci à *tous les contributeurs* de se créer une *signature* sur le modèle de la mienne (vous pouvez la prendre en copier / coller du présent mail)
+* Plutôt que d'utiliser la mailing list, les contributeurs sont encouragés à utiliser le *channel Slack* : https://startechs.slack.com/ +
+Essayez d'y jeter un coup d'oeil quotidien, en sirotant votre café du matin par exemple emoji:wink[2x] +
+J'en profite pour vous rappeler que les channels du Slack ne sont [red]*pas forcément tous affichés dans le menu gauche de l'interface* ! +
+Pour tous les voir, il est nécessaire de cliquer sur `CHANNELS(x)` en tête de ce menu :
++
+image::20170307_all-channels-in-slack.png[title="Si tu veux voir tous les channels, clique ici !"] 
++
+A la date d'aujourd'hui, les channels déjà existant sont :
+
+** `#devoxx_france_2017` : pour tout ce qui touche le prochain Devoxx France
+** `#events` : pour nos évènements fun (comme l'Escape Game du 28/03)
+** `#general` : pour un peu tous les sujets, LE channel auquel il faut toujours jeter un oeil
+** `#java_veille_tech_rss` : notre channel de veille technologique, synchronisé sur les flux RSS de plusieurs sites connus
+** `#meetups` : pour la logistique des MeetUps auxquels le groupe assiste
+** `#outils_starpoint` : pour tout ce qui concerne l'outil de gestion des StarPoints développé par Bastien
+** `#presentation_java9` : pour tout ce qui concerne notre présentation Java 9 en cours de création
+** `#random` : pour délirer sans aucune limite !
+** `#training_calendar` : pour communiquer à Vanessa nos projets de formation / présentation, afin de faciliter la réservation d'une salle
++
+* *Les comptes-rendus de réunions* sont maintenant disponibles dans https://github.com/softeamfr/startech-meetings-reports[notre repo GitHub]. +
+Ainsi, si vous avez des remarques, ou souhaitez apporter des modifications, vous pouvez : 
+** soit utiliser https://github.com/softeamfr/startech-meetings-reports/issues[le bug tracker]
+** soit soumettre une *pull request*.
+* *La présence aux réunions mensuelles est maintenant récompensée de 40 Starpoints*, n'hésitez donc pas à venir emoji:smile[2x]
+{lb}
+* Afin de faciliter la gestion de nos projets / présentations sur GitHub, une https://github.com/orgs/softeamfr/teams/startech-java[*équipe StarTECH*] est en cours de création sur cet outil. +
+Merci à tous les contributeurs de [red]*me donner leur compte GitHub*, afin que je puisse les y ajouter emoji:smile[2x]
+{lb}
+* Joseph, c'est bon, ton invitation pour Slack est envoyée, et j'ai réglé les problèmes de mail de ton compte. Tu devrais maintenant recevoir nos communications emoji:grin[2x]
+
+== Tech
+
+=== Challenge de janvier
+
+Walid est le grand gagnant de notre challenge de janvier, avec sa définition de link:monad-definition/WDE_monade-chocolat.adoc[monade au chocolat] !
+
+Pour les intéressés, je vous rappelle ici les autres définitions données :
+
+* *Guillaume LEMONT* : link:monad-definition/GLE_monade-kezako.adoc[ma tentative d'explication]
+* *Bastien GIEGEL* : https://github.com/bgiegel/Definition_Monade/
+* *Thomas SCHWENDER* : link:monad-definition/TSC_monad-definition.adoc[Monade Kezako ?]
+
+=== Divers et rappels
+
+* Afin de faciliter l'écriture de nouveaux articles du blog, nous ne passerons plus par l'éditeur interne. +
+A la place, il est conseillé d'*écrire ses articles sur GitHub*, et d'ajouter un simple lien s'y référant dans le blog (plus un abstract si besoin). +
+En passant par une *pull request* sur https://github.com/softeamfr/startech-meetings-reports[notre repo GitHub], nous pourrions même ajouter la peer review des articles, dans une version plus puissante que ce que propose actuellement le blog.
+
+=== Veille technologique
+
+
+
+=== Projet de présentation sur Java 9
+
+* Guillaume a souffert sur https://www.infoq.com/news/2017/01/java9-rampdown-phase-start?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Java[HTTP/2 qui a été rétrogradé en incubating feature] (et donc changé de package...) suite à un retard par rapport au planning initial.
+
+Sinon, il n'y a pas eu d'évolutions de la présentation sur ce mois (la faute à la monade ! :stuck_out_tongue: ), mais nous allons nous rattraper sur le mois à venir :wink: (pour rappel, nous étions partis sur mars comme date de présentation)
+
+Rappel du dispatching des sujets à ce jour :
+
+* *Jigsaw* : Guillaume + Passam + Abdoulaye + Thomas
+* *HTTP/2* : Guillaume + Passam
+* *Process API* : Thomas
+* *REPL* : Soufiane + Thomas
+* *Immutable collection factories* : Walid
+* *HTML 5 Javadoc* : Soufiane
+* *Garbage Collector G1* : Soufiane
+
+repo spécifique pour la présentation : https://github.com/softeamfr/java9-presentation
+
+Si vous êtes intéressés par rejoindre un groupe, [red]*n'hésitez pas à vous manifester sur notre https://startechjava.slack.com/messages/java9-presentation/[channel Slack dédié] !*
+
+@+, +
+Thomas
+
+== DRAFT
+
+Compte rendu de la réunion de mars
+
+DONE Team GitHub : envoyez-moi vos comptes
+PENDING	>> Soufiane, voir la pull request pour le compte
+
+Proposition de Romain : donner des formations techniques aux commerciaux
+Afin qu'ils puissent mieux comprendre les attentes des IT
+
+DONE Joseph (VERRON) à inviter sur Slack
+
+Soufiane, voir Christophe pour mission DevOps chez Antoine BODY (certif Jenkins 2)
+
+Soufiane : article le pipe Unix est une monade
+Soufiane : obtenu Certif Jenkins 2 (nous fournir les ressources ?)
+
+Alessandro : retour sur le salon Big Data
+	>> beaucoup, beaucoup de machine learning !
+	>> présence de tous nos concurrents (Octo, Zenika, Xebia)
+	>> beaucoup d'éditeurs (Redis, Casandra, Couchbase)
+	>> analyse des sentiments
+		>> Disnez à utiliser ça dans un film (ont fimé le public, analysé sa réaction, et comparé 2 montages différents)
+		>> sur un discours de Macron : 20 personnes filmés pour analyser leur réaction
+
+News : ~50% du traffic mondial provient de robots
+
+Romain : conseille uBLock Origin à la place de AdBlock
+A utiliser avec Ghostery
+
+Alessandro : Nous n'avons que - de 5 personnes formées sur le Big Data, alors que nous avons de nombreuses offres, que nous refusons !
+On a eu 4 départs fin 2016 (1 dir pro, 1 archi, 2 devs)
+
+différence data engineer / data scientist (plus un matheu)
+
+Guillaume : Microsoft a sorti une techno capable de coder 
+
+Thomas : article sur machine à qui on apprend à lire 2 langages, et qui est capable d'en comprendre seule un 3e, en se bâtissant un langage passerelle, "universel", compréhensible QUE PAR ELLE
+
+Alessandro : beaucoup de Hadoop, MAIS pour du Spark. Idem beaucoup de Kaffka (eStreaming)
+Hadoop surtout utilisé comme data link pour le HDFS (comme c'est le cas depuis déjà plusieurs années)
+
+Faycal : article sur Slack general sur pour l'architecture "legacy" MAIS qui marche de StackOverflow (un peu à contre-courant de ce qui se fait actuellement)
+
+Alessandro : si on veut se former au big data : tout est en ligne, et plutôt sur le site des éditeurs (Cassandra, )
+
+Rennes : POC en cours sur IBM Bluemix / Watson
+
+Stratégie : voir Xavier pour les technos sur lesquels se former
+
+INFO : Xavier est notre responsable de tous les projets au forfait
+
+TODO : lister nos projets au forfait sur le slack
+
+Joseph VERRON : checker compte contributeur (mailing)
+
+Présentation Java 9 : à terminer pour mars, on fixe la date de présentation à la réunion d'avril (au plus tard programmation mai)
+
+Prochain sujet : voir Alessandro, montée en compétence de groupe sur le Big Data
+
+Faire le point avec Xavier et Alessandro
+
+Certification Cassandra peut-être passée librement en ligne : un bon début pour commencer sur le big data (bientôt dispo, à suivre)
+
+Soufiane : Certification Jenkins chez Pearson Vue, payant, mais on peut la passer quand on veut. 
+
+
+
+
