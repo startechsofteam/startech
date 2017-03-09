@@ -1,0 +1,156 @@
+= [StarTech] Compte rendu de la réunion du StarTech Java du 2017/01/03
+:toc:
+:toclevels: 3
+:toc-placement!:
+:lb: pass:[<br> +]
+:imagesdir: images
+:icons: font
+:source-highlighter: highlightjs
+:sectnums:
+
+toc::[]
+
+== Overview
+
+Etaient inscrits :
+
+* *Thomas SCHWENDER* : présent
+* *Faycal TIRICH* : présent
+* *Soufiane KHATTAB* : présent
+* *Thibaut RETY* : présent
+* *Joseph VERRON* : présent
+* *Passam KASSEM* : présent
+* *Alessandro DE LUNA ALMEIDA* : présent
+* *Romain BEGHI* : présent
+* *Aymen BEN SALAH* : présent
+* *Guillaume LEMONT* : présent
+* *Daniel CHAFFIOL* : présent
+
+== Logistique
+
+Vos rappels préférés :
+
+* [red]*Trombinoscope* : envoyez une photo (où l’on vous reconnaît) et votre description, et je vous ajoute dans la foulée emoji:wink[2x]
+* Afin de permettre au groupe d'être davantage connu des autres softeamiens, merci à *tous les contributeurs* de se créer une *signature* sur le modèle de la mienne (vous pouvez la prendre en copier / coller du présent mail)
+* Plutôt que d'utiliser la mailing list, les contributeurs sont encouragés à utiliser le *channel Slack* : https://startechs.slack.com/ +
+Essayez d'y jeter un coup d'oeil quotidien, en sirotant votre café du matin par exemple emoji:wink[2x] +
+J'en profite pour vous rappeler que les channels du Slack ne sont [red]*pas forcément tous affichés dans le menu gauche de l'interface* ! +
+Pour tous les voir, il est nécessaire de cliquer sur `CHANNELS(x)` en tête de ce menu :
++
+image::20170307_all-channels-in-slack.png[title="Si tu veux voir tous les channels, clique ici !"] 
++
+A la date d'aujourd'hui, les channels déjà existant sont :
+
+** `#devoxx_france_2017` : pour tout ce qui touche le prochain Devoxx France
+** `#events` : pour nos évènements fun (comme l'Escape Game du 28/03)
+** `#general` : pour un peu tous les sujets, LE channel auquel il faut toujours jeter un oeil
+** `#java_veille_tech_rss` : notre channel de veille technologique, synchronisé sur les flux RSS de plusieurs sites connus
+** `#meetups` : pour la logistique des MeetUps auxquels le groupe assiste
+** `#outils_starpoint` : pour tout ce qui concerne l'outil de gestion des StarPoints développé par Bastien
+** `#presentation_java9` : pour tout ce qui concerne notre présentation Java 9 en cours de création
+** `#random` : pour délirer sans aucune limite !
+** `#training_calendar` : pour communiquer à Vanessa nos projets de formation / présentation, afin de faciliter la réservation d'une salle
++
+* *Les comptes-rendus de réunions* sont maintenant disponibles dans https://github.com/softeamfr/startech-meetings-reports[notre repo GitHub]. +
+Ainsi, si vous avez des remarques, ou souhaitez apporter des modifications, vous pouvez : 
+** soit utiliser https://github.com/softeamfr/startech-meetings-reports/issues[le bug tracker]
+** soit soumettre une *pull request*.
+* *La présence aux réunions mensuelles est maintenant récompensée de 40 Starpoints*, n'hésitez donc pas à venir emoji:smile[2x]
+* Afin de faciliter la gestion de nos projets / présentations sur *GitHub*, une https://github.com/orgs/softeamfr/teams/startech-java[*équipe StarTECH*] est en cours de création sur cet outil. +
+Merci à tous les contributeurs de [red]*me donner leur compte GitHub*, afin que je puisse les y ajouter emoji:smile[2x]
+* *Joseph*, c'est bon, *ton invitation pour Slack est envoyée*, et *j'ai réglé les problèmes de mail de ton compte*. Tu devrais maintenant recevoir nos communications emoji:grin[2x]
+
+== Propositions d'améliorations pour Softeam
+
+* Romain, sur le modèle de ce qui est fait chez So@t, soumet l'idée de *proposer des formations techniques à nos commerciaux*, afin qu'ils puissent mieux comprendre les attentes des IT. +
+-> *Point à aborder avec Hervé*
+* Il pourrait être intéressant de *connaître la liste des projets au forfait chez Softeam*. +
+Une idée serait de les lister dans un channel dédié de notre Slack. +
+-> *Point à aborder avec Hervé ou Xavier* (Xavier VACCARI est le responsable des projets au forfait de Softeam)
+
+== Tech
+
+=== Divers et rappels
+
+* Afin de faciliter l'écriture de nouveaux articles du blog, nous ne passerons plus par l'éditeur interne. +
+A la place, il est conseillé d'*écrire ses articles sur GitHub*, et d'ajouter un simple lien s'y référant dans le blog (plus un abstract si besoin). +
+En passant par une *pull request* sur https://github.com/softeamfr/startech-meetings-reports[notre repo GitHub], nous pourrions même ajouter la peer review des articles, dans une version plus puissante que ce que propose actuellement le blog.
+
+* Soufiane a obtenu dernièrement *sa certification Jenkins* ! Un grand bravo à lui ! +
+Cette certification est payante, mais on peut maintenant la passer quand on le souhaite (elle est gérée par Prometric, voir https://www.cloudbees.com/jenkins/jenkins-certification[ce lien])
+Pour les personnes intéressées par cette dernière, n'hésitez pas à aller en discuter avec lui.
+
+=== Challenge de janvier
+
+*Walid est le grand gagnant de notre challenge de janvier*, avec sa définition de link:monad-definition/WDE_monade-chocolat.adoc[monade au chocolat] !
+
+Pour les intéressés, je vous rappelle ici les autres définitions données :
+
+* *Guillaume LEMONT* : link:monad-definition/GLE_monade-kezako.adoc[ma tentative d'explication]
+* *Bastien GIEGEL* : https://github.com/bgiegel/Definition_Monade/
+* *Thomas SCHWENDER* : link:monad-definition/TSC_monad-definition.adoc[Monade Kezako ?]
+
+Un article de blog sera écrit sur le sujet, avec peut-être un 12@13 dans la foulée (à confirmer pour ce dernier emoji:smile[2x] )
+
+=== Projet de présentation sur Java 9
+
+Nous avons confirmé l'objectif de *terminer la présentation pour début avril*, et de *fixer la date de la présentation lors de la prochaine réunion d'avril*.
+
+Rappel du dispatching des sujets à ce jour :
+
+* *Jigsaw* : Guillaume + Passam + Abdoulaye + Thomas
+* *HTTP/2* : Guillaume + Passam
+* *Process API* : Thomas
+* *REPL* : Soufiane + Thomas
+* *Immutable collection factories* : Walid
+* *HTML 5 Javadoc* : Soufiane
+* *Garbage Collector G1* : Soufiane
+
+Repo spécifique pour la présentation : https://github.com/softeamfr/java9-presentation
+
+Si vous êtes intéressés par rejoindre un groupe, [red]*n'hésitez pas à vous manifester sur notre https://startechjava.slack.com/messages/java9-presentation/[channel Slack dédié] !*
+
+=== Veille technologique & autres news
+
+* Petite info sympa de Soufiane au sujet des *monades* : le *pipe Unix* ("|") en est une.
+* Plutôt qu'AdBlock comme bloqueur de publicités, Romain nous encourage à utiliser https://github.com/gorhill/uBlock[*uBlock Origin*] +
+Un plugin est disponible pour la plupart des navigateurs, l'outil est très léger (mémoire et CPU), et semble garantir un bloquage "sans compromis", ni notion de publicités "non intrusives". +
+L'outil peut bien sûr être utilisé avec https://www.ghostery.com/fr/[Ghostery] pour permettre une navigation privée (suppression des mouchards).
+* Une information passée dernièrement dans les news : ~50% du traffic Internet *mondial* serait créer par des robots...
+
+=== Grand sujet Big Data de la réunion
+
+Suite au *retour d'Alessandro* sur le dernier salon https://www.bigdataparis.com/[Big Data Paris], les 6 et 7 mars derniers, tout le groupe s'est lancé sur une vaste discussion sur le Big Data. 
+
+==== Retour d'Alessandro sur le salon Big Data Paris 2017
+
+* Beaucoup, beaucoup de *Machine Learning*
+* Tous nos concurrents "sérieux" étaient là (Xebia, Zenika, Octo, etc.) +
+Il serait bon pour notre image que Softeam soit également présent lors des prochaines éditions (officiellement, avec un stand)
+* Beaucoup d'éditeurs étaient présents (Redis, Cassandra, Couchbase, etc.)
+* L'[red]*analyse des sentiments* (*"feel data"*) était à l'honneur. Ce sujet fait le buzz en ce moment, et son utilisation se répand :
+** Utilisée dans le dernier film de Disney / Pixar, _L'Empereur_ (voir le track consulting https://www.bigdataparis.com/programme_j2.html["Feel data: les émotions au pouvoir !"] du Big Data Paris)
+** Analyse de la réaction du public lors d'un discours politique +
+La société française www.datakalab.com/fr/[Datakalab] est spécialisée dans ce type d'analyse.
+* En termes de technologies, il a beaucoup été question de *Kafka* (streaming), d'*Hadoop* (surtout son HDFS pour les datalakes), *Spark* (analytics) et *Solr* (moteur de recherche)
+
+==== Brainstorming / échange général sur le sujet
+
+* Guillaume nous a rappelé que Microsoft avait développé une Intelligence Artificielle, *DeepCoder*, *capable de coder*. Voir https://www.developpez.com/actu/119272/DeepCoder-l-IA-developpee-par-Microsoft-Research-capable-de-coder-en-assemblant-des-bouts-de-codes-recuperes-dans-des-programmes-existants/[cet article] pour plus de détails.
+* Pour information, l'agence de Rennes va lancer un POC sur *IBM Bluemix / Watson*
+* Il faut différencier le *data scientist* du *data engineer*. +
+Le *data scientist* est un "matheux", versé dans les statistiques et la théorie du machine learning, et dont le rôle est de trouver les bonnes formules pour transformer de grand volumes de données en prévisions à forte valeur ajoutée. +
+Le *data engineer* est un informaticien spécialisé dans les architectures Big Data, et dont le rôle est justement de mettre en place ces dernières (la "plomberie" technique) pour les data scientists. +
+Voir https://bigdatauniversity.com/blog/data-scientist-vs-data-engineer/[ce lien] pour plus d'information à ce sujet.
+* A contre-courant des technologies du moment (micro-services, containers & co), nous avons rappelé *StackOverflow fonctionne parfaitement* en étant bâti sur une *"bonne vieille architecture legacy"*, monolithique et comportant peu de machines. +
+Fayçal a partagé cette vidéo sur le sujet : https://youtu.be/uNVlQ1yPsto
+* Le *Google Neural Machine Translation (GNMT)*, utilisé par Google Translate a créé son propre langage "passerelle", *compréhensible de lui seul*, lui permettant d'effectuer des traductions d'un langage à un autre, http://www.universityherald.com/articles/51964/20161126/google-brain-created-its-own-language-google-s-ai-can-now-learn-on-its-own-video.htm[*sans qu'on lui ait appris comment*].
+
+Alessandro en a profité pour nous informer que le Big Data va de plus en plus *devenir une priorité pour Softeam*, et que des discussions techniques vont bientôt être engagées sur le sujet. Toutes les personnes intéressées seront les bienvenues. +
+Alessandro nous a également appris qu'une https://academy.datastax.com/certifications[*certification Cassandra*] était disponible en ligne.
+
+Comme ce type de sujet semblait intéresser de nombreux contributeurs, après notre présentation Java 9, *nous pourrions prévoir un nouveau projet sur ce thème*.
+
+@+, +
+Thomas
+
