@@ -64,9 +64,22 @@ Merci à tous les contributeurs de [red]*me donner leur compte GitHub*, afin que
 
 == Tech
 
+=== Divers et rappels
+
+* Afin de faciliter l'écriture de nouveaux articles du blog, nous ne passerons plus par l'éditeur interne. +
+A la place, il est conseillé d'*écrire ses articles sur GitHub*, et d'ajouter un simple lien s'y référant dans le blog (plus un abstract si besoin). +
+En passant par une *pull request* sur https://github.com/softeamfr/startech-meetings-reports[notre repo GitHub], nous pourrions même ajouter la peer review des articles, dans une version plus puissante que ce que propose actuellement le blog.
+
+* Soufiane a obtenu dernièrement *sa certification Jenkins* ! Un grand bravo à lui ! +
+Cette certification est payante, mais on peut maintenant la passer quand on le souhaite (elle est gérée par Prometric, voir https://www.cloudbees.com/jenkins/jenkins-certification[ce lien])
+Pour les personnes intéressées par cette dernière, n'hésitez pas à aller en discuter avec lui.
+
+* Romain, sur le modèle de ce qui est fait chez So@t, soumet l'idée de *proposer des formations techniques à nos commerciaux*, afin qu'ils puissent mieux comprendre les attentes des IT. +
+-> *Un point à aborder avec Hervé*
+
 === Challenge de janvier
 
-Walid est le grand gagnant de notre challenge de janvier, avec sa définition de link:monad-definition/WDE_monade-chocolat.adoc[monade au chocolat] !
+*Walid est le grand gagnant de notre challenge de janvier*, avec sa définition de link:monad-definition/WDE_monade-chocolat.adoc[monade au chocolat] !
 
 Pour les intéressés, je vous rappelle ici les autres définitions données :
 
@@ -74,21 +87,11 @@ Pour les intéressés, je vous rappelle ici les autres définitions données :
 * *Bastien GIEGEL* : https://github.com/bgiegel/Definition_Monade/
 * *Thomas SCHWENDER* : link:monad-definition/TSC_monad-definition.adoc[Monade Kezako ?]
 
-=== Divers et rappels
-
-* Afin de faciliter l'écriture de nouveaux articles du blog, nous ne passerons plus par l'éditeur interne. +
-A la place, il est conseillé d'*écrire ses articles sur GitHub*, et d'ajouter un simple lien s'y référant dans le blog (plus un abstract si besoin). +
-En passant par une *pull request* sur https://github.com/softeamfr/startech-meetings-reports[notre repo GitHub], nous pourrions même ajouter la peer review des articles, dans une version plus puissante que ce que propose actuellement le blog.
-
-=== Veille technologique
-
-
+Un article de blog sera écrit sur le sujet, avec peut-être un 12@13 dans la foulée (à confirmer pour ce dernier emoji:smile[2x] )
 
 === Projet de présentation sur Java 9
 
-* Guillaume a souffert sur https://www.infoq.com/news/2017/01/java9-rampdown-phase-start?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Java[HTTP/2 qui a été rétrogradé en incubating feature] (et donc changé de package...) suite à un retard par rapport au planning initial.
-
-Sinon, il n'y a pas eu d'évolutions de la présentation sur ce mois (la faute à la monade ! :stuck_out_tongue: ), mais nous allons nous rattraper sur le mois à venir :wink: (pour rappel, nous étions partis sur mars comme date de présentation)
+Nous avons confirmé l'objectif de *terminer la présentation pour début avril*, et de *fixer la date de la présentation lors de la prochaine réunion d'avril*.
 
 Rappel du dispatching des sujets à ce jour :
 
@@ -104,6 +107,23 @@ repo spécifique pour la présentation : https://github.com/softeamfr/java9-pres
 
 Si vous êtes intéressés par rejoindre un groupe, [red]*n'hésitez pas à vous manifester sur notre https://startechjava.slack.com/messages/java9-presentation/[channel Slack dédié] !*
 
+=== Veille technologique & autres news
+
+* Petite info sympa de Soufiane au sujet des monades : le pipe Unix ("|") en est une.
+* Plutôt qu'AdBlock comme bloqueur de publicités, Romain nous encourage à utiliser https://github.com/gorhill/uBlock[*uBlock Origin*] +
+Un plugin est disponible pour la plupart des navigateurs, l'outil est très léger (mémoire et CPU), et semble garantir un bloquage "sans compromis", ni notion de publicités "non intrusives". +
+L'outil peut bien sûr être utilisé avec https://www.ghostery.com/fr/[Ghostery] pour permettre une navigation privée (suppression des mouchards).
+* Une information passée dernièrement dans les news : ~50% du traffic Internet *mondial* serait créer par des robots...
+
+=== Grand sujet Big Data de la réunion
+
+Suite au *retour d'Alessandro* sur le dernier salon https://www.bigdataparis.com/[Big Data Paris], les 6 et 7 mars derniers, tout le groupe s'est lancé sur une vaste discussion sur le Big Data.
+
+* Retour d'Alessandro sur le salon Big Data Paris 2017 :
+
+
+* Guillaume nous a rappelé que Microsoft avait développé une Intelligence Artificielle, *DeepCoder*, capable de coder. Voir https://www.developpez.com/actu/119272/DeepCoder-l-IA-developpee-par-Microsoft-Research-capable-de-coder-en-assemblant-des-bouts-de-codes-recuperes-dans-des-programmes-existants/[cet article] pour plus de détails.
+
 @+, +
 Thomas
 
@@ -111,18 +131,9 @@ Thomas
 
 Compte rendu de la réunion de mars
 
-DONE Team GitHub : envoyez-moi vos comptes
 PENDING	>> Soufiane, voir la pull request pour le compte
 
-Proposition de Romain : donner des formations techniques aux commerciaux
-Afin qu'ils puissent mieux comprendre les attentes des IT
-
-DONE Joseph (VERRON) à inviter sur Slack
-
 Soufiane, voir Christophe pour mission DevOps chez Antoine BODY (certif Jenkins 2)
-
-Soufiane : article le pipe Unix est une monade
-Soufiane : obtenu Certif Jenkins 2 (nous fournir les ressources ?)
 
 Alessandro : retour sur le salon Big Data
 	>> beaucoup, beaucoup de machine learning !
@@ -132,17 +143,20 @@ Alessandro : retour sur le salon Big Data
 		>> Disnez à utiliser ça dans un film (ont fimé le public, analysé sa réaction, et comparé 2 montages différents)
 		>> sur un discours de Macron : 20 personnes filmés pour analyser leur réaction
 
-News : ~50% du traffic mondial provient de robots
+Alessandro : Nous n’avons que - de 5 personnes formées sur le Big Data, alors que nous avons de nombreuses offres, que nous refusons ! On a eu 4 départs fin 2016 (1 dir pro, 1 archi, 2 devs)
 
-Romain : conseille uBLock Origin à la place de AdBlock
-A utiliser avec Ghostery
+Je remplacerais cette remarque du CR, afin d'éviter des interprétations négatives, par quelque chose du type :
+
+"Le Big Data reste une priorité de Softeam et nous avons l'intention d'engager des discussions techniques autour du sujet. Vous êtes les bienvenus!"
+
+Alessandro : beaucoup de Hadoop, MAIS pour du Spark. Idem beaucoup de Kaffka (eStreaming) Hadoop surtout utilisé comme data link pour le HDFS (comme c’est le cas depuis déjà plusieurs années)
+
+"Kafka pour streaming, Hadoop/HDFS pour datalake, Spark pour analytics"
 
 Alessandro : Nous n'avons que - de 5 personnes formées sur le Big Data, alors que nous avons de nombreuses offres, que nous refusons !
 On a eu 4 départs fin 2016 (1 dir pro, 1 archi, 2 devs)
 
 différence data engineer / data scientist (plus un matheu)
-
-Guillaume : Microsoft a sorti une techno capable de coder 
 
 Thomas : article sur machine à qui on apprend à lire 2 langages, et qui est capable d'en comprendre seule un 3e, en se bâtissant un langage passerelle, "universel", compréhensible QUE PAR ELLE
 
@@ -171,7 +185,11 @@ Faire le point avec Xavier et Alessandro
 
 Certification Cassandra peut-être passée librement en ligne : un bon début pour commencer sur le big data (bientôt dispo, à suivre)
 
-Soufiane : Certification Jenkins chez Pearson Vue, payant, mais on peut la passer quand on veut. 
+
+
+
+
+
 
 
 
