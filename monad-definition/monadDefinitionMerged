@@ -10,63 +10,70 @@ The curse of the monad is that once you get the epiphany, once you understand - 
 ____________________________________________________________________
 
 
-Par conséquent, j’essaierai de ne pas du tout être formel dans la définition. Je vais essayer d’exposer une analogie par rapport à quelque chose un peu plus tangible : le chocolat.
+Par conséquent, j’essaierai de ne pas du tout être formel dans la définition. Je vais essayer d’exposer une analogie par rapport à quelque chose d'un peu plus tangible : *le chocolat*.
 
-Supposons qu’on vous a offert du chocolat dans un bel emballage, que vous avez pris ce chocolat et vous l’avez fait chauffé donc vous avez du beau chocolat fondu ensuite vous l’avez filtré pour enlever les pépites dures qui veulent pas disparaître à la chaleur. 
-Supposons qu’on veut écrire cette belle histoire bien gourmande en langage fonctionnelle et en seule ligne !
+Supposons qu’on vous ait offert du chocolat dans un bel emballage, que vous ayez pris ce chocolat et l’ayez fait chauffer. +
+Vous avez donc du beau chocolat fondu, que vous avez ensuite filtré pour enlever les pépites dures, qui ne veulent pas disparaître à la chaleur. +
+Supposons qu’on veuille écrire cette belle histoire, bien gourmande, en langage fonctionnel et en 1 seule ligne !
 
-Alors on besoin d’une fonction qui transforme le chocolat emballé en chocolat déballé : déballer(x)
-Ensuite une fonction qui chauffe le chocolat : chauffer(x)
-Et enfin filtrer le chocolat : filtrerPepite(x)
+. Nous avons besoin d’une fonction qui transforme le chocolat emballé en chocolat déballé : *déballer(x)*
+. puis d'une fonction qui chauffe le chocolat : *chauffer(x)*
+. Et enfin qui le filtre : *filtrerPepite(x)*
+
 Le but est d'être capable d’écrire :
 [source,java]
 -----------------
 déballer(x).chauffer(x).filtrerPepite(x)
 -----------------
 
-En conclusion, on a du chocolat dans tous ces états. Emballé, dur, fondu et en pépites !
-Comment peut-on unifier tout ça en un seul mega-type qu’on peut passer à toutes les méthodes sans se soucier du comment faire ? la réponse, le mettre dans un recipient !!
-Il s’agit d’encapsuler tous ces chocolats en une “structure” qui contient ce chocolat, ce qu’on appelle autrement une monade.
+En conclusion, on a du chocolat dans tous ces états : *emballé*, *dur*, *fondu* et *en pépites* !
 
-Alors pour ce faire, nous allons construire notre recipient à partir de deux opérateurs basiques :
-Unit et Apply
-Unit il s’occupera de wrapper/encapsuler le chocolat (quelque soit son état chauffé, emballé..) dans une “structure” qui s’appelle simple Monade[Chocolat]
+Comment peut-on unifier tout cela en un seul "mega-type" qu’on peut passer à toutes les méthodes sans se soucier du comment faire ? +
+La réponse : *le mettre dans un recipient !!*
+
+Pour ce faire, il s’agit d’encapsuler tous ces chocolats dans une "structure" qui contient ce chocolat, ce qu’on appelle autrement *une monade*.
+
+Le récipient en question est construit autour de deux opérateurs basiques : +
+`Unit` et `Apply`
+
+*`Unit`* +
+Cet opérateur s’occupera de *wrapper/encapsuler* le chocolat (quelque soit son état : chauffé, emballé..) dans une "structure" qui s’appelle simple *Monade[Chocolat]*
 
 [source,python]
 -----------------
 Chocolat -> monade(Chocolat)
 -----------------
 
-Apply : on traite le chocolat récupéré de la structure monade[chocolat] et le transforme puis le rend dans une monade à son tour pour qu’on puisse enchaîner une autre action par la suite.
+*`Apply`* +
+On traite le chocolat, récupéré de la structure *monade[chocolat]*, le transforme puis le rend à son tour dans une monade, afin de pouvoir enchaîner une autre action par la suite :
+
 [source,python]
 -----------------
 monade(Chocolat) -> ( Chocolat-> Monade(ChocolatTransformé) ) -> monad(ChocolatTransformé)
 -----------------
 
+De manière très formelle, une monade est un *type de donnée générique*, destiné à *encapsuler* un autre type de donnée.
 
-De manière très formelle une monade est un *type de donnée générique* destiné à *encapsuler* un autre type de donnée.
-
-Notons Monad[T] une monade basée sur le type T.
+Notons `Monad[T]` une monade basée sur le type `T`.
 
 Une monade dispose des deux opérations suivantes : +
-unit : T -> Monad[T] +
+`unit : T -> Monad[T]` +
 permettant de construire une monade à partir d'un élément de type T. +
-apply : Monad[T] -> (T -> Monad[U]) -> Monad[U] +
+`apply : Monad[T] -> (T -> Monad[U]) -> Monad[U]` +
 qui permet de *transformer* une monade de T en monade de U.
-
 
 === Ok, soit, mais alors pourquoi les monades ?
 
-La programmation structurée est trop rigide ?
-
+* La programmation structurée est trop rigide ?
++
 ----
 for (...) {
 	...
 }
 ----
-
-Les callbacks sont impossibles à réutiliser avec leurs effets de bord ?
-
++
+* Les callbacks sont impossibles à réutiliser avec leurs effets de bord ?
++
 ----
 result = new List
 list.forEach( x -> {
@@ -75,33 +82,28 @@ list.forEach( x -> {
 })
 return result
 ----
-
-La monade est une approche *fonctionnelle* de haut niveau !
-
++
+* La monade est une approche *fonctionnelle* de haut niveau ! +
 Euh, oui, ok, mais encore ?
+** On peut chaîner les tranformations... +
+`monad.apply(x -> Monad(...)).apply(y -> Monad(...))`
+** Et les fonctions sont facilement réutilisables.
 
-On peut chaîner les tranformations... +
-monad.apply(x -> Monad(...)).apply(y -> Monad(...)) +
-Et les fonctions sont facilement réutilisables. +
-
-
-
-Voici une tentative d’implémentation de ces méthodes en “pseudo-java” :
+Voici une tentative d’implémentation de ces méthodes en "pseudo-java" :
 
 [source,java]
 -----------------
 // On encapsule un chocolat dans une monade
 public static Monade<Chocolat> unit(Chocolat x){
-  return new Monade<Chocolat> ( x) ; 
+  return new Monade<Chocolat> (x) ; 
 }
 -----------------
-
 
 [source,java]
 -----------------
 public static Monade<Chocolat> deballer(Chocolat x) {
      @Override
-        public Monade<Chocolat> apply( Chocolat x ) {
+        public Monade<Chocolat> apply(Chocolat x) {
             
             if (!x.isDeballe() ) {
                 x.setDeballe(true); 
