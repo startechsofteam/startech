@@ -1,0 +1,131 @@
+= [StarTech] Compte rendu de la réunion du StarTech Java du 2017/05/02
+:toc:
+:toclevels: 3
+:toc-placement!:
+:lb: pass:[<br> +]
+:imagesdir: images
+:icons: font
+:source-highlighter: highlightjs
+:sectnums:
+
+toc::[]
+
+== Overview
+
+Etaient inscrits :
+
+* *Darren BOUTROS* : présent
+* *Faycal TIRICH* : présent
+* *Hassan BELLOUNIS* : présent
+* *Guillaume LEMONT* : présent
+* *Passam KASSEM* : présent
+* *Nafia AMAZIANE* : présent
+* *Romain BEGHI* : présent
+* *Rithy NGUON* : présent
+* *Soufiane KHATTAB* : présent
+* *Thibaut RETY* : présent
+* *Walid DEBBECH* : présent
+* *Yolene AYISSI* : présente
+
+Si j'ai oublié quelqu'un, signalez le ! emoji:wink[2x]
+
+== Logistique
+
+Vos rappels préférés :
+
+* [red]*Trombinoscope* : envoyez une photo (où l’on vous reconnaît) et votre description, et je vous ajoute dans la foulée emoji:wink[2x]
+* Afin de permettre au groupe d'être davantage connu des autres softeamiens, merci à *tous les contributeurs* de se créer une *signature* sur le modèle de la mienne (vous pouvez la prendre en copier / coller du présent mail)
+* Plutôt que d'utiliser la mailing list, les contributeurs sont encouragés à utiliser le *channel Slack* : https://startechs.slack.com/ +
+Essayez d'y jeter un coup d'oeil quotidien, en sirotant votre café du matin par exemple emoji:wink[2x] +
+J'en profite pour vous rappeler que les channels du Slack ne sont [red]*pas forcément tous affichés dans le menu gauche de l'interface* ! +
+Pour tous les voir, il est nécessaire de cliquer sur `CHANNELS(x)` en tête de ce menu :
++
+image::20170307_all-channels-in-slack.png[title="Si tu veux voir tous les channels, clique ici !"] 
++
+A la date d'aujourd'hui, les channels déjà existant sont :
+
+** `#devoxx_france_2017` : pour tout ce qui touche le prochain Devoxx France
+** `#events` : pour nos évènements fun (comme l'Escape Game du 28/03)
+** `#general` : pour un peu tous les sujets, LE channel auquel il faut toujours jeter un oeil
+** `#java_veille_tech_rss` : notre channel de veille technologique, synchronisé sur les flux RSS de plusieurs sites connus
+** `#meetups` : pour la logistique des MeetUps auxquels le groupe assiste
+** `#outils_starpoint` : pour tout ce qui concerne l'outil de gestion des StarPoints développé par Bastien
+** `#presentation_java9` : pour tout ce qui concerne notre présentation Java 9 en cours de création
+** `#random` : pour délirer sans aucune limite !
+** `#training_calendar` : pour communiquer à Vanessa nos projets de formation / présentation, afin de faciliter la réservation d'une salle
+** `#trainings` : pour communiquer sur les formations que l'on est en train de préparer
+** `#troll` : Trolleur un jour, trolleur toujours
+ +
+Merci à tous de bien vouloir vérifier que vous êtes inscrits à [red]*TOUS* ces derniers emoji:wink[2x]
++
+* *Les comptes-rendus de réunions* sont maintenant disponibles dans https://github.com/softeamfr/startech-meetings-reports[notre repo GitHub]. +
+Ainsi, si vous avez des remarques, ou souhaitez apporter des modifications, vous pouvez : 
+** soit utiliser https://github.com/softeamfr/startech-meetings-reports/issues[le bug tracker]
+** soit soumettre une *pull request*.
+* *La présence aux réunions mensuelles est maintenant récompensée de 40 Starpoints*, n'hésitez donc pas à venir emoji:smile[2x]
+* Afin de faciliter la gestion de nos projets / présentations sur *GitHub*, une https://github.com/orgs/softeamfr/teams/startech-java[*équipe StarTECH*] est en cours de création sur cet outil. +
+Merci à tous les contributeurs de [red]*me donner leur compte GitHub*, afin que je puisse les y ajouter emoji:smile[2x]
+
+
+== Tech
+
+=== Divers et rappels
+
+* Afin de faciliter l'écriture de nouveaux articles du blog, nous ne passerons plus par l'éditeur interne. +
+A la place, il est conseillé d'*écrire ses articles sur GitHub*, et d'ajouter un simple lien s'y référant dans le blog (plus un abstract si besoin). +
+En passant par une *pull request* sur https://github.com/softeamfr/startech-meetings-reports[notre repo GitHub], nous pourrions même ajouter la peer review des articles, dans une version plus puissante que ce que propose actuellement le blog.
+
+=== Devoxx France 2017
+
+Comme je publie ce compte rendu un peu plus tard que prévu, et surtout après Devoxx, j'en profite pour vous donner les liens vers les retours déjà disponibles :
+
+* *Thomas SCHWENDER* : https://github.com/Ardemius/devoxx-france-2017-presentation
+* *Laurent GONCALVEZ* : https://github.com/laurentgoncalves/devoxxFR-2017
+* *Bastien GIEGEL* : https://github.com/bgiegel/devoxxfr-2017
+* *Faycal TIRICH* :
+** https://intranet.softeam.fr/communaute/13/blog/2669[DevoxxFR 2017 : Retour sur la conférence "CQRS/ES from scratch"]
+** https://intranet.softeam.fr/communaute/13/blog/2671[DevoxxFR 2017 : Retour sur la conférence "Être productif avec JHipster"]
+** https://intranet.softeam.fr/communaute/13/blog/2672[DevoxxFR 2017 : Retour sur la conférence "Spring Data : Une API, quinze possibilités"]
+* *Soufiane KHATTAB* : https://github.com/kayosoufiane/devoxxfr-2017
+
+Les retours du salon viennent d'ailleurs de tomber : *j'ai été noté 4.6 / 5 pour mon talk !!!! emoji:grin[2x]*  (21 votants, description du talk sur le CFP de Devoxx[https://cfp.devoxx.fr/2017/talk/FEU-0240/Sorcellerie_en_Java_:_outrepasser_les_interdits_avec_sun.misc.Unsafe], GitHub du talk[https://github.com/Ardemius/unsafe-wizardry])
+
+J'en profite pour vous rappeler que d'ici peu les vidéos de toutes les conférences seront disponibles sur YouTube, sur le channel https://www.youtube.com/channel/UCsVPQfo5RZErDL41LoWvk0A[Devoxx FR]
+
+WARNING: Il y a une arnaque avec la chaîne YouTube Devoxx FR : *aucune playlist ne semble disponible*, d'où un certains mal à identifier rapidement à quelle édition appartient quelle vidéo. +
+Néanmoins, *des playlists existent bien*, mais *il faut les chercher directement sur le moteur de recherche de YouTube* (ou sur Google...). +
+Par exemple, en cherchant "Devoxx France 2016", vous retrouvez bien la playlist de toutes les vidéos de l'édition précédente : https://www.youtube.com/playlist?list=PLTbQvx84FrAS5clN9i8_LFUQxcMY7qXAO emoji:smile[2x]
+
+=== Projet de présentation sur Java 9
+
+Une date de la présentation au groupe par la communauté a été déterminée : [red]*le mardi 30/05, de 19h à 21h*. +
+Il nous faudrait *un speaker (ou plus !) par sujet*, aussi, [red]*merci de confirmer votre venue* emoji:smile[2x]
+
+Rappel du dispatching des sujets à ce jour :
+
+* *Jigsaw* : Guillaume + Passam + Abdoulaye + Thomas
+* *HTTP/2* : Guillaume + Passam
+* *Process API* : Thomas
+* *REPL* : Soufiane + Thomas
+* *Immutable collection factories* : Walid
+* *HTML 5 Javadoc* : Soufiane
+* *Garbage Collector G1* : Soufiane
+
+Repo spécifique pour la présentation : https://github.com/softeamfr/java9-presentation
+
+Si vous souhaitez participer à ce projet, il est encore possible de rejoindre un groupe, aussi, [red]*n'hésitez pas à vous manifester sur notre https://startechjava.slack.com/messages/java9-presentation/[channel Slack dédié] !*
+
+=== Veille technologique & autres news
+
+Les prochains MeetUps, pour y aller ensemble si c'est possible. +
+Java 9, et ces nouveautés. (en attendant la prochaine présentation emoji:wink[2x])
+
+
+=== Débat Frameword or no Framework, this is the question
+
+L'utilisation des Frameworks dans des projets, et quels sont les projets qui n'acceptent pas l'open-source ? +
+
+
+à bientôt
+Soufiane
+
