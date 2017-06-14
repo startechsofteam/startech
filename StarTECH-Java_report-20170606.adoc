@@ -1,0 +1,101 @@
+= [StarTech] Compte rendu de la réunion du StarTech Java du 2017/06/06
+:toc:
+:toclevels: 3
+:toc-placement!:
+:lb: pass:[<br> +]
+:imagesdir: images
+:icons: font
+:source-highlighter: highlightjs
+:sectnums:
+
+toc::[]
+
+== Overview
+
+Etaient inscrits :
+
+* *Chang JIANG* : présent
+* *Chihebeddine MESSAOUD* : présent
+* *Darren BOUTROS* : absent
+* *Guillaume LEMONT* : présent
+* *Johann MAQUIN*  : présent
+* *MohamedYacine TRIAA* : absent
+* *Nafia AMAZIANE* : absent
+* *Oualaa HANI*  : présent
+* *Passam KASSEM* : présent
+* *Pierre LEPLAY* : présent
+* *Romain BEGHI* : présent
+* *Soufiane KHATTAB* : présent
+* *Thomas SCHWENDER* : présent
+
+== Logistique
+
+Vos rappels préférés :
+
+* [red]*Trombinoscope* : envoyez une photo (où l’on vous reconnaît) et votre description, et je vous ajoute dans la foulée emoji:wink[2x]
+* Afin de permettre au groupe d'être davantage connu des autres softeamiens, merci à *tous les contributeurs* de se créer une *signature* sur le modèle de la mienne (vous pouvez la prendre en copier / coller du présent mail)
+* Plutôt que d'utiliser la mailing list, les contributeurs sont encouragés à utiliser le *channel Slack* : https://startechs.slack.com/ +
+Essayez d'y jeter un coup d'oeil quotidien, en sirotant votre café du matin par exemple emoji:wink[2x] +
+J'en profite pour vous rappeler que les channels du Slack ne sont [red]*pas forcément tous affichés dans le menu gauche de l'interface* ! +
+Pour tous les voir, il est nécessaire de cliquer sur `CHANNELS(x)` en tête de ce menu :
++
+image::20170307_all-channels-in-slack.png[title="Si tu veux voir tous les channels, clique ici !"] 
++
+A la date d'aujourd'hui, les channels déjà existant sont :
+
+** `#devoxx_france_2017` : pour tout ce qui touche le prochain Devoxx France
+** `#events` : pour nos évènements fun (comme l'Escape Game du 28/03)
+** `#general` : pour un peu tous les sujets, LE channel auquel il faut toujours jeter un oeil
+** `#java_veille_tech_rss` : notre channel de veille technologique, synchronisé sur les flux RSS de plusieurs sites connus
+** `#meetups` : pour la logistique des MeetUps auxquels le groupe assiste
+** `#outils_starpoint` : pour tout ce qui concerne l'outil de gestion des StarPoints développé par Bastien
+** `#presentation_java9` : pour tout ce qui concerne notre présentation Java 9 en cours de création
+** `#random` : pour délirer sans aucune limite !
+** `#training_calendar` : pour communiquer à Vanessa nos projets de formation / présentation, afin de faciliter la réservation d'une salle
+** `#trainings` : pour communiquer sur les formations que l'on est en train de préparer +
+Merci à tous de bien vouloir vérifier que vous êtes inscrits à [red]*TOUS* ces derniers emoji:wink[2x]
++
+* *Les comptes-rendus de réunions* sont maintenant disponibles dans https://github.com/softeamfr/startech-meetings-reports[notre repo GitHub]. +
+Ainsi, si vous avez des remarques, ou souhaitez apporter des modifications, vous pouvez : 
+** soit utiliser https://github.com/softeamfr/startech-meetings-reports/issues[le bug tracker]
+** soit soumettre une *pull request*.
+* *La présence aux réunions mensuelles est maintenant récompensée de 40 Starpoints*, n'hésitez donc pas à venir emoji:smile[2x]
+* Afin de faciliter la gestion de nos projets / présentations sur *GitHub*, une https://github.com/orgs/softeamfr/teams/startech-java[*équipe StarTECH*] est en cours de création sur cet outil. +
+Merci à tous les contributeurs de [red]*me donner leur compte GitHub*, afin que je puisse les y ajouter emoji:smile[2x]
+
+== Tech
+
+=== Présentation Java 9
+
+Slides AsciiDoctor réalisés et présentés par Passam.
+
+Remarque Guillaume : libASM pour Spring renomme déjà les packages pour supprimer les problèmes de numéro de version (ce qui réduit d'autant l'intérêt de Jigsaw)
+
+=== Divers et rappels
+
+* Afin de faciliter l'écriture de nouveaux articles du blog, nous ne passerons plus par l'éditeur interne. +
+A la place, il est conseillé d'*écrire ses articles sur GitHub*, et d'ajouter un simple lien s'y référant dans le blog (plus un abstract si besoin). +
+En passant par une *pull request* sur https://github.com/softeamfr/startech-meetings-reports[notre repo GitHub], nous pourrions même ajouter la peer review des articles, dans une version plus puissante que ce que propose actuellement le blog.
+
+=== Présentation des nouvelles fonctionnalités de Java 9
+
+Comme annoncé, nous avons profité de la réunion pour présenter les nouvelles fonctionnalités de Java 9.
+
+Il y avait au menu :
+
+* *Jigsaw* : Peut-on imaginer parler de Java 9 sans parler de Jigsaw ? Avec tout l'encre qu'il fait encore couler aujourd'hui ? +
+Pour ceux qui ont suivi les dernières news, du fait du vote contre le projet de Red Hat et IBM (tous deux membres du JCP), https://www.developpez.com/actu/140324/Java-9-sera-encore-repousse-a-cause-de-la-controverse-autour-de-Jigsaw-Mark-Reinhold-demande-un-delai-supplementaire-de-huit-semaines/[Java 9 est repoussé du 27 juillet au 21 septembre]. +
+Vu la complexité du sujet, et le fait qu'à mon avis Red Hat et IBM ne lâcheront rien tant que les modules Jigsaw ne seront https://www.developpez.com/actu/133621/Java-9-IBM-et-Red-Hat-vont-voter-contre-l-implementation-des-modules-Java-via-Jigsaw-une-solution-qui-ne-couvre-pas-tous-les-cas-d-utilisation/[pas compatibles avec les *modules JBoss* et *OSGi*], je m'estimerai heureux si Java 9 est officiellement releasé d'ici la fin d'année...
+* *HTTP/2 client* : Larmes... https://www.infoq.com/news/2017/01/java9-rampdown-phase-start?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Java[Cette fonctionnalité est passée en incubating feature], car considérée comme pas suffisamment finie, et non prioritaire par rapport à la correction de certains bugs. +
+Elle ne sera donc pas disponible par défaut, il faudra recourir au flag `--add-mod`.
+* *Process API*
+* *REPL*
+* *Immutable collection factories*
+* *HTML 5 Javadoc*
+* *Garbage Collector G1*
+
+Les notes de présentation sont disponibles sur le repo https://github.com/softeamfr/java9-presentation
+
+@+, +
+Thomas
+
