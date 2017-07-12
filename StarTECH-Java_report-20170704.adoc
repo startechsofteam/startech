@@ -1,0 +1,88 @@
+= [StarTech] Compte rendu de la réunion du StarTech Java du 2017/07/04
+:toc:
+:toclevels: 3
+:toc-placement!:
+:lb: pass:[<br> +]
+:imagesdir: images
+:icons: font
+:source-highlighter: highlightjs
+:sectnums:
+
+toc::[]
+
+== Overview
+
+Etaient inscrits :
+
+* *Guillaume LEMONT* : présent
+* *Hassan BELLOUNIS* : absent
+* *Oualaa HANI*  : absent
+* *Passam KASSEM* : présent
+* *Pierre LEPLAY* : présent
+* *Rithy NGUON* : présent
+* *Soufiane KHATTAB* : présent
+* *Thomas SCHWENDER* : présent
+
+Sont venus en plus dernier moment Jacques et Laurent de Cappa Invest.
+
+Etant donné que nous avons eu un petit souci de réservation de salle, la réunion a finalement eu lieu au Café Le Poète (39 avenue Victor Hugo), où nous avons pu échanger de façon détendue autour d'une bonne bière :wink:
+
+== Logistique
+
+Vos rappels préférés :
+
+* [red]*Trombinoscope* : envoyez une photo (où l’on vous reconnaît) et votre description, et je vous ajoute dans la foulée emoji:wink[2x]
+* Afin de permettre au groupe d'être davantage connu des autres softeamiens, merci à *tous les contributeurs* de se créer une *signature* sur le modèle de la mienne (vous pouvez la prendre en copier / coller du présent mail)
+* Plutôt que d'utiliser la mailing list, les contributeurs sont encouragés à utiliser le *channel Slack* : https://startechs.slack.com/ +
+Essayez d'y jeter un coup d'oeil quotidien, en sirotant votre café du matin par exemple emoji:wink[2x] +
+J'en profite pour vous rappeler que les channels du Slack ne sont [red]*pas forcément tous affichés dans le menu gauche de l'interface* ! +
+Pour tous les voir, il est nécessaire de cliquer sur `CHANNELS(x)` en tête de ce menu :
++
+image::20170307_all-channels-in-slack.png[title="Si tu veux voir tous les channels, clique ici !"] 
++
+A la date d'aujourd'hui, les channels déjà existant sont :
+
+** `#devoxx_france_2017` : pour tout ce qui touche le prochain Devoxx France
+** `#events` : pour nos évènements fun (comme l'Escape Game du 28/03)
+** `#general` : pour un peu tous les sujets, LE channel auquel il faut toujours jeter un oeil
+** `#java_veille_tech_rss` : notre channel de veille technologique, synchronisé sur les flux RSS de plusieurs sites connus
+** `#meetups` : pour la logistique des MeetUps auxquels le groupe assiste
+** `#outils_starpoint` : pour tout ce qui concerne l'outil de gestion des StarPoints développé par Bastien
+** `#presentation_java9` : pour tout ce qui concerne notre présentation Java 9 en cours de création
+** `#random` : pour délirer sans aucune limite !
+** `#training_calendar` : pour communiquer à Vanessa nos projets de formation / présentation, afin de faciliter la réservation d'une salle
+** `#trainings` : pour communiquer sur les formations que l'on est en train de préparer
+** `#troll` : alors là, tout est dans le titre... +
+Merci à tous de bien vouloir vérifier que vous êtes inscrits à [red]*TOUS* ces derniers emoji:wink[2x]
++
+* *Les comptes-rendus de réunions* sont maintenant disponibles dans https://github.com/softeamfr/startech-meetings-reports[notre repo GitHub]. +
+Ainsi, si vous avez des remarques, ou souhaitez apporter des modifications, vous pouvez : 
+** soit utiliser https://github.com/softeamfr/startech-meetings-reports/issues[le bug tracker]
+** soit soumettre une *pull request*.
+* *La présence aux réunions mensuelles est maintenant récompensée de 40 Starpoints*, n'hésitez donc pas à venir emoji:smile[2x]
+* Afin de faciliter la gestion de nos projets / présentations sur *GitHub*, une https://github.com/orgs/softeamfr/teams/startech-java[*équipe StarTECH*] est en cours de création sur cet outil. +
+Merci à tous les contributeurs de [red]*me donner leur compte GitHub*, afin que je puisse les y ajouter emoji:smile[2x]
+
+Eh ben pas grand chose cette fois-ci, car, cf section précédente, nous avons beaucoup parlé d'histoire, et comparé nos expériences chez différents clients (certains retours valent leur pesant de cacahuètes, et ne peuvent vraiment pas être racontés ici... :stuck_out_tongue: )
+
+== Histoire
+
+Oulà... Pourquoi histoire ? +
+Tout simplement parce que nous avons longuement échangé sur *l'histoire de Softeam*, depuis 10 ans et jusqu'à ce jour.
+Tout d'abord le rachat (fusion) de Cadextan du fait des banques en 2012, puis celui de Genigraph en 2014, et la stratégie d'entreprise qui a ensuite mené aux rachats de Mode d'Emploi, Cappa Invest, DB Consulting, et la création de nos axes de développement Finance ET Digital.
+
+Comme cette histoire est un peu longue, si vous voulez des détails... Ben il faudra les demander à la prochaine réunion de la communauté :stuck_out_tongue:
+
+== Tech
+
+Une nouvelle tech quand même :wink:, nous avons reparlé de *Jigsaw* qui a refait parler de lui dernièrement. +
+La *8 mai* dernier, les membres du comité exécutif du JCP avaient *voté contre la validation* de la spécification (JSR 376 : Jaav Platform Module System), principalement pour des raisons d'incompatibilité avec d'autres systèmes de modules (OSGi et JBoss Modules). +
+30 jours avaient été donnés à Mark Reinhold (Oracle), leader de la spécification pour retravailler celle-ci, trouver un consensus et faire une nouvelle proposition. +
+Lors d'un *nouveau vote*, la nouvelle proposition a cette fois été *acceptée*, à la *quasi-unanimité* (24 voix pour et 1 absentation de la part de RedHat). +
+La date de sortie de Java 9 en version finale devrait donc rester le http://openjdk.java.net/projects/jdk9/[21/09/2017].
+
+Voir cet https://www.developpez.com/actu/146445/Java-9-le-comite-executif-du-JCP-approuve-la-specification-revisee-du-systeme-de-modules-Jigsaw-mais-Red-Hat-s-abstient-de-voter/[article de Developpez.com] pour plus de détails.
+
+@+, +
+Thomas
+
