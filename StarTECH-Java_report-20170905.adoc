@@ -1,0 +1,150 @@
+= [StarTech] Compte rendu de la réunion du StarTech Java du 2017/09/05
+:toc:
+:toclevels: 3
+:toc-placement!:
+:lb: pass:[<br> +]
+:imagesdir: images
+:icons: font
+:source-highlighter: highlightjs
+:sectnums:
+
+toc::[]
+
+== Overview
+
+Etaient inscrits :
+
+* *Alessandro DE LUNA ALMEIDA* : présent
+* *Bastien GIEGEL* : présent
+* *Darren BOUTROS* : présent
+* *Guillaume LEMONT* : présent
+* *Jérémie LOU* : présent
+* *Passam KASSEM* : présent
+* *Pierre LEPLAY* : présent
+* *Rithy NGUON* : présent
+* *Romain BEGHI* : présent
+* *Soufiane KHATTAB* : présent
+* *Thomas SCHWENDER* : présent
+* *Yacine TRIAA* : présent
+* *Patrick YOUMBI* : présent
+
+== Logistique
+
+Vos rappels préférés :
+
+* [red]*Trombinoscope* : envoyez une photo (où l’on vous reconnaît) et votre description, et je vous ajoute dans la foulée emoji:wink[2x]
+* Afin de permettre au groupe d'être davantage connu des autres softeamiens, merci à *tous les contributeurs* de se créer une *signature* sur le modèle de la mienne (vous pouvez la prendre en copier / coller du présent mail)
+* Plutôt que d'utiliser la mailing list, les contributeurs sont encouragés à utiliser le *channel Slack* : https://startechs.slack.com/ +
+Essayez d'y jeter un coup d'oeil quotidien, en sirotant votre café du matin par exemple emoji:wink[2x] +
+J'en profite pour vous rappeler que les channels du Slack ne sont [red]*pas forcément tous affichés dans le menu gauche de l'interface* ! +
+Pour tous les voir, il est nécessaire de cliquer sur `CHANNELS(x)` en tête de ce menu :
++
+image::20170307_all-channels-in-slack.png[title="Si tu veux voir tous les channels, clique ici !"] 
++
+A la date d'aujourd'hui, les channels déjà existant sont :
+
+** `#devoxx_france_2017` : pour tout ce qui touche le prochain Devoxx France
+** `#events` : pour nos évènements fun (comme l'Escape Game du 28/03)
+** `#general` : pour un peu tous les sujets, LE channel auquel il faut toujours jeter un oeil
+** `#java_veille_tech_rss` : notre channel de veille technologique, synchronisé sur les flux RSS de plusieurs sites connus
+** `#meetups` : pour la logistique des MeetUps auxquels le groupe assiste
+** `#outils_starpoint` : pour tout ce qui concerne l'outil de gestion des StarPoints développé par Bastien
+** `#presentation_java9` : pour tout ce qui concerne notre présentation Java 9 en cours de création
+** `#random` : pour délirer sans aucune limite !
+** `#training_calendar` : pour communiquer à Vanessa nos projets de formation / présentation, afin de faciliter la réservation d'une salle
+** `#trainings` : pour communiquer sur les formations que l'on est en train de préparer
+** `#troll` : alors là, tout est dans le titre... +
+Merci à tous de bien vouloir vérifier que vous êtes inscrits à [red]*TOUS* ces derniers emoji:wink[2x]
++
+* *Les comptes-rendus de réunions* sont maintenant disponibles dans https://github.com/softeamfr/startech-meetings-reports[notre repo GitHub]. +
+Ainsi, si vous avez des remarques, ou souhaitez apporter des modifications, vous pouvez : 
+** soit utiliser https://github.com/softeamfr/startech-meetings-reports/issues[le bug tracker]
+** soit soumettre une *pull request*.
+* *La présence aux réunions mensuelles est maintenant récompensée de 40 Starpoints*, n'hésitez donc pas à venir emoji:smile[2x]
+* Afin de faciliter la gestion de nos projets / présentations sur *GitHub*, une https://github.com/orgs/softeamfr/teams/startech-java[*équipe StarTECH*] est en cours de création sur cet outil. +
+Merci à tous les contributeurs de [red]*me donner leur compte GitHub*, afin que je puisse les y ajouter emoji:smile[2x]
+
+== Tech
+
+Après une passe sur les évènements techniques à venir (ParisJUG pour les MeetUps, les grands salons ne débutant pas avant novembre), nous sommes passés au principal point de la réunion : *présenter les différentes initiatives Big Data de Softeam* :
+
+* *initiative Hadoop* présentée par Thomas
+* *initiative Datastax* présentée par Alessandro
+* *l'Innovation Lab* présenté par Soufiane
+
+=== Initiative Hadoop
+
+Présentée par Thomas.
+
+L'objectif est de *former aux bases de l'écosystème Hadoop* un groupe de ~10/15 Softeamiens, afin de renforcer notre positionnement sur ce domaine du Big Data.
+
+Les personnes intéressées s'engagent à suivre, d'octobre à fin décembre 2017, un *parcours de formation de ~11 heures sur Pluralsight*, et de valider un score de 8/10 aux "Learning check" de chaque module. +
+Pour cela, chaque membre se verra fournir un *accès individuel à PluralSight*. L'acquisition des licences est en cours, et ces dernières devraient être disponibles pour tout début octobre.
+
+Le contenu du parcours a été montré durant la séance, et sera définitivement communiqué au groupe tout début octobre (à priori, il ne devrait pas, ou très peu, évoluer d'ici à cette date).
+
+Un *channel Slack spécifique* va être créé pour faciliter la communication entre les membres de l'initiative.
+
+L'objectif à terme étant de renforcer notre expérience sur Hadoop (et le Big Data), les membres de l'initiative ayant validé le parcours seront contactées en priorité sur les AO Big Data Hadoop reçus par le groupe.
+
+J'insiste également sur le fait que *ce parcours n'est qu'un début* :smile: 
+Une fois passée cette 1ere étape, le programme sera amené à se développer (certification ? ajout d'autres cours ? formations ? Aucune porte n'est fermée à ce jour.)
+
+Pour toute précision supplémentaire concernant cette initiative, *n'hésitez pas à contacter Thomas*.
+
+=== Initiative DataStax
+
+Alessandro nous a présenté l'initiative DataStax, qui s'organise actuellement autour de 3 étapes (les 2 dernières étant encore à définir précisément, probablement courant 2018) :
+
+* *étape 1* : passer la certification https://academy.datastax.com/certifications[Professional Certification on Apache Cassandra]. +
+Pré-requis, suivre les cours en ligne pendant 3 jours au siège après validation avec le manager et le client :
+	** *DS201: Foundations of Apache Cassandra* - 6h : https://academy.datastax.com/resources/ds201-foundations-apache-cassandra
+	** *DS220: Data Modeling* - 12h : https://academy.datastax.com/resources/ds220-data-modeling
++
+Avant de passer la certif, prévoir 2 jours supplémentaires au siège pour réviser le contenu (probablement avec Alessandro, modalités encore à définir sur ce point).
+* étape 2 : passer la certification *Professional Certification on DataStax Enterprise : Spark, Solr et Graph*
+* étape 3 : *Partner bootcamp* : 5 jours chez Datastax pour être certifié partenaire (cette étape est disponible uniquement pour les entreprises partenaires de l'éditeur, dont nous faisons partie.)
+
+Toutes ces certifications sont faites par DataStax, l'éditeur derrière Cassandra.
+
+Pour toute précision supplémentaire concernant cette initiative, *n'hésitez pas à contacter Alessandro*.
+
+=== Innovation Lab
+
+Soufiane a présenté http://innovation.softeam.fr/[l'Innovation Lab], centré autour du *Machine Learning*, NLP, etc. en se servant de la *Stack IBM* (principalement *Watson*). +
+Pour tous ceux que le domaine intéresse, de nombreuses docs (IBM et autres) sont disponibles via le lab.
+
+Une information en passant, notre filiale 2B Consulting nous permet d'être *partenaire IBM*. +
+IBM est également devenu partenaire Gold du Lab (d'autres partenaires existent).
+
+[NOTE]
+====
+TODO : détailler les spécificités des comptes *IBM Partner World* auxquels nous avons accès :
+
+* A qui les demander (Arnaud DEMARLE ?)
+* Comment fonctionnent-ils ? (ils peuvent apparemment être liés à notre mail Softeam)
+* Quels avantages procurent-ils ?
+====
+
+Pour toute précision supplémentaire sur le Lab, *n'hésitez pas à contacter Soufiane*.
+
+=== Recrutement des initiatives
+
+Se sont déclarés par les différentes initiatives les contributeurs suivants :
+
+* Pierre LEPLAY : Hadoop 2017
+* Darren BOUTROS : Hadoop 2017, puis DataStax 2018
+* Romain BEGHI : Hadoop et DataStax, tous deux sur 2017
+* Yacine TRIAA : Hadoop 2017
+* Passam KACEM : Hadoop 2017, puis DataStax 2018
+* Rithy NGUON : Hadoop 2017, puis DataStax 2018
+* Patrick YOUMBI : DataStax 2017, puis Hadoop 2018
+* Jérémie LOU : Hadoop 2017, puis Cassandra 2018. *Les 2 à confirmer*
+* Alessandro DE LUNA ALMEIDA : Hadoop 2017 (a déjà les étapes 1 et 3 du cursus DataStax, la 2 n'existait pas à l'époque :wink: )
+* Thomas SCHWENDER : Hadoop 2017, puis DataStax 2018
+
+
+@+, +
+Thomas
+
+
