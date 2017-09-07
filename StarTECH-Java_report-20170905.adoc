@@ -136,10 +136,9 @@ Se sont déclarés par les différentes initiatives les contributeurs suivants :
 * Darren BOUTROS : Hadoop 2017, puis DataStax 2018
 * Romain BEGHI : Hadoop et DataStax, tous deux sur 2017
 * Yacine TRIAA : Hadoop 2017
-* Passam KACEM : Hadoop 2017, puis DataStax 2018
+* Passam KASSEM : Hadoop 2017, puis DataStax 2018
 * Rithy NGUON : Hadoop 2017, puis DataStax 2018
 * Patrick YOUMBI : DataStax 2017, puis Hadoop 2018
-* Jérémie LOU : Hadoop 2017, puis Cassandra 2018. *Les 2 à confirmer*
 * Alessandro DE LUNA ALMEIDA : Hadoop 2017 (a déjà les étapes 1 et 3 du cursus DataStax, la 2 n'existait pas à l'époque :wink: )
 * Thomas SCHWENDER : Hadoop 2017, puis DataStax 2018
 
