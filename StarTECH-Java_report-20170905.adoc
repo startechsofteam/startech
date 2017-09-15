@@ -139,7 +139,7 @@ Se sont déclarés intéressés par les différentes initiatives les contributeu
 * Patrick YOUMBI : DataStax 2017, puis Hadoop 2018
 * Pierre LEPLAY : Hadoop 2017
 * Rithy NGUON : Hadoop 2017, puis DataStax 2018
-* Romain BEGHI : Hadoop et DataStax, tous deux sur 2017
+* Romain BEGHI : Hadoop 2017, puis DataStax 2018
 * Soufiane KHATTAB : Hadoop 2017
 * Thomas SCHWENDER : Hadoop 2017, puis DataStax 2018
 * Yacine TRIAA : Hadoop 2017
