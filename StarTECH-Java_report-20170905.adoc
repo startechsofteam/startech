@@ -132,18 +132,19 @@ Pour toute précision supplémentaire sur le Lab, *n'hésitez pas à contacter S
 
 Se sont déclarés intéressés par les différentes initiatives les contributeurs suivants :
 
-* Alessandro DE LUNA ALMEIDA : Hadoop 2017 (a déjà les étapes 1 et 3 du cursus DataStax, la 2 n'existait pas à l'époque :wink: )
-* Darren BOUTROS : Hadoop 2017, puis DataStax 2018
-* Jérémie LOU : Hadoop 2017, puis Cassandra 2018.
-* Passam KASSEM : Hadoop 2017, puis DataStax 2018
-* Patrick YOUMBI : DataStax 2017, puis Hadoop 2018
-* Pierre LEPLAY : Hadoop 2017
-* Rithy NGUON : Hadoop 2017, puis DataStax 2018
-* Romain BEGHI : Hadoop 2017, puis DataStax 2018
-* Soufiane KHATTAB : Hadoop 2017
-* Thomas SCHWENDER : Hadoop 2017, puis DataStax 2018
-* Yacine TRIAA : Hadoop 2017
-
+* *Adrien JOLY* (Rennes) : Hadoop et Datastax, tous deux sur 2017
+* *Alessandro DE LUNA ALMEIDA* (Paris) : Hadoop 2017 (a déjà les étapes 1 et 3 du cursus DataStax, la 2 n'existait pas à l'époque :wink: )
+* *Darren BOUTROS* (Paris) : Hadoop 2017, puis DataStax 2018
+* *Jérémie LOU* (Paris) : Hadoop 2017, puis Datastax 2018
+* *Passam KASSEM* (Paris) : Hadoop 2017, puis DataStax 2018
+* *Patrick YOUMBI* (Paris) : DataStax 2017, puis Hadoop 2018
+* *Pierre LEPLAY* (Paris) : Hadoop 2017
+* *Rithy NGUON* (Paris) : Hadoop 2017, puis DataStax 2018
+* *Romain BEGHI* (Paris) : Hadoop 2017, puis DataStax 2018
+* *Soufiane KHATTAB* (Paris) : Hadoop 2017
+* *Thomas SCHWENDER* (Paris) : Hadoop 2017, puis DataStax 2018
+* *Yacine TRIAA* (Paris) : Hadoop 2017
+* *Zineb ERRAHMOUNI* (Nantes) : Hadoop 2017
 
 @+, +
 Thomas
