@@ -142,6 +142,7 @@ Se sont déclarés intéressés par les différentes initiatives les contributeu
 * *Rithy NGUON* (Paris) : Hadoop 2017, puis DataStax 2018
 * *Romain BEGHI* (Paris) : Hadoop 2017, puis DataStax 2018
 * *Soufiane KHATTAB* (Paris) : Hadoop 2017
+* *Soufir TAKARIT* (Paris) : Hadoop 2017
 * *Thomas SCHWENDER* (Paris) : Hadoop 2017, puis DataStax 2018
 * *Yacine TRIAA* (Paris) : Hadoop 2017
 * *Zineb ERRAHMOUNI* (Nantes) : Hadoop 2017
