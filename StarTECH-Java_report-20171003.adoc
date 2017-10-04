@@ -1,0 +1,131 @@
+= [StarTech] Compte rendu de la réunion du StarTech Java du 2017/09/05
+Thomas SCHWENDER <https://github.com/ardemius[@ardemius]>
+:icons: font
+:imagesdir: images
+:source-highlighter: highlightjs
+// Next 2 ones are to handle line breaks in some particular elements (list, footnotes, etc.)
+:lb: pass:[<br> +]
+:sb: pass:[<br>]
+// check https://github.com/Ardemius/personal-wiki/wiki/AsciiDoctor-tips for tips on table of content in GitHub
+:toc: macro
+:sectnums:
+
+toc::[]
+
+== Overview
+
+Etaient inscrits :
+
+* *Alessandro DE LUNA ALMEIDA* :
+* *Darren BOUTROS* :
+* *Guillaume LEMONT* :
+* *jeremie lou* :
+* *Yacine TRIAA* :
+* *Passam KASSEM* :
+* *Patrick YOUMBI* :
+* *Rithy NGUON* :
+* *Romain BEGHI* :
+* *Soufiane KHATTAB* :
+* *Thomas SCHWENDER* :
+
+== Logistique
+
+Vos rappels préférés :
+
+* [red]*Trombinoscope* : envoyez une photo (où l’on vous reconnaît) et votre description, et je vous ajoute dans la foulée emoji:wink[2x]
+* Afin de permettre au groupe d'être davantage connu des autres softeamiens, merci à *tous les contributeurs* de se créer une *signature* sur le modèle de la mienne (vous pouvez la prendre en copier / coller du présent mail)
+* Plutôt que d'utiliser la mailing list, les contributeurs sont encouragés à utiliser le *channel Slack* : https://startechs.slack.com/ +
+Essayez d'y jeter un coup d'oeil quotidien, en sirotant votre café du matin par exemple emoji:wink[2x] +
+J'en profite pour vous rappeler que les channels du Slack ne sont [red]*pas forcément tous affichés dans le menu gauche de l'interface* ! +
+Pour tous les voir, il est nécessaire de cliquer sur `CHANNELS(x)` en tête de ce menu :
++
+image::20170307_all-channels-in-slack.png[title="Si tu veux voir tous les channels, clique ici !"] 
++
+* *Les comptes-rendus de réunions* sont maintenant disponibles dans https://github.com/softeamfr/startech-meetings-reports[notre repo GitHub]. +
+Ainsi, si vous avez des remarques, ou souhaitez apporter des modifications, vous pouvez : 
+** soit utiliser https://github.com/softeamfr/startech-meetings-reports/issues[le bug tracker]
+** soit soumettre une *pull request*.
+* *La présence aux réunions mensuelles est maintenant récompensée de 40 Starpoints*, n'hésitez donc pas à venir emoji:smile[2x]
+* Afin de faciliter la gestion de nos projets / présentations sur *GitHub*, une https://github.com/orgs/softeamfr/teams/startech-java[*équipe StarTECH*] est en cours de création sur cet outil. +
+Merci à tous les contributeurs de [red]*me donner leur compte GitHub*, afin que je puisse les y ajouter emoji:smile[2x]
+
+== Tech
+
+* *JEE passe à la fondation Eclipse* : https://www.infoq.com/fr/news/2017/09/jee-gouvernance-fondationeclipse +
+L'annonce était attendue depuis quelques temps maintenant, et la confirmation vient de tomber. +
+Elle est à rapprocher de la lenteur des évolutions de la spécification, en effet, quand on regarde *le contenu du tout récent JEE 8* (https://jcp.org/en/jsr/detail?id=366[JSR 366]), on se rend qu'il est bien vide par rapport aux précédentes versions. C'est finalement presque un "non-évènement". +
+A ce sujet, je vous invite à écouter *l'intervention d'Antonio (GONCALVES)* dans https://lescastcodeurs.com/2017/09/04/lcc-176-le-paradoxe-de-la-fondation/[l'épisode 176 des Cast Codeurs]. Pour rappel, Antonio est membre de https://www.jcp.org/en/jsr/detail?id=366[*l'Expert Group JEE*], il est donc parfaitement au courant du sujet. +
+Même si de grands groupes au JCP voient la chose positivement, et ont annoncé leur soutien à l'implémentation de la spécification (ce qui est également le cas d'Oracle), nous sommes en droit de *nous poser des questions sur la vitesse d'évolution de la plateforme à l'avenir*. +
+Ce passage à la fondation Eclipse va-t-il enfin lui redonner le "coup de boost" que beaucoup attendent, où l'absence d'équipe de développement dédiée va-t-il l'enterrer ? +
+Si nous prenons *l'exemple de Maven (fondation Apache) et Gradle (Gradle Inc)*,  même si la situation n'est pas complètement comparable, la vitesse de développement de Gradle, avec son équipe de dev à temps plein, est bien supérieure à celle de Maven (voir les épisodes https://lescastcodeurs.com/2017/08/01/lcc-174-interview-sur-la-build-avec-cedric-champeau-et-arnaud-heritier-partie-1/[174] et https://lescastcodeurs.com/2017/08/11/lcc-175-interview-sur-la-build-avec-cedric-champeau-et-arnaud-heritier-partie-2/[175] des Cast Codeurs avec Arnaund Héritier (Maven) et Cédric Champeau (Gradle Inc) )
+{lb}
+* Nous recensons dès maintenant maintenant les intéressés pour aller à *Devoxx France 2018* (18 - 20 avril 2018) avec nos places sponsors ! +
+Par ordre de rapidité à répondre, voici les contributeurs intéressés :
+{lb}
+	. Darren BOUTROS
+	. Passam KASSEM
+	. Yacine
+	. Soufiane
+	. Alessandro DE LUNA ALMEIDA
+	. Romain BEGHI
+	. Pierre LEPLAY
+{lb}
+De mon côté, je compte utiliser mes *Starpoints* pour y aller. +
+Si d'autres souhaitent également utiliser ce système (qui finance la place *ET* donne les jours de congés associés), qu'ils me contactent ! :wink: +
+Autre information en passant, pour les intéressés, le CFP ouvrira probablement en novembre, pour une fermeture fin janvier. +
+Si vous souhaitez présenter un sujet, un conseil, commencez à y réfléchir dès maintenant (mais peut-être avez-vous déjà commencé ? :grin: )
+
+NOTE: Petite info sympa :wink: +
+Pour créer les images "coup de poing" de vos slides, jetez donc un oeil à http://wigflip.com/roflbot/[roflbot] +
+Rapidité d'utilisation foudroyante garantie !
+
+=== Point sur les initiatives Big Data
+
+* *Initiative Hadoop lancée !* +
+	** Tous les membres ont reçu leur accès à Pluralsight.
+	** Rithy a donné un tip pour lié le compte enterprise avec un compte existant.
++
+NOTE: Rithy, peux-tu (re)décrire la procédure dans ce CR via un pull request ?
++
+	** Presque tous les membres sont inscrits sur le channel Slack de l'initiative : https://startechs.slack.com/, "cellule-hadoop" +
+	Ne manque que Jimmy (VASSELIN) et Yannick (GODARD)
+
+* *Initiative Datastax*
+	** étape 1 : 6h et 12h pour les 2 cours en ligne à suivre pour l'initiative Datastax (sur Datastax Academy, gratuit, format MOOC que l'on suit comme on le sent)
+	** étape 2 : coaching avec Alessandro (dates à définir, probablement à partir de mi/fin novembre), pour réviser le contenu et faire des examens blancs. +
+	En fait, nous sommes en attente du passage de la certification par 2 autres softeamiens, qui pourront dès lors nous faire un retour sur l'examen :wink:
+	** étape 3 : passage de l'examen officiel sur 1/2 journée
+	** à partir de 2018 : on enchaîne sur les certifications suivantes : Spark, Solr, etc.
+
+=== Architectures microservices
+
+Un bon débat sur un sujet qui fait bien le buzz depuis quelques temps maintenant !
+
+Comme support de ce dernier, nous avons projeté une partie des slides de la formation "Microservices architecture" de *Rag Dhiman* (voir plus bas).
+
+Il serait difficile de résumer tout notre débat ici, mais pour en donner une idée :
+
+* nous avons reparlé des raisons du passage d'une architecture monolithique à une architecture microservices
+* insisté sur l'importance de bien définir les business domains associés aux microservices (notion de *bounded context*)  
+* sur l'obligation d'une solution de monitoring performante de vos *nombreux* microservices (à la place d'une application à monitorer, vous en avez maintenant "n"...)
+* de manière générale, discuté des grands principes de design d'une architecture microservices, à savoir :
+	** *High cohesion*
+	** *Autonomous*
+	** *Business Domain Centric*
+	** *Resilience*
+	** *Observable*
+	** *Automation*
+
+[quote, Une très bonne remarque de Patrick !]
+____
+Une archi SOA n'est pas forcément microservices, mais une appli microservices est forcément SOA.
+____
+
+Comme (presque) tous les contributeurs font également partie de l'initiative Hadoop, (presque) tout le monde a maintenant un compte Pluralsight, et peut donc suivre l'excellente formation "Microservices architecture" de *Rag Dhiman*.
+
+NOTE: Pour la gestion du *Toggle feature* (activation / désactivation de fonctionnalité), terme très à la mode en ce moment (surtout à la SGCIB, Patrick et moi y sommes), http://ff4j.org/[*FF4j*] est une solution plébiscitée.
+
+@+, +
+Thomas
+
+
