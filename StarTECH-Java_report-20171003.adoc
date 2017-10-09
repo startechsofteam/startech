@@ -83,10 +83,15 @@ Rapidité d'utilisation foudroyante garantie !
 
 * *Initiative Hadoop lancée !* +
 	** Tous les membres ont reçu leur accès à Pluralsight.
-	** Rithy a donné un tip pour lié le compte enterprise avec un compte existant.
-+
-NOTE: Rithy, peux-tu (re)décrire la procédure dans ce CR via un pull request ?
-+
+	** Rithy a donné un tip pour lier le compte enterprise avec un compte existant.
+	.. Utiliser le lien Pluralsight reçu par mail
+	.. Renseigner l'adresse mail et les infos du compte existant
+	.. Utiliser la notification d'erreur Pluralsight pour se connecter au compte existant
+	.. Et voilà ! 
+	*** Le compte existant va être bindé sur la nouvelle licence
+	*** L'historique Pluralsight est conservé
+	*** Le lien CodeSchool apparaîtra dans le menu Pluralsight
+	
 	** Presque tous les membres sont inscrits sur le channel Slack de l'initiative : https://startechs.slack.com/, "cellule-hadoop" +
 	Ne manque que Jimmy (VASSELIN) et Yannick (GODARD)
 
