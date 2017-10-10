@@ -1,4 +1,4 @@
-= [StarTech] Compte rendu de la réunion du StarTech Java du 2017/09/05
+= [StarTech] Compte rendu de la réunion du StarTech Java du 2017/10/03
 Thomas SCHWENDER <https://github.com/ardemius[@ardemius]>
 :icons: font
 :imagesdir: images
@@ -19,7 +19,7 @@ Etaient inscrits :
 * *Alessandro DE LUNA ALMEIDA* : présent
 * *Darren BOUTROS* : présent
 * *Guillaume LEMONT* : présent
-* *jeremie lou* : présent
+* *Jérémie LOU* : présent
 * *Yacine TRIAA* : présent
 * *Passam KASSEM* : présent
 * *Patrick YOUMBI* : présent
