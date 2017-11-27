@@ -1,0 +1,72 @@
+= [StarTech] Compte rendu de la réunion du StarTech Java du 2017/11/07
+Thomas SCHWENDER <https://github.com/ardemius[@ardemius]>
+:icons: font
+:imagesdir: images
+:source-highlighter: highlightjs
+// Next 2 ones are to handle line breaks in some particular elements (list, footnotes, etc.)
+:lb: pass:[<br> +]
+:sb: pass:[<br>]
+// check https://github.com/Ardemius/personal-wiki/wiki/AsciiDoctor-tips for tips on table of content in GitHub
+:toc: macro
+:sectnums:
+
+toc::[]
+
+== Overview
+
+Etaient inscrits :
+
+* *Ahmed DAMMAK* : présent
+* *Darren BOUTROS* : présent
+* *Ferdhos MOHAMED* : absent
+* *Guillaume LEMONT* : présent
+* *Jeremie LOU* : présent
+* *Nafia AMAZIANE* : présent
+* *Passam KASSEM* : présent
+* *Patrick YOUMBI* : présent
+* *Pierre LEPLAY* : présent
+* *Rithy NGUON* : présent
+* *Romain BEGHI* : présent
+* *Said ELMERZOUQI* : absent
+* *Soufiane KHATTAB* : présent
+* *Thomas SCHWENDER* : présent
+* *Yacine TRIAA* : présent
+
+== Logistique
+
+Vos rappels préférés :
+
+* [red]*Trombinoscope* : envoyez une photo (où l’on vous reconnaît) et votre description, et je vous ajoute dans la foulée emoji:wink[2x]
+* Afin de permettre au groupe d'être davantage connu des autres softeamiens, merci à *tous les contributeurs* de se créer une *signature* sur le modèle de la mienne (vous pouvez la prendre en copier / coller du présent mail)
+* Plutôt que d'utiliser la mailing list, les contributeurs sont encouragés à utiliser le *channel Slack* : https://startechs.slack.com/ +
+Essayez d'y jeter un coup d'oeil quotidien, en sirotant votre café du matin par exemple emoji:wink[2x] +
+J'en profite pour vous rappeler que les channels du Slack ne sont [red]*pas forcément tous affichés dans le menu gauche de l'interface* ! +
+Pour tous les voir, il est nécessaire de cliquer sur `CHANNELS(x)` en tête de ce menu :
++
+image::20170307_all-channels-in-slack.png[title="Si tu veux voir tous les channels, clique ici !"] 
++
+* *Les comptes-rendus de réunions* sont maintenant disponibles dans https://github.com/softeamfr/startech-meetings-reports[notre repo GitHub]. +
+Ainsi, si vous avez des remarques, ou souhaitez apporter des modifications, vous pouvez : 
+** soit utiliser https://github.com/softeamfr/startech-meetings-reports/issues[le bug tracker]
+** soit soumettre une *pull request*.
+* *La présence aux réunions mensuelles est maintenant récompensée de 40 Starpoints*, n'hésitez donc pas à venir emoji:smile[2x]
+* Afin de faciliter la gestion de nos projets / présentations sur *GitHub*, une https://github.com/orgs/softeamfr/teams/startech-java[*équipe StarTECH*] est en cours de création sur cet outil. +
+Merci à tous les contributeurs de [red]*me donner leur compte GitHub*, afin que je puisse les y ajouter emoji:smile[2x]
+
+== Tech
+
+Du fait d'un manque de disponibilité de nos salles de réunion, nous avons fait déplacer notre réunion au Poète, autour d'une bonne petite bière :
+
+image::20171107_startech-at-bar.jpg[]
+
+Alors, bien sûr, cela donne lieu à des échanges un peu moins "structurés", mais toujours très intéressants :wink:
+
+Parmi ces derniers, on peut citer une grande conversation autour des *infrastructures Docker dans le cadre des architectures microservices*. +
+Il fut donc question de la version Enterprise de *Docker Swarm*, à savoir *UCP* (Universal Control Plane), et de son composant *HRM* (Http Routing Mesh) chargé de savoir où sont situés les différents containers. +
+Nous avons pu voir qu'avec un petit peu de manipulation et de scripting du côté de l'usine logicielle (Jenkins), il était possible d'éviter ce dernier, et de *le remplacer* par le couple *Consul* (Service Registry) / *Fabio* (Load Balancer). +
+Pour rappel, le HRM n'est pas exempt de certaines critiques, comme l'obligation de le redémarrer suite à l'ajout d'un nouveau container (et donc d'un nouveau microservices, si l'on suit le pattern 1 container pour 1 microservice).
+
+@+, +
+Thomas
+
+
