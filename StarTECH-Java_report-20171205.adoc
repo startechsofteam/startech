@@ -1,0 +1,94 @@
+= [StarTech] Compte rendu de la réunion du StarTech Java du 2017/12/05
+Thomas SCHWENDER <https://github.com/ardemius[@ardemius]>
+// Handling GitHub admonition blocks icons
+ifndef::env-github[:icons: font]
+ifdef::env-github[]
+:status:
+:outfilesuffix: .adoc
+:caution-caption: :fire:
+:important-caption: :exclamation:
+:note-caption: :paperclip:
+:tip-caption: :bulb:
+:warning-caption: :warning:
+endif::[]
+:imagesdir: images
+:source-highlighter: highlightjs
+// Next 2 ones are to handle line breaks in some particular elements (list, footnotes, etc.)
+:lb: pass:[<br> +]
+:sb: pass:[<br>]
+// check https://github.com/Ardemius/personal-wiki/wiki/AsciiDoctor-tips for tips on table of content in GitHub
+:toc: macro
+//:toclevels: 3
+
+toc::[]
+
+== Overview
+
+Etaient inscrits :
+
+* *Adem BAAZOUZI* : présent
+* *Ahmed DAMMAK* : absent, avait prévenu
+* *Ali HAJJI* : présent
+* *Anouar HAMED* : présent
+* *Benjamin BOURGEOIS* : présent
+* *Darren BOUTROS* : absent
+* *Guillaume LEMONT* : présent
+* *Joseph VERRON* : présent
+* *Jérémie LOU* : présent
+* *Nafia AMAZIANE* : absent
+* *Passam KASSEM* : présent
+* *Pierre LEPLAY* : présent
+* *Rithy NGUON* : présent
+* *Romain BEGHI* : présent
+* *Soufiane KHATTAB* : présent
+* *Thomas SCHWENDER* : présent
+* *Yacine TRIAA* : présent
+* *Yassine MAHMOUDI* : présent
+
+== Logistique
+
+Vos rappels préférés :
+
+* [red]*Trombinoscope* : envoyez une photo (où l’on vous reconnaît) et votre description, et je vous ajoute dans la foulée emoji:wink[2x]
+* Afin de permettre au groupe d'être davantage connu des autres softeamiens, merci à *tous les contributeurs* de se créer une *signature* sur le modèle de la mienne (vous pouvez la prendre en copier / coller du présent mail)
+* Plutôt que d'utiliser la mailing list, les contributeurs sont encouragés à utiliser le *channel Slack* : https://startechs.slack.com/ +
+Essayez d'y jeter un coup d'oeil quotidien, en sirotant votre café du matin par exemple emoji:wink[2x] +
+J'en profite pour vous rappeler que les channels du Slack ne sont [red]*pas forcément tous affichés dans le menu gauche de l'interface* ! +
+Pour tous les voir, il est nécessaire de cliquer sur `CHANNELS(x)` en tête de ce menu :
++
+image::20170307_all-channels-in-slack.png[title="Si tu veux voir tous les channels, clique ici !"] 
++
+* *Les comptes-rendus de réunions* sont maintenant disponibles dans https://github.com/softeamfr/startech-meetings-reports[notre repo GitHub]. +
+Ainsi, si vous avez des remarques, ou souhaitez apporter des modifications, vous pouvez : 
+** soit utiliser https://github.com/softeamfr/startech-meetings-reports/issues[le bug tracker]
+** soit soumettre une *pull request*.
+* *La présence aux réunions mensuelles est maintenant récompensée de 40 Starpoints*, n'hésitez donc pas à venir emoji:smile[2x]
+* Afin de faciliter la gestion de nos projets / présentations sur *GitHub*, une https://github.com/orgs/softeamfr/teams/startech-java[*équipe StarTECH*] est en cours de création sur cet outil. +
+Merci à tous les contributeurs de [red]*me donner leur compte GitHub*, afin que je puisse les y ajouter emoji:smile[2x]
+
+[NOTE]
+====
+Du fait d'un nouveau manque de disponibilité de nos salles de réunion, nous sommes de nouveau aller discuter autour d'une petite bière au Poète...
+
+Par contre, je peux déjà vous annoncer une bonne nouvelle à ce sujet : *j'ai déjà réservé Bora Bora pour les réunions de janvier, février et mars prochain* :smile: +
+De plus, j'ai commencé à négocier pour que la salle ne puisse pas nous être retiré (en cas de formation prioritaire), *sauf à nous prévenir au moins 1 semaine à l'avance* :wink:
+====
+
+== Tech
+
+Autour de nos bières et bruschettas, nous avons discuté :
+
+* Des *contraintes de sécurité* devant être mises en place lors du stockage et de l'accès aux données d'un Datalake ! +
+Nous en avons profité pour aborder la prochaine GDPR (General Data Protection Regulation), normalement effective le 25 mai prochain (mais soyons clairs : personne ne sera prêt...). +
+Pour plus d'informations à ce sujet, jetez un oeil à mon https://github.com/Ardemius/xebicon-2017-notes/blob/master/GDPR-big-data.adoc[CR de la conférence associée] lors de la dernière XebiCon'17. +
+Ces sujets sont partis pour nous occuper de nombreux mois (années ?), et ne disposent pas encore tous de solutions bien établies.
+
+* Nous avons également abordé l’essor de Docker, et plus particulièrement de Kubernetes côté orchestration. +
+Docker est devenu mâtuure, place à son industrialisation. +
+De ce côté, Kubernetes semble avoir pris une bonne longueur d'avance sur tous ses concurrents, et tout particulièremnet Docker Swarn / UCP (Universal Control Plane). +
+Pour plus d'information, je vous conseille d'écouter https://lescastcodeurs.com/2017/11/02/lcc-180-encore-une-petite-news/[l'épisode 180 des Cast Codeurs] :wink:
+
+@+, +
+Thomas
+
+
