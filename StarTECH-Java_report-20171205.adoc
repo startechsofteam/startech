@@ -78,12 +78,12 @@ De plus, j'ai commencé à négocier pour que la salle ne puisse pas nous être 
 
 Autour de nos bières et bruschettas, nous avons discuté :
 
-* Des *contraintes de sécurité* devant être mises en place lors du stockage et de l'accès aux données d'un Datalake ! +
+* Des *contraintes de sécurité* devant être mises en place lors du *stockage et de l'accès aux données d'un Datalake* ! +
 Nous en avons profité pour aborder la prochaine GDPR (General Data Protection Regulation), normalement effective le 25 mai prochain (mais soyons clairs : personne ne sera prêt...). +
 Pour plus d'informations à ce sujet, jetez un oeil à mon https://github.com/Ardemius/xebicon-2017-notes/blob/master/GDPR-big-data.adoc[CR de la conférence associée] lors de la dernière XebiCon'17. +
 Ces sujets sont partis pour nous occuper de nombreux mois (années ?), et ne disposent pas encore tous de solutions bien établies.
 
-* Nous avons également abordé l’essor de Docker, et plus particulièrement de Kubernetes côté orchestration. +
+* Nous avons également abordé *l’essor de Docker*, et plus particulièrement de *Kubernetes* côté orchestration. +
 Docker est devenu mâtuure, place à son industrialisation. +
 De ce côté, Kubernetes semble avoir pris une bonne longueur d'avance sur tous ses concurrents, et tout particulièremnet Docker Swarn / UCP (Universal Control Plane). +
 Pour plus d'information, je vous conseille d'écouter https://lescastcodeurs.com/2017/11/02/lcc-180-encore-une-petite-news/[l'épisode 180 des Cast Codeurs] :wink:
