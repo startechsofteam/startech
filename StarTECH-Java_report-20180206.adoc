@@ -1,0 +1,71 @@
+= [StarTech] Compte rendu de la réunion du StarTech Java du 2018/02/06
+Soufiane KHATTAB <https://github.com/kayosoufiane[@kayosoufiane]>
+// Handling GitHub admonition blocks icons
+ifndef::env-github[:icons: font]
+ifdef::env-github[]
+:status:
+:outfilesuffix: .adoc
+:caution-caption: :fire:
+:important-caption: :exclamation:
+:note-caption: :paperclip:
+:tip-caption: :bulb:
+:warning-caption: :warning:
+endif::[]
+:imagesdir: images
+:source-highlighter: highlightjs
+// Next 2 ones are to handle line breaks in some particular elements (list, footnotes, etc.)
+:lb: pass:[<br> +]
+:sb: pass:[<br>]
+:toc: macro
+//:toclevels: 3
+
+toc::[]
+
+== Overview
+
+Etaient inscrits :
+
+* *Oualaa HANI* : 
+* *Ahmed DAMMAK* : présent
+* *Hamza JERIDI* : 
+* *Passam KASSEM* : présent
+* *Pierre LEPLAY* : présent
+* *Hamidou BALDE* : 
+* *Soufiane KHATTAB* : présent
+* *jeremie LOU* : présent
+* *Clarence CHARLES* : 
+* *Yacine TRIAA* : présent
+
+== Logistique
+
+.Rappels
+[NOTE]
+====
+* [red]*Trombinoscope* : envoyez une photo (où l’on vous reconnaît) et votre description, et je vous ajoute dans la foulée :wink:
+* Afin de permettre au groupe d'être davantage connu des autres softeamiens, merci à *tous les contributeurs* de se créer une *signature* sur le modèle de la mienne (vous pouvez la prendre en copier / coller du présent mail)
+* Plutôt que d'utiliser la mailing list, les contributeurs sont encouragés à utiliser le *channel Slack* : https://startechs.slack.com/ +
+Essayez d'y jeter un coup d'oeil quotidien, en sirotant votre café du matin par exemple :wink: +
+J'en profite pour vous rappeler que les channels du Slack ne sont [red]*pas forcément tous affichés dans le menu gauche de l'interface* ! +
+Pour tous les voir, il est nécessaire de cliquer sur `CHANNELS(x)` en tête de ce menu :
++
+image::20170307_all-channels-in-slack.png[title="Si tu veux voir tous les channels, clique ici !"] 
++
+* *Les comptes-rendus de réunions* sont maintenant disponibles dans https://github.com/softeamfr/startech-meetings-reports[notre repo GitHub]. +
+Ainsi, si vous avez des remarques, ou souhaitez apporter des modifications, vous pouvez : 
+** soit utiliser https://github.com/softeamfr/startech-meetings-reports/issues[le bug tracker]
+** soit soumettre une *pull request*.
+* *La présence aux réunions mensuelles est maintenant récompensée de 40 Starpoints*, n'hésitez donc pas à venir :smile:
+* Afin de faciliter la gestion de nos projets / présentations sur *GitHub*, une https://github.com/orgs/softeamfr/teams/startech-java[*équipe StarTECH*] est en cours de création sur cet outil. +
+Merci à tous les contributeurs de [red]*me donner leur compte GitHub*, afin que je puisse les y ajouter :smile:
+====
+
+Bravo aux courageux, qui ont pu venir, même s'il y avait la neige et les problemes de transport. :clap:
+
+== Tech
+
+Retour d'experience sur les formations Big Data, les cours les plus pertinents, les difficultés sur les envirenements et des pizzas :wink:
+
+@+, +
+Soufiane
+
+
