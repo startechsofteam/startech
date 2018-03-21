@@ -81,6 +81,16 @@ Durant cette session, nous avons donné des news sur nos *initiatives Big Data* 
 2 certifications sont visées : *MapR Certified Hadoop Developer* (MCHD) et *MapR Certified Spark Developer* (MCSD) +
 Un 1er pilote est mené sur 3 personnes (Jérémie, Passam et Thomas) pour valider le dispositif.
 
+Softeam comptant se positionner fortement sur le domaine, ces initiatives vont continuer de se structurer, et des managers ont été nommés pour les encadrer côté direction. +
+Chacune sera donc suivie par un leader technique et un manager :
+
+* *initiative Hadoop*
+	** leader technique : Thomas SCHWENDER
+	** manager Yannick : GODARD
+* *initiative DataStax*
+	** leader technique : Alessandro DE LUNA ALMEIDA
+	** manager : Fatiha BAHRAOUI
+
 === Outillage de la communauté
 
 Nous avons également beaucoup parlé de *l'outillage de la communauté*. +
