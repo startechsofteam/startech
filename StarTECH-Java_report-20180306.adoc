@@ -1,0 +1,127 @@
+= [StarTech] Compte rendu de la réunion du StarTech Java du 2018/03/06
+Thomas SCHWENDER <https://github.com/ardemius[@ardemius]>
+// Handling GitHub admonition blocks icons
+ifndef::env-github[:icons: font]
+ifdef::env-github[]
+:status:
+:outfilesuffix: .adoc
+:caution-caption: :fire:
+:important-caption: :exclamation:
+:note-caption: :paperclip:
+:tip-caption: :bulb:
+:warning-caption: :warning:
+endif::[]
+:imagesdir: images
+:source-highlighter: highlightjs
+// Next 2 ones are to handle line breaks in some particular elements (list, footnotes, etc.)
+:lb: pass:[<br> +]
+:sb: pass:[<br>]
+// check https://github.com/Ardemius/personal-wiki/wiki/AsciiDoctor-tips for tips on table of content in GitHub
+:toc: macro
+//:toclevels: 3
+
+toc::[]
+
+== Overview
+
+Etaient inscrits :
+
+* *Ahmed DAMMAK*
+* *Alain FOUOTSAPFOUKMENIOK*
+* *Alessandro DE LUNA ALMEIDA*
+* *Anouar HAMED*
+* *Christophe SCHREIBER*
+* *Clarence CHARLES*
+* *Darren BOUTROS*
+* *Guillaume LEMONT*
+* *Jérémie LOU*
+* *Majdi BENFREDJ*
+* *Marwa JALLOULI*
+* *Omar AISSA*
+* *Passam KASSEM*
+* *Patrick YOUMBI*
+* *Pierre LEPLAY*
+* *Rithy NGUON*
+* *Soufiane KHATTAB*
+* *Thomas SCHWENDER*
+* *Yacine TRIAA*
+* *Yannick GODARD*
+
+== Logistique
+
+.Rappels
+[NOTE]
+====
+* [red]*Trombinoscope* : envoyez une photo (où l’on vous reconnaît) et votre description, et je vous ajoute dans la foulée :wink:
+* Afin de permettre au groupe d'être davantage connu des autres softeamiens, merci à *tous les contributeurs* de se créer une *signature* sur le modèle de la mienne (vous pouvez la prendre en copier / coller du présent mail)
+* Plutôt que d'utiliser la mailing list, les contributeurs sont encouragés à utiliser le *channel Slack* : https://startechs.slack.com/ +
+Essayez d'y jeter un coup d'oeil quotidien, en sirotant votre café du matin par exemple :wink: +
+J'en profite pour vous rappeler que les channels du Slack ne sont [red]*pas forcément tous affichés dans le menu gauche de l'interface* ! +
+Pour tous les voir, il est nécessaire de cliquer sur `CHANNELS(x)` en tête de ce menu :
++
+image::20170307_all-channels-in-slack.png[title="Si tu veux voir tous les channels, clique ici !"] 
++
+* *Les comptes-rendus de réunions* sont maintenant disponibles dans https://github.com/softeamfr/startech-meetings-reports[notre repo GitHub]. +
+Ainsi, si vous avez des remarques, ou souhaitez apporter des modifications, vous pouvez : 
+** soit utiliser https://github.com/softeamfr/startech-meetings-reports/issues[le bug tracker]
+** soit soumettre une *pull request*.
+* *La présence aux réunions mensuelles est maintenant récompensée de 40 Starpoints*, n'hésitez donc pas à venir :smile:
+* Afin de faciliter la gestion de nos projets / présentations sur *GitHub*, une https://github.com/orgs/softeamfr/teams/startech-java[*équipe StarTECH*] est en cours de création sur cet outil. +
+Merci à tous les contributeurs de [red]*me donner leur compte GitHub*, afin que je puisse les y ajouter :smile:
+====
+
+== Tech
+
+=== Etat des lieux des initiatives Big Data
+
+Durant cette session, nous avons donné des news sur nos *initiatives Big Data* :
+
+* les 1eres certifications Datastax devraient être passées fin avril / début mai
+* la 2e phase de l'initiave Hadoop a débuté : après le path de formation sur Pluralsight, nous allons maintenant nous certifier sur la plateforme MapR. +
+2 certifications sont visées : *MapR Certified Hadoop Developer* (MCHD) et *MapR Certified Spark Developer* (MCSD) +
+Un 1er pilote est mené sur 3 personnes (Jérémie, Passam et Thomas) pour valider le dispositif.
+
+=== Outillage de la communauté
+
+Nous avons également beaucoup parlé de *l'outillage de la communauté*. +
+Slack est un très bon outil, mais dans sa version gratuite, nous sommes limités à 10 000 messages d'historique, ce qui ne nous permet pas de nous en servir comme d'une base de connaissance. +
+
+Nous rencontrons également des *problèmes avec NextCloud*, dont nos roots nous remontent que l'administration est compliquée (surtout la gestion des droits utilisateurs semblerait-il). +
+Il y a actuellement beaucoup de redondances et de duplications dans les arborescences de répertoires / paths proposés, et le coup de ménage n'est pas facile à donner (du fait de problèmes de droits, ce qui nous ramène au problème précédent).
+Pour essayer de proposer une solution, comme nous avons tous des comptes Office 365, Michael et moi avons testé pendant une semaine les outils Teams / Sharepoint / OneDrivre.
+Les intérêts ayant motivé le test étaient :
+
+* *Teams* : pas de limite du nombre de messages (nous avons les licences) -> *base de connaissance*
+* *Sharepoint* : permettrait de refondre facilement l'Intrante du StarTECH Java, lui donner un coup de jeune, et éviter l'actuelle gestion documentaire
+* *OneDrive* : en remplacement de NextCloud. Nous permettrait de récupérer les accès root sur l'outil.
+* Dans l'absolu, tous les outils seraient regroupés au même endroit, avec le Webmail
+
+Malheureusement, nous avons été confrontés aux problèmes suivants :
+
+* ergonomie de Teams très perfectible, on voit que l'outil est jeune, et pour le moment bien moins abouti que Slack
+* LE problème qui met tout par terre : *nous n'avons pas tous les mêmes licences Office 365 !* +
+Michael et moi avons des licences E1 nous donnant accès à la suite complète, mais par défaut, c'est une licence dite "kiosk" qui est fournie. +
+Or cette dernière ne donne accès qu'au Webmail, en tout et pour tout :cry:
+
+-> Résultat des courses : *essai loupé, on en reste là avec Office 365 !*
+
+Le sujet n'est néanmoins pas enterré, et d'autres solutions sont dans les tuyaux :
+
+* la StarTECH Agile est en train de *tester https://www.yammer.com[Yammer]*, qui se trouve être accessible via nos licences "kiosk". +
+Nous avons découvert cela presque par chance, étant donné que l'outil n'est pas directement proposé dans le portail Office 365 (il faut y aller directement par l'URL : https://www.yammer.com/softeam.fr/) +
+Malheureusement, ici aussi plusieurs problèmes existent :
+	** mauvaise intégration entre les comptes Yammer et Office 365 (tu te déconnectes de l'un, tu restes connectés sur l'autre)
+	** les documents récupérés de OneDrive dans Yammer sont dupliqués / copiés : la modification de l'un n'entraîne pas la mise à jour de l'autre :disappointed:
+	** l'ergonomie est toujours trèèssss loin de celle de Slack : pas de formatage du texte, même basique (pas de gras, d'italique), pas d'emojis (sauf via l'app mobile et le clavier du portable !)
+
+* tester https://obie.ai/[Obi.AI] en intégration dans Slack, mais je me suis loupé, ce n'est ni un agrégateur de news, ni une solution de gestion documentaire
+
+[IMPORTANT]
+====
+A tous les contributeurs, si vous avez des idées, connaissez des outils libres de messagerie instantanée (non limitée en historique), gestion documentaire et agrégation de news, n'hésitez pas :wink:
+====
+
+@+, +
+Thomas
+
+

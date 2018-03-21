@@ -27,18 +27,18 @@ toc::[]
 Etaient inscrits :
 
 * *Ali HAJJI* : 
-* *Anas MAZIOUDI* : 
+* *Anas MAZIOUDI* : absent
 * *Aymen MAROUANI* : 
 * *Christian POPESCU* : présent
-* *Clarence CHARLES* : 
+* *Clarence CHARLES* : absent
 * *Darren BOUTROS* : présent
 * *Guillaume LEMONT* : présent
 * *Jérémie LOU* : présent
-* *Kamel CHATTI* : 
+* *Kamel CHATTI* : absent
 * *Michael BOS* : présent
 * *Nafia AMAZIANE* : présent
-* *Noumouke KOUYATE* : 
-* *Oualaa HANI* : 
+* *Noumouke KOUYATE* : présent
+* *Oualaa HANI* : présent
 * *Passam KASSEM* : présent
 * *Pierre LEPLAY* : présent
 * *Patrick YOUMBI* : présent
