@@ -1,0 +1,137 @@
+= [StarTech] Compte rendu de la réunion du StarTech Java du 2018/04/03
+Thomas SCHWENDER <https://github.com/ardemius[@ardemius]>
+// Handling GitHub admonition blocks icons
+ifndef::env-github[:icons: font]
+ifdef::env-github[]
+:status:
+:outfilesuffix: .adoc
+:caution-caption: :fire:
+:important-caption: :exclamation:
+:note-caption: :paperclip:
+:tip-caption: :bulb:
+:warning-caption: :warning:
+endif::[]
+:imagesdir: images
+:source-highlighter: highlightjs
+// Next 2 ones are to handle line breaks in some particular elements (list, footnotes, etc.)
+:lb: pass:[<br> +]
+:sb: pass:[<br>]
+// check https://github.com/Ardemius/personal-wiki/wiki/AsciiDoctor-tips for tips on table of content in GitHub
+:toc: macro
+//:toclevels: 3
+
+toc::[]
+
+== Overview
+
+Etaient inscrits :
+
+* *Alessandro DE LUNA ALMEIDA* : a prévenu, ne pourra pas venir
+* *Clarence CHARLES* : absent
+* *Darren BOUTROS* : présent
+* *Jérémie LOU* : présent
+* *Passam KASSEM* : présent
+* *Romain BEGHI* : présent
+* *Sofien MNASSRI* : absent
+* *Soufiane KHATTAB* : présent
+* *Thomas SCHWENDER* : présent
+* *Yacine TRIAA* : présent
+* *Yannick GODARD* : a prévenu, ne pourra pas venir
+* *Alexandre JANNETTA* : a prévenu, ne pourra pas venir
+
+== Logistique
+
+.Rappels
+[NOTE]
+====
+* [red]*Trombinoscope* : envoyez une photo (où l’on vous reconnaît) et votre description, et je vous ajoute dans la foulée :wink:
+* Afin de permettre au groupe d'être davantage connu des autres softeamiens, merci à *tous les contributeurs* de se créer une *signature* sur le modèle de la mienne (vous pouvez la prendre en copier / coller du présent mail)
+* Plutôt que d'utiliser la mailing list, les contributeurs sont encouragés à utiliser le *channel Slack* : https://startechs.slack.com/ +
+Essayez d'y jeter un coup d'oeil quotidien, en sirotant votre café du matin par exemple :wink: +
+J'en profite pour vous rappeler que les channels du Slack ne sont [red]*pas forcément tous affichés dans le menu gauche de l'interface* ! +
+Pour tous les voir, il est nécessaire de cliquer sur `CHANNELS(x)` en tête de ce menu :
++
+image::20170307_all-channels-in-slack.png[title="Si tu veux voir tous les channels, clique ici !"] 
++
+* *Les comptes-rendus de réunions* sont maintenant disponibles dans https://github.com/softeamfr/startech-meetings-reports[notre repo GitHub]. +
+Ainsi, si vous avez des remarques, ou souhaitez apporter des modifications, vous pouvez : 
+** soit utiliser https://github.com/softeamfr/startech-meetings-reports/issues[le bug tracker]
+** soit soumettre une *pull request*.
+* *La présence aux réunions mensuelles est maintenant récompensée de 40 Starpoints*, n'hésitez donc pas à venir :smile:
+* Afin de faciliter la gestion de nos projets / présentations sur *GitHub*, une https://github.com/orgs/softeamfr/teams/startech-java[*équipe StarTECH*] est en cours de création sur cet outil. +
+Merci à tous les contributeurs de [red]*me donner leur compte GitHub*, afin que je puisse les y ajouter :smile:
+====
+
+A toute personne assistant pour la 1ere fois à une réunion StarTECH, merci de me confirmer par mail, ou de vive voix, votre envie d'intégrer le groupe en fin de réunion :smile:
+
+== Outillage
+
+.Rappel
+[IMPORTANT]
+====
+A tous les contributeurs, si vous avez des idées, connaissez des outils libres de messagerie instantanée (non limitée en historique), gestion documentaire et agrégation de news, n'hésitez pas :wink:
+====
+
+Après quelques tests de Yammer, je ne suis pas entièrement convaincu du résultat :
+
+* l'historique est illimité par rapport à Slack, c'est le gros bon point
+* l'ergonomie n'est pas du tout au niveau de Slack
+* il manque la notion de channel
+
+[IMPORTANT]
+====
+*Nous arrêtons de nous servir du blog interne*.
+
+Appel à proposition : pour le mois prochain, j'attends vos propositions d'outils de blogging. :wink:
+====
+
+*Test en live de OneDrive* pour en vérifier l'accès par tous les contributeurs présents : +
+-> résultat : non, par défaut, avec les licences "kiosk", *OneDrive n'est pas accessible*.
+
+== Tech
+
+* *Devoxx France 2018*: Pensez à créer votre planning sur le site du http://cfp.devoxx.fr/2018/index.html[CFP de Devoxx France] !
+
+=== Formation au métier d'architecte dans l'IT
+
+Andreas VIEUILLE est en train de monter une *formation d'architecture*. +
+L'objectif de cette formation est de présenter le métier d'architecte, en insistant les *soft skills* (les compétences NON techniques) essentielles à cette fonction.
+
+Alors que je ne comptais en parler que quelques minutes pour présenter l'initiative d'Andreas, le sujet a réellement intéressé le groupe, et a été notre principal sujet d'échange de la session :stuck_out_tongue_winking_eye:	
+
+Pour les personnes intéressées, vous pouvez jeter un oeil à cette excellente présentation Pluralsight de Chris Simmons sur le sujet : https://app.pluralsight.com/library/courses/developer-to-architect/table-of-contents[Developper to Architect]
+
+=== Open Data
+
+Comme ce sujet a finalement été peu abordé, il est remis au programme de la prochaine session, le *jeudi 03 mai* (et *PAS* le mardi 01 mai).
+
+Si vous voulez commencer à vous renseigner dès maintenant sur le sujet, voici quelques liens :
+
+* SNDS - Système National des Données de Santé, voir article https://www.lexpress.fr/actualite/sciences/la-course-aux-donnees-de-sante-est-lancee_1996695.html
+
+[quote, Wikipedia, 'https://fr.wikipedia.org/wiki/Open_data']
+Le projet pour le *séquençage du génome humain* a été permis par un *Open data Consortium* créé sur proposition de Jim Kent en 2003 et dont les bénéficiaires vont aussi être les pays en voie de développement où les universités et centres de recherche n’ont pas toujours accès aux périodiques scientifiques.
+
+* l'application mobile https://yuka.io/[Yuka], qui utilise https://fr.openfoodfacts.org/[l'Open Food Facts]
+
+* http://openstreetmap.fr/[Open Street Map France]
+
+* En 2014, la France, est classée 3e au classement mondial de l'Open Data Index +
+Le 9 décembre 2015, la France perd sept places et passe à la 10e position. +
+Début 2016, le Projet de loi pour une République numérique prévoit d'intégrer des dispositions en faveur de l'open data.
+
+* *EU Open Data Portal* : http://data.europa.eu/euodp/en/home
+* *Plateforme ouverte des données publiques françaises* : https://www.data.gouv.fr/fr/
+
+* https://www.aiforhumanity.fr/pdfs/9782111457089_Rapport_Villani_accessible.pdf[Rapport Villani] "Donner un sens à l'Intelligence Artificielle" 
++
+[quote, 'http://www.vie-publique.fr/focus/rapport-villani-intelligence-artificielle-creer-zones-franches-ia.html']
+____
+Le développement de l’IA passe par une politique de la donnée : création de "communs" de la donnée (ressources dont l’usage et la gouvernance sont définies par une communauté), *accélération du mouvement d’ouverture des données publiques (open data)*, définition de modalités d’accès aux données privées, protection du transfert de données hors de l’Union européenne, etc.
+____
+
+
+@+, +
+Thomas
+
+
