@@ -1,0 +1,95 @@
+= [StarTech] Compte rendu de la réunion du StarTech Java du 2018/06/05
+Thomas SCHWENDER <https://github.com/ardemius[@ardemius]>
+// Handling GitHub admonition blocks icons
+ifndef::env-github[:icons: font]
+ifdef::env-github[]
+:status:
+:outfilesuffix: .adoc
+:caution-caption: :fire:
+:important-caption: :exclamation:
+:note-caption: :paperclip:
+:tip-caption: :bulb:
+:warning-caption: :warning:
+endif::[]
+:imagesdir: images
+:source-highlighter: highlightjs
+// Next 2 ones are to handle line breaks in some particular elements (list, footnotes, etc.)
+:lb: pass:[<br> +]
+:sb: pass:[<br>]
+// check https://github.com/Ardemius/personal-wiki/wiki/AsciiDoctor-tips for tips on table of content in GitHub
+:toc: macro
+//:toclevels: 3
+
+toc::[]
+
+== Overview
+
+Etaient inscrits :
+
+* *Clarence CHARLES* : inscrit
+* *Darren BOUTROS* : inscrit
+* *Guillaume LEMONT* : inscrit
+* *jeremie lou* : inscrit
+* *Menghao LI* : inscrit
+* *Nafia AMAZIANE* : inscrit
+* *Oualaa HANI* : inscrit
+* *Passam KASSEM* : inscrit
+* *Thomas SCHWENDER* : inscrit
+* *Yacine TRIAA* : inscrit
+
+== Logistique
+
+.Rappels
+[NOTE]
+====
+* [red]*Trombinoscope* : envoyez une photo (où l’on vous reconnaît) et votre description, et je vous ajoute dans la foulée :wink:
+* Afin de permettre au groupe d'être davantage connu des autres softeamiens, merci à *tous les contributeurs* de se créer une *signature* sur le modèle de la mienne (vous pouvez la prendre en copier / coller du présent mail)
+* Plutôt que d'utiliser la mailing list, les contributeurs sont encouragés à utiliser le *channel Slack* : https://startechs.slack.com/ +
+Essayez d'y jeter un coup d'oeil quotidien, en sirotant votre café du matin par exemple :wink: +
+J'en profite pour vous rappeler que les channels du Slack ne sont [red]*pas forcément tous affichés dans le menu gauche de l'interface* ! +
+Pour tous les voir, il est nécessaire de cliquer sur `CHANNELS(x)` en tête de ce menu :
++
+image::20170307_all-channels-in-slack.png[title="Si tu veux voir tous les channels, clique ici !"] 
++
+* *Les comptes-rendus de réunions* sont maintenant disponibles dans https://github.com/softeamfr/startech-meetings-reports[notre repo GitHub]. +
+Ainsi, si vous avez des remarques, ou souhaitez apporter des modifications, vous pouvez : 
+** soit utiliser https://github.com/softeamfr/startech-meetings-reports/issues[le bug tracker]
+** soit soumettre une *pull request*.
+* *La présence aux réunions mensuelles est maintenant récompensée de 40 Starpoints*, n'hésitez donc pas à venir :smile:
+* Afin de faciliter la gestion de nos projets / présentations sur *GitHub*, une https://github.com/orgs/softeamfr/teams/startech-java[*équipe StarTECH*] est en cours de création sur cet outil. +
+Merci à tous les contributeurs de [red]*me donner leur compte GitHub*, afin que je puisse les y ajouter :smile:
+====
+
+A toute personne assistant pour la 1ere fois à une réunion StarTECH, merci de me confirmer par mail, ou de vive voix, votre envie d'intégrer le groupe en fin de réunion :smile:
+
+== Outillage
+
+* *Slack* : après échange avec les équipes commerciales de Slack, passer sur des abonnements payants, même en se limitant aux seuls contributeurs, semble compliqué. +
+Le coût est bien plus élevé qu'une élévation du même nombre de licences sur Office 365 (passage des Kiosk à des E1), et il nous faudrait les plus chères ("Plus" à 11,75€ / user / mois) pour pouvoir nous lier à notre Active Directory... Compliqué +
+-> Une solution permettant de compenser la limite d'historique de Slack pourrait être de pousser les sujets à persister sur Yammer (via une app Slack comme Zapier)
+
+* *Choix d'un nouvel outil de blog* : je penche de plus en plus pour un passage à https://medium.com/[Medium] +
+Ce dernier a dernièrement été choisi pour héberger https://medium.com/bcggamma[le nouveau blog du BCG sur l'IA (BCG GAMMA)].
+
+* *Recherche d'un outil de veille technologique collaboratif* : sur le modèle des fonctionnalités collaboratives de Feedly ("Boards"), *MAIS* en gratuit. +
+-> Je sèche... J'ai l'impression que toutes les solutions de ce type sont payantes...
+
+* Création du *nouveau channel Slack* https://startechs.slack.com/messages/CAUKY3ZHA/details/[ressources_veille], pour stocker nos ressources de veille technologique.
+
+== Tech
+
+* *Veille technologique* : 
+	** Podcast http://www.bigdatahebdo.com/[BigData Hebdo] : un excellent Podcat de veille sur l'actualité de la (Big) Data
+	** https://github.com/kamranahmedse/developer-roadmap/blob/master/readme.md[cartographie du "full stack developper"] donnée par Walid
+	** https://blog.github.com/2018-06-04-github-microsoft/[Microsoft rachète GitHub !]
+
+* *MeetUps* :
+	** *Passam* : retour sur son MeetUp CodingGame
+	** *Guillaume* : retour sur son MeetUp Kotlin
+
+* *Challenge CleanCode !* organisé par Darren en séance !
+
+@+, +
+Thomas
+
+
