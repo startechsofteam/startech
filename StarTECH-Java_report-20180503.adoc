@@ -92,7 +92,7 @@ Appel à proposition : pour le mois prochain, j'attends vos propositions d'outil
 == Tech
 
 Suite de nos échanges sur l'Open Data. +
--> Pour plus d'informations, voir les ressources fournies dans link:StarTECH-Java_report-20180403[le CR du mois dernier].
+-> Pour plus d'informations, voir les ressources fournies dans link:StarTECH-Java_report-20180403.adoc[le CR du mois dernier].
 
 @+, +
 Thomas

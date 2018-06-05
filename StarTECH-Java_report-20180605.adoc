@@ -26,14 +26,19 @@ toc::[]
 
 Etaient inscrits :
 
+* *Christian LAURENT* : inscrit
 * *Clarence CHARLES* : inscrit
 * *Darren BOUTROS* : inscrit
 * *Guillaume LEMONT* : inscrit
-* *jeremie lou* : inscrit
-* *Menghao LI* : inscrit
+* *Jérémie LOU* : inscrit
+* *Lionel TUTTLE* : inscrit
+* *Mohamed BENAMOR* : inscrit
 * *Nafia AMAZIANE* : inscrit
 * *Oualaa HANI* : inscrit
 * *Passam KASSEM* : inscrit
+* *Rithy NGUON* : inscrit
+* *Romain BEGHI* : inscrit
+* *Saifeddine KRAIEM* : inscrit
 * *Thomas SCHWENDER* : inscrit
 * *Yacine TRIAA* : inscrit
 
@@ -64,6 +69,8 @@ A toute personne assistant pour la 1ere fois à une réunion StarTECH, merci de 
 
 == Outillage
 
+-> 15 min
+
 * *Slack* : après échange avec les équipes commerciales de Slack, passer sur des abonnements payants, même en se limitant aux seuls contributeurs, semble compliqué. +
 Le coût est bien plus élevé qu'une élévation du même nombre de licences sur Office 365 (passage des Kiosk à des E1), et il nous faudrait les plus chères ("Plus" à 11,75€ / user / mois) pour pouvoir nous lier à notre Active Directory... Compliqué +
 -> Une solution permettant de compenser la limite d'historique de Slack pourrait être de pousser les sujets à persister sur Yammer (via une app Slack comme Zapier)
@@ -72,22 +79,42 @@ Le coût est bien plus élevé qu'une élévation du même nombre de licences su
 Ce dernier a dernièrement été choisi pour héberger https://medium.com/bcggamma[le nouveau blog du BCG sur l'IA (BCG GAMMA)].
 
 * *Recherche d'un outil de veille technologique collaboratif* : sur le modèle des fonctionnalités collaboratives de Feedly ("Boards"), *MAIS* en gratuit. +
--> Je sèche... J'ai l'impression que toutes les solutions de ce type sont payantes...
+-> Je sèche... J'ai l'impression que toutes les solutions de ce type sont payantes... +
+-> Rechercker https://www.pearltrees.com/[Pearltrees]
 
 * Création du *nouveau channel Slack* https://startechs.slack.com/messages/CAUKY3ZHA/details/[ressources_veille], pour stocker nos ressources de veille technologique.
 
 == Tech
 
+-> 10 min 
+
 * *Veille technologique* : 
-	** Podcast http://www.bigdatahebdo.com/[BigData Hebdo] : un excellent Podcat de veille sur l'actualité de la (Big) Data
+	** Podcast http://www.bigdatahebdo.com/[BigData Hebdo] : un excellent Podcat de veille sur l'actualité de la (Big) Data +
+	-> Trouver le Slack Associé !
 	** https://github.com/kamranahmedse/developer-roadmap/blob/master/readme.md[cartographie du "full stack developper"] donnée par Walid
 	** https://blog.github.com/2018-06-04-github-microsoft/[Microsoft rachète GitHub !]
 
+-> 10 min
+
 * *MeetUps* :
 	** *Passam* : retour sur son MeetUp CodingGame
+	** Formation sur Redux et NgRX donnée par Passam
 	** *Guillaume* : retour sur son MeetUp Kotlin
+	** Les 10 ans du ParisJUG, avec les excellents talks de Venkat Subramaniam (programmation fonctionnelle, puis programmation Reactive) +
+	-> les vidéos ne sont pas encore disponibles sur YouTube, mais on peut trouver les talks de Venkat dans https://www.youtube.com/watch?v=kfSSKM9y_0E[d'autres JUG et salons].
 
-* *Challenge CleanCode !* organisé par Darren en séance !
+-> TOUT LE RESTE !
+
+=== Challenge Clean Code
+
+Organisé par Darren en séance !
+
+Vous retrouverez le support de Darren dans link:./resources/Clean Code.pptx[les ressources].
+
+== Divers
+
+Les versions LTS de Java sortiront maintenant tous les 3 ans. +
+Java 11, en septembre 2018, sera la prochaine LTS, la suivante sera Java 17...
 
 @+, +
 Thomas
