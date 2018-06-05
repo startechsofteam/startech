@@ -109,7 +109,7 @@ Ce dernier a dernièrement été choisi pour héberger https://medium.com/bcggam
 
 Organisé par Darren en séance !
 
-Vous retrouverez le support de Darren dans link:./resources/Clean Code.pptx[les ressources].
+Vous retrouverez le support de Darren dans link:resources/Clean%20Code.pptx[les ressources].
 
 == Divers
 
