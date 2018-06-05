@@ -68,10 +68,10 @@ Tout les contributeurs n'ayant pas eu le temps de voter, il a été décidé de 
 Pour rappel, les définitions proposées sont accessibles dans https://github.com/softeamfr/startech-meetings-reports/blob/master/StarTECH-Java_report-20170103.adoc#définitions-proposées-par-les-contributeurs[le compte rendu de janvier]. +
 En revoici la liste :
 
-* *Guillaume LEMONT* : link:monad-definition/GLE_monade-kezako.adoc[ma tentative d'explication]
+* *Guillaume LEMONT* : link:resources/monad-definition/GLE_monade-kezako.adoc[ma tentative d'explication]
 * *Bastien GIEGEL* : https://github.com/bgiegel/Definition_Monade/
-* *Walid DEBBECH* : link:monad-definition/WDE_monade-chocolat.adoc[La monade, c'est du chocolat]
-* *Thomas SCHWENDER* : link:monad-definition/TSC_monad-definition.adoc[Monade Kezako ?]
+* *Walid DEBBECH* : link:resources/monad-definition/WDE_monade-chocolat.adoc[La monade, c'est du chocolat]
+* *Thomas SCHWENDER* : link:resources/monad-definition/TSC_monad-definition.adoc[Monade Kezako ?]
 
 Pour la petite histoire, nous nous sommes de nouveau bien pris la tête sur cette belle définition.
 

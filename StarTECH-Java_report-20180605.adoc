@@ -24,23 +24,24 @@ toc::[]
 
 == Overview
 
-Etaient inscrits :
+Etaient présents :
 
-* *Christian LAURENT* : inscrit
-* *Clarence CHARLES* : inscrit
-* *Darren BOUTROS* : inscrit
-* *Guillaume LEMONT* : inscrit
-* *Jérémie LOU* : inscrit
-* *Lionel TUTTLE* : inscrit
-* *Mohamed BENAMOR* : inscrit
-* *Nafia AMAZIANE* : inscrit
-* *Oualaa HANI* : inscrit
-* *Passam KASSEM* : inscrit
-* *Rithy NGUON* : inscrit
-* *Romain BEGHI* : inscrit
-* *Saifeddine KRAIEM* : inscrit
-* *Thomas SCHWENDER* : inscrit
-* *Yacine TRIAA* : inscrit
+* *Christian LAURENT* : présent
+* *Clarence CHARLES* : présent
+* *Darren BOUTROS* : présent
+* *Guillaume LEMONT* : présent
+* *Jérémie LOU* : présent
+* *Lionel TUTTLE* : présent
+* *Mohamed BENAMOR* : absent
+* *Nafia AMAZIANE* : absent
+* *Oualaa HANI* : absent
+* *Passam KASSEM* : présent
+* *Pierre LEPLAY* : présent
+* *Rithy NGUON* : présent
+* *Romain BEGHI* : présent
+* *Saifeddine KRAIEM* : absent
+* *Thomas SCHWENDER* : présent
+* *Yacine TRIAA* : présent
 
 == Logistique
 

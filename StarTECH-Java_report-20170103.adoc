@@ -80,10 +80,10 @@ Pour une autre explication du `flatmap` des monades, Fayçal propose cet article
 
 ==== Définitions proposées par les contributeurs
 
-* *Guillaume LEMONT* : link:monad-definition/GLE_monade-kezako.adoc[ma tentative d'explication]
+* *Guillaume LEMONT* : link:resources/monad-definition/GLE_monade-kezako.adoc[ma tentative d'explication]
 * *Bastien GIEGEL* : https://github.com/bgiegel/Definition_Monade/
-* *Walid DEBBECH* : link:monad-definition/WDE_monade-chocolat.adoc[La monade, c'est du chocolat]
-* *Thomas SCHWENDER* : link:monad-definition/TSC_monad-definition.adoc[Monade Kezako ?]
+* *Walid DEBBECH* : link:resources/monad-definition/WDE_monade-chocolat.adoc[La monade, c'est du chocolat]
+* *Thomas SCHWENDER* : link:resources/monad-definition/TSC_monad-definition.adoc[Monade Kezako ?]
 
 === Projet de présentation sur Java 9
 

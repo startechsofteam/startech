@@ -82,13 +82,13 @@ Pour les personnes intéressées par cette dernière, n'hésitez pas à aller en
 
 === Challenge de janvier
 
-*Walid est le grand gagnant de notre challenge de janvier*, avec sa définition de link:monad-definition/WDE_monade-chocolat.adoc[monade au chocolat] !
+*Walid est le grand gagnant de notre challenge de janvier*, avec sa définition de link:resources/monad-definition/WDE_monade-chocolat.adoc[monade au chocolat] !
 
 Pour les intéressés, je vous rappelle ici les autres définitions données :
 
-* *Guillaume LEMONT* : link:monad-definition/GLE_monade-kezako.adoc[ma tentative d'explication]
+* *Guillaume LEMONT* : link:resources/monad-definition/GLE_monade-kezako.adoc[ma tentative d'explication]
 * *Bastien GIEGEL* : https://github.com/bgiegel/Definition_Monade/
-* *Thomas SCHWENDER* : link:monad-definition/TSC_monad-definition.adoc[Monade Kezako ?]
+* *Thomas SCHWENDER* : link:resources/monad-definition/TSC_monad-definition.adoc[Monade Kezako ?]
 
 Un article de blog sera écrit sur le sujet, avec peut-être un 12@13 dans la foulée (à confirmer pour ce dernier emoji:smile[2x] )
 
