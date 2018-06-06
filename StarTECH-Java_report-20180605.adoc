@@ -43,6 +43,9 @@ Etaient présents :
 * *Thomas SCHWENDER* : présent
 * *Yacine TRIAA* : présent
 
+-> Passam a été "volontaire 2.0" comme *gardien du temps* pour la séance... +
+Cela nous a vraiment permis d'éviter les dérives et hors sujet durant la séance 👍
+
 == Logistique
 
 .Rappels
@@ -81,7 +84,7 @@ Ce dernier a dernièrement été choisi pour héberger https://medium.com/bcggam
 
 * *Recherche d'un outil de veille technologique collaboratif* : sur le modèle des fonctionnalités collaboratives de Feedly ("Boards"), *MAIS* en gratuit. +
 -> Je sèche... J'ai l'impression que toutes les solutions de ce type sont payantes... +
--> Rechercker https://www.pearltrees.com/[Pearltrees]
+-> Revoir les fonctionnalités de https://www.pearltrees.com/[Pearltrees] : NON, c'est confirmé, l'outil n'accepte pas les flux RSS.
 
 * Création du *nouveau channel Slack* https://startechs.slack.com/messages/CAUKY3ZHA/details/[ressources_veille], pour stocker nos ressources de veille technologique.
 
@@ -91,7 +94,7 @@ Ce dernier a dernièrement été choisi pour héberger https://medium.com/bcggam
 
 * *Veille technologique* : 
 	** Podcast http://www.bigdatahebdo.com/[BigData Hebdo] : un excellent Podcat de veille sur l'actualité de la (Big) Data +
-	-> Trouver le Slack Associé !
+	-> *Le podcast dispose également d'un Slack*. Pour les intéressés, il faut demander une invitation en envoyant un mail à "contact at bigdatahebdo dot com" (les détails dans ce https://twitter.com/bigdatahebdo/status/952832449561669632[ce tweet]) 
 	** https://github.com/kamranahmedse/developer-roadmap/blob/master/readme.md[cartographie du "full stack developper"] donnée par Walid
 	** https://blog.github.com/2018-06-04-github-microsoft/[Microsoft rachète GitHub !]
 
@@ -104,17 +107,21 @@ Ce dernier a dernièrement été choisi pour héberger https://medium.com/bcggam
 	** Les 10 ans du ParisJUG, avec les excellents talks de Venkat Subramaniam (programmation fonctionnelle, puis programmation Reactive) +
 	-> les vidéos ne sont pas encore disponibles sur YouTube, mais on peut trouver les talks de Venkat dans https://www.youtube.com/watch?v=kfSSKM9y_0E[d'autres JUG et salons].
 
--> TOUT LE RESTE !
+
 
 === Challenge Clean Code
 
-Organisé par Darren en séance !
+-> Tout le reste de la séance !
 
-Vous retrouverez le support de Darren dans link:resources/Clean%20Code.pptx[les ressources].
+Préparé par Darren.
+
+* *WET* (_Write Everything Twice_) est l'opposé de *DRY* (_Don't Repeat Yourself_)
+
+-> Vous retrouverez le support de Darren dans link:resources/Clean%20Code.pptx[les ressources].
 
 == Divers
 
-Les versions LTS de Java sortiront maintenant tous les 3 ans. +
+Les versions LTS de Java sortiront maintenant tous les 3 ans (voir http://www.oracle.com/technetwork/java/javase/eol-135779.html[la roadmap d'Oracle]). +
 Java 11, en septembre 2018, sera la prochaine LTS, la suivante sera Java 17...
 
 @+, +
