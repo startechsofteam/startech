@@ -94,7 +94,7 @@ Ce dernier a dernièrement été choisi pour héberger https://medium.com/bcggam
 
 * *Veille technologique* : 
 	** Podcast http://www.bigdatahebdo.com/[BigData Hebdo] : un excellent Podcat de veille sur l'actualité de la (Big) Data +
-	-> *Le podcast dispose également d'un Slack*. Pour les intéressés, il faut demander une invitation en envoyant un mail à "contact at bigdatahebdo dot com" (les détails dans ce https://twitter.com/bigdatahebdo/status/952832449561669632[ce tweet]) 
+	-> *Le podcast dispose également d'un http://bigdatahebdo.slack.com[Slack]*. Pour les intéressés, il faut demander une invitation en envoyant un mail à "contact at bigdatahebdo dot com" (les détails dans ce https://twitter.com/bigdatahebdo/status/952832449561669632[ce tweet]) 
 	** https://github.com/kamranahmedse/developer-roadmap/blob/master/readme.md[cartographie du "full stack developper"] donnée par Walid
 	** https://blog.github.com/2018-06-04-github-microsoft/[Microsoft rachète GitHub !]
 

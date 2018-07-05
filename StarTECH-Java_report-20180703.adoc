@@ -1,0 +1,89 @@
+= [StarTech] Compte rendu de la réunion du StarTech Java du 2018/07/03
+Thomas SCHWENDER <https://github.com/ardemius[@ardemius]>
+// Handling GitHub admonition blocks icons
+ifndef::env-github[:icons: font]
+ifdef::env-github[]
+:status:
+:outfilesuffix: .adoc
+:caution-caption: :fire:
+:important-caption: :exclamation:
+:note-caption: :paperclip:
+:tip-caption: :bulb:
+:warning-caption: :warning:
+endif::[]
+:imagesdir: images
+:source-highlighter: highlightjs
+// Next 2 ones are to handle line breaks in some particular elements (list, footnotes, etc.)
+:lb: pass:[<br> +]
+:sb: pass:[<br>]
+// check https://github.com/Ardemius/personal-wiki/wiki/AsciiDoctor-tips for tips on table of content in GitHub
+:toc: macro
+//:toclevels: 3
+
+toc::[]
+
+== Overview
+
+Etaient présents :
+
+* *Christophe SCHREIBER* : présent
+* *Clarence CHARLES* : présent
+* *Darren BOUTROS* : présent
+* *Guillaume LEMONT* : présent
+* *Jérémie LOU* : présent
+* *Passam KASSEM* : présent
+* *Pierre LEPLAY* : présent
+* *Soufiane KHATTAB* : présent
+* *Thomas SCHWENDER* : présent
+* *Yacine TRIAA* : présent
+
+== Logistique
+
+.Rappels
+[NOTE]
+====
+* [red]*Trombinoscope* : envoyez une photo (où l’on vous reconnaît) et votre description, et je vous ajoute dans la foulée :wink:
+* Afin de permettre au groupe d'être davantage connu des autres softeamiens, merci à *tous les contributeurs* de se créer une *signature* sur le modèle de la mienne (vous pouvez la prendre en copier / coller du présent mail)
+* Plutôt que d'utiliser la mailing list, les contributeurs sont encouragés à utiliser le *channel Slack* : https://startechs.slack.com/ +
+Essayez d'y jeter un coup d'oeil quotidien, en sirotant votre café du matin par exemple :wink: +
+J'en profite pour vous rappeler que les channels du Slack ne sont [red]*pas forcément tous affichés dans le menu gauche de l'interface* ! +
+Pour tous les voir, il est nécessaire de cliquer sur `CHANNELS(x)` en tête de ce menu :
++
+image::20170307_all-channels-in-slack.png[title="Si tu veux voir tous les channels, clique ici !"] 
++
+* *Les comptes-rendus de réunions* sont maintenant disponibles dans https://github.com/softeamfr/startech-meetings-reports[notre repo GitHub]. +
+Ainsi, si vous avez des remarques, ou souhaitez apporter des modifications, vous pouvez : 
+** soit utiliser https://github.com/softeamfr/startech-meetings-reports/issues[le bug tracker]
+** soit soumettre une *pull request*.
+* *La présence aux réunions mensuelles est maintenant récompensée de 40 Starpoints*, n'hésitez donc pas à venir :smile:
+* Afin de faciliter la gestion de nos projets / présentations sur *GitHub*, une https://github.com/orgs/softeamfr/teams/startech-java[*équipe StarTECH*] est en cours de création sur cet outil. +
+Merci à tous les contributeurs de [red]*me donner leur compte GitHub*, afin que je puisse les y ajouter :smile:
+====
+
+A toute personne assistant pour la 1ere fois à une réunion StarTECH, merci de me confirmer par mail, ou de vive voix, votre envie d'intégrer le groupe en fin de réunion :smile:
+
+== Outillage
+
+* *Création d'une sauvegarde automatique de notre channel Slack "ressources_veille"* vers le groupe Yammer https://www.yammer.com/softeam.fr/#/threads/inGroup?type=in_group&feedId=15234660&view=all[StarTECH - veille technologique]. +
+Cette sauvegarde est réalisée via un workflow https://zapier.com/apps/integrations[Zapier], qui copie tout nouveau message du channel Slack vers le groupe Yammer. +
+L'intérêt est d'éviter la limite des 10 000 derniers messages de Slack, et de pouvoir toujours accéder à l'ensemble de nos ressources de veille dans Yammer.
+
+* *Test en live du stockage de documents sur un site Sharepoint du domaine Softeam*. +
+Nous avons pu confirmer que n'importe quel utilisateur (même avec un licence Microsoft Kiosk "très basique") pouvait accéder au site Sharepoint, et, une fois ajouté comme membre au site, pouvait y ajouter / supprimer des fichiers / répertoires. +
+L'outil semble donc parfaitement répondre à nos besoins de gestion documentaire, et va donc nous permettre d'éviter l'utilisation de NextCloud. +
+Site Sharepoint du StarTECH Java : https://softeam.sharepoint.com/sites/StarTECHJava
+
+== Tech
+
+* *MeetUps* :
+	** *Passam* et *Darren* : retour sur la dernière Jenkins User Conference (JUC)
+
+* Nous avons bien échangé sur la nouvelle politique d'Oracle concernant le cycle de release de Java, et sur les nouvelles conditions du support associé à ces versions aux versions. +
+A partir de Java 11, la prochaine version LTS, il faudra s'abonner à une offre de support *payante* d'Oracle pour pouvoir bénéficier du support au-délà des 6 premiers mois (le temps de release de la prochaine version)... +
+Donc, si vous venez de passer à Java 11 à sa sortie en septembre 2018, passés 6 mois, pour continuer à bénéficier du support (et des mises à jour et autres patchs de sécurité), vous devez, soit passer à Java 12, soit souscrire à une offre de support pour bénéficier des mises à jour sur votre maintenant "vieille" version de Java 11...
+
+
+@+, +
+Thomas
+
+
