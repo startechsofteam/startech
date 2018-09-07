@@ -1,0 +1,65 @@
+= [StarTech] Compte rendu de la réunion du StarTech Java du 2018/09/04
+Thomas SCHWENDER <https://github.com/ardemius[@ardemius]>
+// Handling GitHub admonition blocks icons
+ifndef::env-github[:icons: font]
+ifdef::env-github[]
+:status:
+:outfilesuffix: .adoc
+:caution-caption: :fire:
+:important-caption: :exclamation:
+:note-caption: :paperclip:
+:tip-caption: :bulb:
+:warning-caption: :warning:
+endif::[]
+:imagesdir: images
+:source-highlighter: highlightjs
+// Next 2 ones are to handle line breaks in some particular elements (list, footnotes, etc.)
+:lb: pass:[<br> +]
+:sb: pass:[<br>]
+// check https://github.com/Ardemius/personal-wiki/wiki/AsciiDoctor-tips for tips on table of content in GitHub
+:toc: macro
+:toclevels: 4
+// To turn off figure caption labels and numbers
+//:figure-caption!:
+// Same for examples
+//:example-caption!:
+// To turn off ALL captions
+:caption:
+
+toc::[]
+
+== Overview
+
+Etaient présents :
+
+* *Ahmed DAMMAK* : présent
+* *Aymen MAROUMI* : présent
+* *Aymen YAHAOUI* : présent
+* *Christophe SCHREIBER* : présent
+* *Guillaume LEMONT* : présent
+* *Kamgang NOUBISSI HAROLS* : présent
+* *Lionel TUTTLE* : présent
+* *Nafia AMAZIANE* : présent
+* *Passam KASSEM* : présent
+* *Rithy NGUON* : présent
+* *Seifallah BENTEMESSEK* : présent
+* *Skander ROUABEH* : présent
+* *Yacine TRIAA* : présent
+
+== Tech
+
+Résumé des discussions :
+
+[quote, Yacine]
+____
+Nous avons commencé par parler du projet interne pour les inter-contrat. Les choix d'architecture. Les retours d'expérience sur le framework Jhipster. Après on a évoqué le event sourcing, le cqrs, les définitions, une application. Nous avons ensuite eu une présentation sur webassembly, c, c++, rust sous une VM qui tourne sur les navigateurs.
+Nous avons fini avec un retour d'expérience sur cumcuber pour les tests. La problématique de réutiliser le même contexte pour réduire le temps d'exécution des tests.
+____
+
+[quote, Passam]
+____
+Sujet Cucumber abordé par NAFIA, suivi du retour d'expérience de Rithy et du mien sur les problématiques de la durée des tests cucumbers. Côté ARTE nous avons réussi à mettre en place un seul contexte d'exécution pour les 2533 cas avec un gain énorme au niveau de la durée. On est passé d'une dizaine de minutes à 40s 
+____
+
+
+
