@@ -1,0 +1,72 @@
+= [StarTech] Compte rendu de la réunion du StarTech Java du 2018/10/03
+Thomas SCHWENDER <https://github.com/ardemius[@ardemius]>
+// Handling GitHub admonition blocks icons
+ifndef::env-github[:icons: font]
+ifdef::env-github[]
+:status:
+:outfilesuffix: .adoc
+:caution-caption: :fire:
+:important-caption: :exclamation:
+:note-caption: :paperclip:
+:tip-caption: :bulb:
+:warning-caption: :warning:
+endif::[]
+:imagesdir: images
+:source-highlighter: highlightjs
+// Next 2 ones are to handle line breaks in some particular elements (list, footnotes, etc.)
+:lb: pass:[<br> +]
+:sb: pass:[<br>]
+// check https://github.com/Ardemius/personal-wiki/wiki/AsciiDoctor-tips for tips on table of content in GitHub
+:toc: macro
+:toclevels: 4
+// To turn off figure caption labels and numbers
+//:figure-caption!:
+// Same for examples
+//:example-caption!:
+// To turn off ALL captions
+:caption:
+
+toc::[]
+
+== Overview
+
+Etaient présents :
+
+* *Ahmed DAMMAK* : présent 
+* *Amine NACIRI* : présent
+* *Aymen MAROUANI* : présent
+* *Clarence CHARLES* : présent
+* *Guillaume LEMONT* : présent
+* *Jérémie LOU* : présent
+* *Manel BENYAHIA* : présent
+* *Passam KASSEM* : présent
+* *Seifallah BENTEMESSEK* : présent
+* *Thomas SCHWENDER* : présent
+* *Yacine TRIAA* : présent
+
+== Tech
+
+* Point sur les *conférences à venir* à l'aide du https://github.com/scraly/developers-conferences-agenda[Developers Conferences Agenda] +
+Plusieurs membres de la communauté seront présents aux suivantes :
+	** XebiCon le 20/11
+	** Voxxed Days Microservices du 29 au 31/10
+
+* *Point sur le métier d'architecte dans l'IT*, surtout ses écueils (l'architecte "à l'ancienne", "dans sa tour d'ivoire"...) +
+Une bonne ressource à ce sujet sur le blog d'Ippon : http://blog.ippon.fr/2018/09/12/quest-ce-quun-metarchitecte/
+
+* Nous avons échangé sur le *Brexit*, plus particulièrement sur le *déplacement des sièges de plusieurs grandes banques londoniennes à Paris*. +
+Ce déplacement semble se confirmer, voir cet article du Financial Times : https://www.ft.com/content/ba826420-c49e-11e8-8670-c5353379f7c2[Paris set to triumph as Europe’s post-Brexit trading hub] +
+Cela donne des *sueurs froides à nos banques françaises* côté ressources / recrutement (et départ), car, en arrivant, les banques anglaises vont devoir embaucher dans un marché déjà en manque de ressources. +
+Pire, l'enveloppe budgétaire de ces nouveaux concurrents était bien supérieure à celle des banques françaises (du fait du coût de la vie et du loyer londonien), d'où une crainte de départs massifs en direction de ces nouvelles structures.
++
+NOTE: Pour les consultants IT du domaine financier, cela implique de *bonnes perspectives d'évolution de facturation / salaire*...
+
+* Il a également été question de *l'intérêt d'une API Gateway*, quand / pourquoi s'en servir, quels outils utiliser (Zuul de la stack Netflix OSS, attaquer directement le load balancer : Fabio (et donc Consul) d'HashiCorp, ou Eureka de Netflix)
+
+* Finalement, il y a eu un débat passionné sur *"qui est le meilleur framework Front"* entre React et Angular. +
+Ce domaine est dominé par React, Angular et Vue.js. La 1ere place étant toujours disputée par React ou Angular. +
+Dernièrement, React semble avoir "repris la tête", mais pour combien de temps ? (attention, guerre de clocher sur le sujet 😜)
+
+
+
+
