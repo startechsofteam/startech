@@ -43,41 +43,54 @@ Etaient présents :
 
 == Tech
 
+=== Licensing de Java 8, 11 et après
+
 Nous avons refait le point sur la sortie de Java 11, et les évolutions en matière de license ayant eu lieu depuis Java 8, et tout particulièrement la notion de LTS (Long Term Support) +
-A partir de Java 11, pour rester "gratuitement" sur le JDK d'Oracle *ET* continuer à bénéficier des mises à jour (de sécurité et autres patchs), il faudra se mettre à jour tous les 6 mois. +
+A partir de Java 11, pour rester "gratuitement" sur le JDK d'Oracle *ET* continuer à bénéficier des mises à jour (de sécurité et autres patchs), *il faudra se mettre à jour tous les 6 mois*. +
 S'il ne vous est pas possible de supporter le rythme de ses releases, mais que vous voulez continuer à rester à jour côté mises à jour, 2 solutions sont possibles :
 
 * souscrire à l'offre de support d'Oracle
-* passer à une implémentation d'OpenJDK d'un autre provider, comme Azul (payante également), IBM, Red Hat ou encore https://adoptopenjdk.net/[AdoptOpenJDK] (cette dernière ayant notre préférence).
+* passer à une implémentation d'OpenJDK d'un autre provider, comme Azul, IBM, Red Hat ou encore https://adoptopenjdk.net/[AdoptOpenJDK]. +
+Concernant cette dernière, elle a l'avantage d'être portée non pas par une unique société, mais par un bon nombre de https://adoptopenjdk.net/sponsors.html[sponsors] (Azul, IBM, Microsoft Azure, etc.) dont plusieurs grandes boîtes de la Tech. C'est à elle que va notre préférence pour le moment.
 
-Information toute récente à noter : Amazon, qui a embauché James Gosling (le créateur de Java), a sorti courant novembre sa propre implémetation d'OpenJDK, *Amazon Corretto*.
+Information toute récente à noter : Amazon, qui a embauché James Gosling (le créateur de Java), a sorti courant novembre sa propre implémetation d'OpenJDK, *Amazon Corretto*. +
+La principale caractéristique de cette implémentation (toujours en version préliminaire à ce jour), est qu'Amazon en assurera gratuitement le support, et donc fournira des *bug fixes* et autres *mises à jour de sécurité*.
 
 NOTE: Pour les intéressés, un https://fr.wikipedia.org/wiki/Caff%C3%A8_corretto[Corretto] est un café auquel on a ajouté de la liqueur. +
-Java reste donc bien définitivement dans la thématique du café 
-
-https://aws.amazon.com/fr/about-aws/whats-new/2018/11/introducing-amazon-corretto/
+Java reste donc bien définitivement dans la thématique du café 😉
 
 Quelques liens utiles sur le sujet :
 
-* un très bon article sur Medium : https://medium.com/@javachampions/java-is-still-free-c02aef8c9e04[Java Is Still Free]
+* un très bon article sur Medium, écrit par les Java Champions : https://medium.com/@javachampions/java-is-still-free-c02aef8c9e04[Java Is Still Free] +
+C'est vraiment l'article, *sérieux* et *complet*, à lire pour se faire une idée précise de ce changement de licence.
 * https://docs.oracle.com/en/java/javase/11/migrate/index.html[le guide migration d'Oracle vers Java 11]
-* https://aws.amazon.com/fr/about-aws/whats-new/2018/11/introducing-amazon-corretto/[L'annonce d'Amazon Corretto]
+* https://aws.amazon.com/fr/about-aws/whats-new/2018/11/introducing-amazon-corretto/[L'annonce d'Amazon Corretto] et sa https://docs.aws.amazon.com/fr_fr/corretto/latest/corretto-8-ug/what-is-corretto-8.html[documentation]
+
+=== Performances et JVM
+
+Dans la foulée des discussions sur les différentes implémentations d'OpenJDK, nous avons également discuté de certaines JVM et GC dont on parle beaucoup en ce moment :
+
+* https://en.wikipedia.org/wiki/GraalVM[*GraalVM*] : le principal objectif de cette nouvelle JVM est d'*améliorer les performances des langages basés sur la JVM*, afin d'amener ses dernières au niveau de celles des langages natifs. +
+GraalVM inclut un compilateur, lui-même nommé *Graal*, pouvant être utilisé aussi bien en JIT (https://en.wikipedia.org/wiki/Just-in-time_compilation[Just-In-Time]) ou en AOT (https://en.wikipedia.org/wiki/Ahead-of-time_compilation[Ahead-Of-Time]).
+
+* https://wiki.openjdk.java.net/display/zgc/Main[*ZGC*] ou (*ZeroGC*) : Développé par Oracle (pour concurrencer Shenandoah de RedHat ?), et disponible avec le JDK 11, le "Z Garbage Collector" est un GC *NON* générationnel, qui vise des pauses de moins de 10ms, qui n'augmente pas avec la taille de la Heap, et pour des applications pouvant utiliser *plusieurs To de mémoire*. +
+Comme expliqué par Oracle, le ZGC est un GC *concurrent* : _"meaning all heavy lifting work is done while Java threads continue to execute"_.
+
+* *Epsilon* : Le nouveau GC qui ne nettoie... *rien* ! (https://openjdk.java.net/jeps/318[JEP 318 : A No-Op Garbage Collector] - Experimental) Il alloue les objets jusqu’à ce qu’il ne puisse plus, puis arrête la JVM. +
+Les Use Cases avancés sont les suivants :
+	** Performance testing
+	** Memory pressure testing
+	** VM interface testing
+	** Extremely short lived jobs
+	** Last-drop latency improvements
+	** Last-drop throughput improvements
+
++
+-> Epsilon semble donc principalement dédié à *des fins de tests*.
 
 
 
 
 
-Amazon Corretto avec James Gosling
-proposition avec support
-
-
-
-
-
-Perf
-
-GraalVM et ZeroGC
-
-Service de paiement en ligne, du changement à venir
 
 
