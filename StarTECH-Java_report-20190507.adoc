@@ -58,6 +58,8 @@ ifdef::env-browser[]
 video::kW22zumbkGc[youtube, width=640, height=480]
 endif::[]
 
+Les *slides de Rémi* sont quant à eux disponibles dans les ressources du repo : link:resources\MapR%20technical%20Workshop%202h%20v1.0%20052019.pptx[MapR technical Workshop 2h v1.0 052019.pptx]
+
 Voici rapidement certains des points qui ont été abordés :
 
 * *Histoire de MapR*, d'où vient le produit : Rémi nous a détaillé la rencontre entre les fondateurs, John Schroeder et https://mapr.com/blog/author/mc-srivas/[M.C Srivas], qui travaillait alors chez Google et était un expert reconnu des systèmes distribués.
