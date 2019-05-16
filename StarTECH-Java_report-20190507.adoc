@@ -1,0 +1,80 @@
+= [StarTech] Compte rendu de la réunion du StarTech Java du 2019/05/07
+Thomas SCHWENDER <https://github.com/ardemius[@ardemius]>
+// Handling GitHub admonition blocks icons
+ifndef::env-github[:icons: font]
+ifdef::env-github[]
+:status:
+:outfilesuffix: .adoc
+:caution-caption: :fire:
+:important-caption: :exclamation:
+:note-caption: :paperclip:
+:tip-caption: :bulb:
+:warning-caption: :warning:
+endif::[]
+:imagesdir: images
+:source-highlighter: highlightjs
+// Next 2 ones are to handle line breaks in some particular elements (list, footnotes, etc.)
+:lb: pass:[<br> +]
+:sb: pass:[<br>]
+// check https://github.com/Ardemius/personal-wiki/wiki/AsciiDoctor-tips for tips on table of content in GitHub
+:toc: macro
+:toclevels: 4
+// To turn off figure caption labels and numbers
+//:figure-caption!:
+// Same for examples
+//:example-caption!:
+// To turn off ALL captions
+:caption:
+
+toc::[]
+
+== Overview
+
+Etaient présents :
+
+* *Aymen MAROUANI* : présent
+* *Clarence CHARLES* : présent
+* *Darren BOUTROS* : présent
+* *Guillaume LEMONT* : présent
+* *Jérémie LOU* : présent
+* *Lionel TURTLE* : présent
+* *Rithy NGUON* : présent	
+* *Thomas SCHWENDER* : présent
+* *Yacine TRIAA* : présent	
+
+== Tech
+
+Durant cette session, nous avons accueilli nos partenaires de MapR, en l’occurrence Rémi FOREST, qui nous a présenté la Data Platform MapR.
+
+La session était vraiment extrêmement intéressante, et je vous dirais bien "le plus simple est de regarder la vidéo", car, OUI, nous avons enregistré le talk, mais j'ai juste OUBLIE DE DONNER LE MICRO à Rémi 😢😢😢
+Quand j'y repense, j'ai vraiment envie de pleurer 😢😢😢
+
+J'ai néanmoins publié la vidéo, qui permet de se faire une idée des sujets abordés :
+
+ifdef::env-github[]
+https://www.youtube.com/watch?v=kW22zumbkGc&list=PLbd6jztIXBjn-%5FZY53Id6zOiO3uJ-8IQu[vidéo de la présentation sur YouTube]
+endif::[]
+ifdef::env-browser[]
+video::kW22zumbkGc[youtube, width=640, height=480]
+endif::[]
+
+Voici rapidement certains des points qui ont été abordés :
+
+* *Histoire de MapR*, d'où vient le produit : Rémi nous a détaillé la rencontre entre les fondateurs, John Schroeder et https://mapr.com/blog/author/mc-srivas/[M.C Srivas], qui travaillait alors chez Google et était un expert reconnu des systèmes distribués.
+* *Qu'est-ce que MapR* : présentation de la Data Platform, du MapR-FS POSIX et de ses avantages comparés au HDFS (possibilité de monter comme volume le FS, notions de volumes / containers / nodes, plus de name node, qui est un SPOF en HDFS, et donc plus de problèmes de gestion des petits fichiers, etc.). +
+Rémi nous a montré la solution tournant sur son poste, et présenté le *MCS* (MapR Control System, l'équivalent d'un Apache Ambari, même si moins "léché" visuellement)
+Rémi a également insisté sur l'aspect multi-cloud de la Data Platform.
+* *Une démo de la solution* : un drône, communiquant avec la Data platform tournant sur le laptop de Rémi, permettait de compter en temps réel les personnes présentes via analyse vidéo (OpenCV fait partie des technologies utilisées) 
+
+Nous avons également échangés avec Rémi sur le *meilleur moyen de "pratiquer du MapR" chez soi*, pour tester. +
+S'il est possible de faire tourner une ISO d'une sandbox MapR dans une VM sur sa machine, la quantité de ressources nécessaires (poste avec 32 Go de RAM requis !) rend la chose difficile. Dixit Rémi, *le mieux est de passer par un hébergeur en ligne*. +
+Concernant ce dernier point, il nous a montré https://www.applariat.com/[appLariat], qui est la solution (payante) qu'ils utilisent à MapR France pour faire facilement tourner leurs containers dans du *Kubernetes*.
+
+
+
+
+
+
+
+
+
