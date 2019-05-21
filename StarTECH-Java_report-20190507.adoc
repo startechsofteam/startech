@@ -72,6 +72,9 @@ Nous avons également échangés avec Rémi sur le *meilleur moyen de "pratiquer
 S'il est possible de faire tourner une ISO d'une sandbox MapR dans une VM sur sa machine, la quantité de ressources nécessaires (poste avec 32 Go de RAM requis !) rend la chose difficile. Dixit Rémi, *le mieux est de passer par un hébergeur en ligne*. +
 Concernant ce dernier point, il nous a montré https://www.applariat.com/[appLariat], qui est la solution (payante) qu'ils utilisent à MapR France pour faire facilement tourner leurs containers dans du *Kubernetes*.
 
+NOTE: Rémi nous a informé que MapR travaillait avec https://www.katacoda.com/[Katacoda], et que ces derniers m'était à disposition un environnement de test pour MapR en ligne. +
+Pour rappel, Katacoda est similaire à ce qu'était Code School (avant d'être intégré dans Pluralsight) : un MOOC émulant les outils du cours dans leur interface en ligne
+
 
 
 
