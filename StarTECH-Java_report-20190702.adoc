@@ -1,0 +1,68 @@
+= [StarTech] Compte rendu de la réunion du StarTech Java du 2019/05/07
+Thomas SCHWENDER <https://github.com/ardemius[@ardemius]>
+// Handling GitHub admonition blocks icons
+ifndef::env-github[:icons: font]
+ifdef::env-github[]
+:status:
+:outfilesuffix: .adoc
+:caution-caption: :fire:
+:important-caption: :exclamation:
+:note-caption: :paperclip:
+:tip-caption: :bulb:
+:warning-caption: :warning:
+endif::[]
+:imagesdir: images
+:source-highlighter: highlightjs
+// Next 2 ones are to handle line breaks in some particular elements (list, footnotes, etc.)
+:lb: pass:[<br> +]
+:sb: pass:[<br>]
+// check https://github.com/Ardemius/personal-wiki/wiki/AsciiDoctor-tips for tips on table of content in GitHub
+:toc: macro
+:toclevels: 4
+// To turn off figure caption labels and numbers
+//:figure-caption!:
+// Same for examples
+//:example-caption!:
+// To turn off ALL captions
+:caption:
+
+toc::[]
+
+== Overview
+
+Etaient présents :
+
+* *Aymen MAROUANI* : présent
+* *Boubekeur AITSELLAMET* : présent
+* *Darren BOUTROS* : présent
+* *Nafia AMAZIANE* : présent
+* *Passam KASSEM* : présent
+* *Rithy NGUON* : présent
+* *Thomas SCHWENDER* : présent
+* *Yacine TRIAA* : présent
+
+== Tech
+
+Durant cette session, nous avons essentiellement parlé de *(Big) Data*. +
+Etat des lieux de la Data, et surtout *déboires du framework Hadoop*, qui, il faut bien le dire, est en pleine chute.
+Très souvent, ce dernier se trouve *remplacé par une partie de la stack d'un Cloud provider*. +
+S'il y a bien un domaine sur lequel se former à l'heure d'aujourd'hui, c'est bien le Cloud, que ce soit celui, d'Amazon, de Microsoft (Azure), ou de Google.
+
+Information récente, et qui me chagrine beaucoup, les *inquiétudes actuelles sur le sort de MapR* 😟
+Comme dit plus haut, le framework Hadoop va mal, et il en va de même des principales "Distro Hadoop" qui l'implémente, à savoir, Cloudera / Hortonworks et MapR. +
+Pour rappel, Cloudera et Hortonworks ont fusionné courant 2018, probablement pour se consolider suite aux pertes de parts de marché de la techno, mais les résultats obtenus sont loin d'être ceux attendus.
+De mon côté, je pensais que MapR allait pouvoir tirer son épingle du jeu, car, même si "le petit dernier", ses projets vont presque tous en PROD, contrairement à bon nombre de ceux sur Hortonworks qui n'arrivent pas à dépasser le stade du POC ou de l'UAT (constat chez le client me concernant). +
+Malheureusement, la qualité de cette plateforme ne semble pas être un argument suffisant pour la prémunir de la migration massive des clients vers les solutions Cloud.
+
+Pour plus d'information sur le sujet, vous pouvez jeter un oeil à ces articles :
+
+* https://siliconangle.com/2019/05/30/mapr-may-shut-investor-pulls-following-extremely-poor-results/[Big-data bombshell: MapR may shut down as investor pulls out after ‘extremely poor results’]
+* https://www.lemondeinformatique.fr/actualites/lire-mapr-en-peril-fermeture-du-siege-et-122-licenciements-en-vue-75525.html[MapR en péril : fermeture du siège et 122 licenciements en vue]
+* https://www.channelnews.fr/mapr-en-grande-difficulte-89565[MapR en grande difficulté]
+* https://www.lemondeinformatique.fr/actualites/lire-cloudera-vire-son-ceo-tom-reilly-suite-a-une-fusion-ratee-avec-hortonworks-75540.html[Cloudera vire son CEO Tom Reilly suite à une fusion ratée avec Hortonworks]
+
+
+
+
+
+
