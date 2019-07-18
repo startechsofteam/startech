@@ -1,4 +1,4 @@
-= [StarTech] Compte rendu de la réunion du StarTech Java du 2019/05/07
+= [StarTech] Compte rendu de la réunion du StarTech Java du 2019/07/02
 Thomas SCHWENDER <https://github.com/ardemius[@ardemius]>
 // Handling GitHub admonition blocks icons
 ifndef::env-github[:icons: font]
