@@ -1,0 +1,65 @@
+= [StarTech] Compte rendu de la réunion du StarTech Java du 2019/11/05
+Thomas SCHWENDER <https://github.com/ardemius[@ardemius]>
+// Handling GitHub admonition blocks icons
+ifndef::env-github[:icons: font]
+ifdef::env-github[]
+:status:
+:outfilesuffix: .adoc
+:caution-caption: :fire:
+:important-caption: :exclamation:
+:note-caption: :paperclip:
+:tip-caption: :bulb:
+:warning-caption: :warning:
+endif::[]
+:imagesdir: images
+:source-highlighter: highlightjs
+// Next 2 ones are to handle line breaks in some particular elements (list, footnotes, etc.)
+:lb: pass:[<br> +]
+:sb: pass:[<br>]
+// check https://github.com/Ardemius/personal-wiki/wiki/AsciiDoctor-tips for tips on table of content in GitHub
+:toc: macro
+:toclevels: 4
+// To turn off figure caption labels and numbers
+//:figure-caption!:
+// Same for examples
+//:example-caption!:
+// To turn off ALL captions
+:caption:
+
+toc::[]
+
+== Overview
+
+Etaient présents :
+
+* *Seifallah Ben Temessek* : présent
+* *Christophe SCHREIBER* : présent
+* *Joseph VERRON* : présent
+* *Yacine TRIAA* : présent
+* *Guillaume LEMONT* : présent
+* *Passam KASSEM* : présent
+* *Boubekeur AITSELLAMET* : présent
+* *Amine HELHABIL* : présent
+* *Rithy NGUON* : présent
+* *Thomas SCHWENDER* : présent
+
+== Tech
+
+* Je vous ferai un retour sur le dernier Voxxed Days Microservices
+* On dira 2 mots sur Devoxx (l'original, en Belgique) qui a lieu cette semaine
+* j'ai commencé un support de formation sur Docker et Ansible.
+Ce n'est vraiment pas demain qu'il sera fini, MAIS j'ai terminé la doc sur l'installation et la configuration de CentOS sur VirtualBox, avec accès au réseau et partage de fichiers (ce qui est un rien tricky). Cela permet donc de se monter une VM Unix pour un peu tous les sujets :wink:
+* et enfin un petit débat suite à une discussion qui m'a fait pleurer au boulot : Est-il important de rédiger ses mails SANS FAUTE (grammaire, orthographe, bref, un truc qui ne fait pas saigner les yeux :smile: )
+
+News :
+
+* Capgemini obtient l'autorisation de la Commission européenne pour son projet d'acquisition d'Altran, et va créer un groupe pesant 17 milliards d'euros et de plus de 250 000 collaborateurs
+* Microsoft remporte le contrat JEDI de 10 milliards de $ du Pentagone pour le cloud computing, en battant Amazon, le leader du marché
+
+
+Les autres point qui ont été abordés :
+
+* Jessie Frazelle, une super développeuse à suivre sur Twitter
+* Une news de Passam https://stenciljs.com[Stencil.js], un futur concurrent de Vue.js et des autres frameworks front ?
+
+
