@@ -56,7 +56,6 @@ News :
 * Capgemini obtient l'autorisation de la Commission européenne pour son projet d'acquisition d'Altran, et va créer un groupe pesant 17 milliards d'euros et de plus de 250 000 collaborateurs
 * Microsoft remporte le contrat JEDI de 10 milliards de $ du Pentagone pour le cloud computing, en battant Amazon, le leader du marché
 
-
 Les autres point qui ont été abordés :
 
 * Jessie Frazelle, une super développeuse à suivre sur Twitter

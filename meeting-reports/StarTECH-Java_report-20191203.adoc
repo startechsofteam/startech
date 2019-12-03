@@ -1,0 +1,56 @@
+= [StarTech] Compte rendu de la réunion du StarTech Java du 2019/11/05
+Thomas SCHWENDER <https://github.com/ardemius[@ardemius]>
+// Handling GitHub admonition blocks icons
+ifndef::env-github[:icons: font]
+ifdef::env-github[]
+:status:
+:outfilesuffix: .adoc
+:caution-caption: :fire:
+:important-caption: :exclamation:
+:note-caption: :paperclip:
+:tip-caption: :bulb:
+:warning-caption: :warning:
+endif::[]
+:imagesdir: images
+:source-highlighter: highlightjs
+// Next 2 ones are to handle line breaks in some particular elements (list, footnotes, etc.)
+:lb: pass:[<br> +]
+:sb: pass:[<br>]
+// check https://github.com/Ardemius/personal-wiki/wiki/AsciiDoctor-tips for tips on table of content in GitHub
+:toc: macro
+:toclevels: 4
+// To turn off figure caption labels and numbers
+//:figure-caption!:
+// Same for examples
+//:example-caption!:
+// To turn off ALL captions
+:caption:
+
+toc::[]
+
+== Overview
+
+Etaient présents :
+
+* *Joseph VERRON* : présent
+* *Thomas SCHWENDER* : présent
+* *Yacine TRIAA* : présent
+* *Aymen MAROUANI* : présent
+* *Guillaume LEMONT* : présent
+
+== Tech
+
+* retour sur la XebiCon'19
+* Débat sur l'orthographe et la grammaire dans les mails, docs, et autres au travail
+	* Chaîne YouTube Linguisticae, voir les 2 vidéos du "Français du future" : https://www.youtube.com/watch?v=WsSWRuxAUdY
+* Places pour le prochain Devoxx France
+* Apple propriétaire de la filiale modem 5G d'Intel, pour se défaire du besoin de Qualcom : https://www.01net.com/actualites/apple-est-desormais-proprietaire-des-modems-5g-d-intel-1817630.html
+* Black Friday / Cyber Monday
+
+* Présentation de Joseph sur https://ballerina.io[Ballerina]
+* Joseph nous a également montré https://sdkman.io[SDKMan], qui permet d'installer de multiples outils sur son poste, Unix ou Windows. +
+Celui-ci installe apparemment des versions *portables* des outils, en proposant des lieux de stockage normés. +
+Il gère également la mise à jour des outils utilisés.
+* Présentation de Joseph sur *SonarQube* (et le plugin *SonarLint* pour IntelliJ)
+
+
