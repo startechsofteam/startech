@@ -53,4 +53,5 @@ Celui-ci installe apparemment des versions *portables* des outils, en proposant 
 Il gère également la mise à jour des outils utilisés.
 * Présentation de Joseph sur *SonarQube* (et le plugin *SonarLint* pour IntelliJ)
 
-
+Concernant notre débat _Estimez-vous qu'il est important, utile ou non de rédiger ses mails, docs, skype professionnels sans faute d'orthographe et de grammaire ?_, il en ressort que la majorité des contributeurs estiment normal de rédiger ses mails, docs et livrables de manière générale *sans faute d'orthographe et de grammaire*. +
+Dans un outil de messagerie instantanée, on peut se permettre de faire (un peu) moins attention, la rapidité et la réactivité étant l'un des intérêts de ce type d'outil (ce qui implique des coquilles en cherchant à taper à toute vitesse...)
