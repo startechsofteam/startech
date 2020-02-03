@@ -46,7 +46,7 @@ L'adhésion est ouverte à tous les softeamiens, il suffit de nous envoyer un ma
 == Informations pratiques
 
 * Nous nous déplaçons régulièrement en *conférences et salons techniques*. +
-Pour une liste de ces derniers, voici un repo bien sympa auquel nous participons : https://github.com/scraly/developers-conferences-agenda
+Pour une liste de ces derniers, voici un repo bien sympa auquel nous participons : https://github.com/scraly/developers-conferences-agenda +
 Si l'un d'entre eux t'intéresse, n'hésite pas à nous contacter 😉
 * Même principe pour les https://www.meetup.com/fr-FR/[MeetUps] réguliers. +
 Nous allons régulièrement aux https://www.parisjug.org/xwiki/bin/view/Main/WebHome[ParisJUG], https://perfug.github.io/[PerfUG] et https://www.meetup.com/fr-FR/paris-software-craftsmanship/[Software Crafters Paris]
