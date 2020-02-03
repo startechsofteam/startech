@@ -28,8 +28,6 @@ endif::[]
 
 //toc::[]
 
-== Welcome on board !
-
 A toi qui trouve que l'univers Java roxxe, bienvenue sur le repo du StarTECH Java de Softeam !
 
 Qu'est-ce que le StarTECH Java ? Tout simplement un groupe de javaistes passionnés, qui ont envie d'échanger sur le sujet.
@@ -44,7 +42,7 @@ Et si tu te dis que tout cela est décidément bien sympa, voici notre manifeste
 Tu adhères à ses valeurs ? Alors il est temps de nous rejoindre !
 L'adhésion est ouverte à tous les softeamiens, il suffit de nous envoyer un mail à startech-java@softeam.fr
 
-Quelques informations pratiques :
+== Informations pratiques
 
 * Nous nous déplaçons régulièrement en conférences et salons techniques. +
 Pour une liste de ces derniers, voici un repo bien sympa auquel nous participons : https://github.com/scraly/developers-conferences-agenda
