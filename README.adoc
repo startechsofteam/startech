@@ -38,7 +38,7 @@ Si tu souhaites en savoir plus sur notre *activité*, https://ardemius.github.io
 Tu as également la possibilité de venir assister à nos *réunions mensuelles*, *tous les 1ers mardis du mois*, à partir de 19h au siège.
 Tu en trouveras les comptes rendus sur ce repo, plus précisément ici.
 
-Et si tu te dis que tout cela est décidément bien sympa, voici link:StarTECH - Manifeste - v1.3.docx[notre manifeste].
+Et si tu te dis que tout cela est décidément bien sympa, voici link:StarTECH%20-%20Manifeste%20-%20v1.3.docx[notre manifeste].
 Tu adhères à ses valeurs ? Alors il est temps de nous rejoindre !
 L'adhésion est ouverte à tous les softeamiens, il suffit de nous envoyer un mail à *startech-java@softeam.fr*
 
