@@ -28,7 +28,8 @@ endif::[]
 
 //toc::[]
 
-A toi qui trouve que l'univers Java roxxe, bienvenue sur le repo du *StarTECH Java* de *Softeam* !
+A toi qui trouve que l'univers Java roxxe, bienvenue sur le repo du *StarTECH Java* de *Softeam* ! +
+image:https://github.com/softeamgroup/startech-graphical-elements/blob/master/logo/Star%20Tech%20Java%20logo%20-%20vignette.png[]
 
 Qu'est-ce que le StarTECH Java ? Tout simplement un groupe de javaistes passionnés, qui ont envie d'échanger sur le sujet. +
 Design patterns, Software Craftsmanship, (Big) Data, DevOps, langages alternatifs, frameworks en tout genre, langages Web, le monde Java est vaste (et s'approprie pas mal de choses), et nous procure de nombreux sujets d'intérêt !
