@@ -28,9 +28,30 @@ endif::[]
 
 //toc::[]
 
-Repo du Java User Group de Softeam : le *StarTECH Java*.
+== Welcome on board !
 
-* Slides de présentation de la communauté : https://ardemius.github.io/slides-startech/slides-starTECH.html
+A toi qui trouve que l'univers Java roxxe, bienvenue sur le repo du StarTECH Java de Softeam !
+
+Qu'est-ce que le StarTECH Java ? Tout simplement un groupe de javaistes passionnés, qui ont envie d'échanger sur le sujet.
+Design patterns, Software Craftsmanship, (Big) Data, DevOps, langages alternatifs, frameworks en tout genre, langages Web, le monde Java est vaste (et s'approprie pas mal de choses), et nous procure de nombreux sujets d'intérêt !
+
+Si tu souhaites en savoir plus sur notre activité, https://ardemius.github.io/slides-startech/slides-starTECH.html[jette donc un oeil à ces quelques slides] 😉.
+
+Tu as également la possibilité de venir assister à nos réunions mensuelles, tous les 1ers mardis du mois, à partir de 19h au siège.
+Tu en trouveras les comptes rendus sur ce repo, plus précisément ici.
+
+Et si tu te dis que tout cela est décidément bien sympa, voici notre manifeste.
+Tu adhères à ses valeurs ? Alors il est temps de nous rejoindre !
+L'adhésion est ouverte à tous les softeamiens, il suffit de nous envoyer un mail à startech-java@softeam.fr
+
+Quelques informations pratiques :
+
+* Nous nous déplaçons régulièrement en conférences et salons techniques. +
+Pour une liste de ces derniers, voici un repo bien sympa auquel nous participons : https://github.com/scraly/developers-conferences-agenda
+Si l'un d'entre eux t'intéresse, n'hésite pas à nous contacter 😉
+* Même principe pour les https://www.meetup.com/fr-FR/[MeetUps] réguliers. +
+Nous allons régulièrement aux https://www.parisjug.org/xwiki/bin/view/Main/WebHome[ParisJUG], https://perfug.github.io/[PerfUG] et https://www.meetup.com/fr-FR/paris-software-craftsmanship/[Software Crafters Paris]
+
 
 
 
