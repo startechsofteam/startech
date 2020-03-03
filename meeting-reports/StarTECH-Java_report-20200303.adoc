@@ -39,7 +39,7 @@ Etaient présents :
 
 == Tech
 
-* Parler du DevFest Paris et du retour sur le CTF Richelieu
+* DevFest Paris et du retour sur le CTF Richelieu
 	** Malheureusement, aucune vidéo du DevFest Paris 2020 n'a encore été publiée. +
 	Mais pour se faire une idée, on peut déjà regarder https://www.arnotic.com/2020/01/29/exploitation-buffer-overflow-ctf-richelieu-dgse/[cet article], ou mes https://github.com/Ardemius/meetups-talks-conferences-notes/blob/master/20200214_DevFestParis.adoc#14h00---ctf-101--retour-sur-le-challenge-richelieu-de-la-dgse[notes du talk]
 * https://www.developpez.com/actu/292251/API-Java-la-Cour-supreme-a-retenu-la-date-du-24-mars-pour-les-audiences-sur-l-affaire-opposant-Google-a-Oracle-son-verdict-sera-sans-appel/
