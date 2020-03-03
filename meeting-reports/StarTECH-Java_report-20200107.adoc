@@ -55,5 +55,5 @@ Leur twitter est https://twitter.com/ThePracticalDev
 
 S'il reste du temps :
 
-* Définition d'un protocole
+* quelques rappels : définition d'un protocole
 * Singleton ou injection de dépendances ?
