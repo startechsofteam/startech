@@ -1,4 +1,4 @@
-= StarTECH Java
+= Communauté technique StarTECH
 Thomas SCHWENDER <https://github.com/ardemius[@ardemius]>
 // Handling GitHub admonition blocks icons
 ifndef::env-github[:icons: font]
@@ -28,28 +28,43 @@ endif::[]
 
 //toc::[]
 
-A toi qui trouve que l'univers Java roxxe, bienvenue sur le repo du *StarTECH Java* de *Softeam* ! +
-image:https://github.com/softeamgroup/startech-graphical-elements/blob/master/logo/Star%20Tech%20Java%20logo%20-%20vignette.png[]
+Veille tech, esprit crafter, Data, DevOps, Agilité... La tech t'intéresse ?
+Alors tu es au bon endroit, la communauté technique *StarTECH* de Softeam te tend les bras !
+image:https://github.com/startechsofteam/startech-graphical-elements/blob/master/logo/Star%20Tech%20Java%20logo%20-%20vignette.png[]
 
-Qu'est-ce que le StarTECH Java ? Tout simplement un groupe de javaistes passionnés, qui ont envie d'échanger sur le sujet. +
-Design patterns, Software Craftsmanship, (Big) Data, DevOps, langages alternatifs, frameworks en tout genre, langages Web, le monde Java est vaste (et s'approprie pas mal de choses), et nous procure de nombreux sujets d'intérêt !
+Qu’est-ce que le StarTECH ? Tout simplement un groupe de *technophiles* qui souhaitent partager une *passion* commune.
 
-Si tu souhaites en savoir plus sur notre *activité*, https://ardemius.github.io/slides-startech/slides-starTECH.html[jette donc un oeil à ces quelques slides] 😉.
+Au menu ? On discute, on partage de la veille, on POC des technos qui nous plaisent, on se forme en groupe, on va ensemble à des MeetUps et autres salons. +
+Les thèmes sont variés : Design Patterns, Software Craftsmanship, (Big) Data, DevOps, langages alternatifs, frameworks en tout genre, pas de discrimination chez nous, on ratisse large 😉
 
-Tu as également la possibilité de venir assister à nos *réunions mensuelles*, *tous les 1ers mardis du mois*, à partir de 19h au siège. +
-Tu en trouveras les comptes rendus sur ce repo, plus précisément ici.
+Tu voudrais en savoir plus sur nous ?
+Tu peux commencer par jeter un oeil ci-dessous à notre *charte*, ainsi qu'à https://ardemius.github.io/slides-startech/slides-starTECH.html[ces quelques slides]
+Mais le mieux serait de venir échanger avec nous lors d'une de nos *réunions mensuelles*, tous les *1ers mardis* de chaque mois, sur notre *taverne Discord* (Tu en trouveras les comptes rendus sur ce repo)
 
-Et si tu te dis que tout cela est décidément bien sympa, voici link:StarTECH%20-%20Manifeste%20-%20v1.3.docx[notre manifeste]. +
-Tu adhères à ses valeurs ? Alors il est temps de nous rejoindre ! +
-L'adhésion est ouverte à tous les softeamiens, il suffit de nous envoyer un mail à *startech-java@softeam.fr*
+Et si tu te dis que tout cela est décidément bien sympa, et que tu adhères à nos valeurs, il est alors temps de nous rejoindre !
+Envoie un mail à XXX et sois le bienvenu 🙂
+
+== Charte
+
+​​​​​​​La communauté est libre, y adhérer est un choix personnel, sans aucune obligation de qui que ce soit.
+
+Ses membres sont animés par des valeurs communes que voici :
+
+    * *Curiosité*
+    * *Enthousiasme*
+    * *Coopération*
+    * *Bienveillance*
+
+
 
 == Informations pratiques
 
 * Nous nous déplaçons régulièrement en *conférences et salons techniques*. +
 Pour une liste de ces derniers, voici un repo bien sympa auquel nous participons : https://github.com/scraly/developers-conferences-agenda +
 Si l'un d'entre eux t'intéresse, n'hésite pas à nous contacter 😉
+
 * Même principe pour les https://www.meetup.com/fr-FR/[MeetUps] réguliers. +
-Nous allons régulièrement aux https://www.parisjug.org/xwiki/bin/view/Main/WebHome[ParisJUG], https://perfug.github.io/[PerfUG] et https://www.meetup.com/fr-FR/paris-software-craftsmanship/[Software Crafters Paris]
+Nous allons régulièrement aux https://www.parisjug.org/xwiki/bin/view/Main/WebHome[ParisJUG], et https://www.meetup.com/fr-FR/paris-software-craftsmanship/[Software Crafters Paris]
 
 
 

@@ -1,4 +1,4 @@
-= Comptes-rendus des réunions du StarTECH Java
+= Comptes-rendus des réunions de la communauté StarTECH
 Thomas SCHWENDER <https://github.com/ardemius[@ardemius]>
 // Handling GitHub admonition blocks icons
 ifndef::env-github[:icons: font]
@@ -28,28 +28,5 @@ endif::[]
 
 //toc::[]
 
-Repo contenant les comptes-rendus des réunions du *StarTECH Java*, ainsi que toutes les ressources associées.
+Repo contenant les comptes-rendus de réunions de la communauté StarTECH, ainsi que toutes les ressources associées.
 
-== Rappels logistiques
-
-* [red]*Trombinoscope* : envoyez une photo (où l’on vous reconnaît) et votre description, et je vous ajoute dans la foulée 😉
-* Afin de permettre au groupe d'être davantage connu des autres softeamiens, merci à *tous les contributeurs* de se créer une *signature* sur le modèle de la mienne (vous pouvez la prendre en copier / coller du présent mail)
-* Plutôt que d'utiliser la mailing list, les contributeurs sont encouragés à utiliser le *channel Slack* : https://startechs.slack.com/ +
-Essayez d'y jeter un coup d'oeil quotidien, en sirotant votre café du matin par exemple 😉 +
-J'en profite pour vous rappeler que les channels du Slack ne sont [red]*pas forcément tous affichés dans le menu gauche de l'interface* ! +
-Pour tous les voir, il est nécessaire de cliquer sur `CHANNELS(x)` en tête de ce menu :
-+
-image::20170307_all-channels-in-slack.png[title="Si tu veux voir tous les channels, clique ici !"] 
-+
-* *Les comptes-rendus de réunions* sont maintenant disponibles dans https://github.com/softeamfr/startech-meetings-reports[notre repo GitHub]. +
-Ainsi, si vous avez des remarques, ou souhaitez apporter des modifications, vous pouvez : 
-** soit utiliser https://github.com/softeamfr/startech-meetings-reports/issues[le bug tracker]
-** soit soumettre une *pull request*.
-* *La présence aux réunions mensuelles est maintenant récompensée de 40 Starpoints*, n'hésitez donc pas à venir 🙂
-* Afin de faciliter la gestion de nos projets / présentations sur *GitHub*, une https://github.com/orgs/softeamfr/teams/startech-java[*équipe StarTECH*] est en cours de création sur cet outil. +
--> Merci à tous les contributeurs de [red]*me donner leur compte GitHub*, afin que je puisse les y ajouter 🙂
-
-[IMPORTANT]
-====
-A toute personne assistant pour la 1ere fois à une réunion StarTECH, merci de me confirmer par mail, ou de vive voix, votre envie d'intégrer le groupe en fin de réunion 🙂
-====
