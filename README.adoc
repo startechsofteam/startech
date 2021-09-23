@@ -20,7 +20,7 @@ endif::[]
 :toc: macro
 :toclevels: 4
 // To number the sections of the table of contents
-:sectnums:
+// :sectnums:
 // To turn off figure caption labels and numbers
 :figure-caption!:
 // Same for examples
@@ -29,6 +29,8 @@ endif::[]
 // :caption:
 
 toc::[]
+
+== Qu'est-ce que le StarTECH ?
 
 Veille tech, esprit crafter, Data, DevOps, Agilité... La tech t'intéresse ?
 Alors tu es au bon endroit, la communauté technique *StarTECH* de Softeam te tend les bras ! +
