@@ -11,7 +11,7 @@ ifdef::env-github[]
 :tip-caption: :bulb:
 :warning-caption: :warning:
 endif::[]
-:imagesdir: images
+:imagesdir: ./images
 :source-highlighter: highlightjs
 // Next 2 ones are to handle line breaks in some particular elements (list, footnotes, etc.)
 :lb: pass:[<br> +]
@@ -19,18 +19,20 @@ endif::[]
 // check https://github.com/Ardemius/personal-wiki/wiki/AsciiDoctor-tips for tips on table of content in GitHub
 :toc: macro
 :toclevels: 4
+// To number the sections of the table of contents
+:sectnums:
 // To turn off figure caption labels and numbers
-//:figure-caption!:
+:figure-caption!:
 // Same for examples
 //:example-caption!:
 // To turn off ALL captions
-:caption:
+// :caption:
 
-//toc::[]
+toc::[]
 
 Veille tech, esprit crafter, Data, DevOps, Agilité... La tech t'intéresse ?
-Alors tu es au bon endroit, la communauté technique *StarTECH* de Softeam te tend les bras !
-image:https://github.com/startechsofteam/startech-graphical-elements/blob/master/logo/Star%20Tech%20Java%20logo%20-%20vignette.png[]
+Alors tu es au bon endroit, la communauté technique *StarTECH* de Softeam te tend les bras ! +
+image:https://github.com/startechsofteam/startech-graphical-elements/blob/master/logo/Star%20Tech%20logo%20-%20fond%20blanc%20-%20vignette.jpg[]
 
 Qu’est-ce que le StarTECH ? Tout simplement un groupe de *technophiles* qui souhaitent partager une *passion* commune.
 
@@ -42,7 +44,7 @@ Tu peux commencer par jeter un oeil ci-dessous à notre *charte*, ainsi qu'à ht
 Mais le mieux serait de venir échanger avec nous lors d'une de nos *réunions mensuelles*, tous les *1ers mardis* de chaque mois, sur notre *taverne Discord* (Tu en trouveras les comptes rendus sur ce repo)
 
 Et si tu te dis que tout cela est décidément bien sympa, et que tu adhères à nos valeurs, il est alors temps de nous rejoindre !
-Envoie un mail à XXX et sois le bienvenu 🙂
+Envoie un mailto:61916e0e.laposte.onmicrosoft.com@emea.teams.ms[mail à l'équipe de coordination de la communauté] et sois le bienvenu 🙂
 
 == Charte
 
@@ -55,7 +57,29 @@ Ses membres sont animés par des valeurs communes que voici :
     * *Coopération*
     * *Bienveillance*
 
+De ces valeurs découlent les principes suivants : 
 
+* *Les membres participent en fonction de leurs disponibilités* +
+Famille nombreuse ? Sport de compétition ? Tu as peu de temps de disponible, mais souhaites quand même nous rejoindre ? +
+Aucun problème ! Que ce soit pour 5 min ou des heures entières de folies 😉, tu es le ou la bienvenu(e)
+
+* *Ceci dit, si tu proposes une date pour une prez, et qu'on la communique, ce serait cool de la tenir...* 😁 +
+Ou tu préviens, un peu à l'avance siou plaîîîttt, que tu as besoin d'un rien de "rab" pour te préparer 😉
+
+* *Pas besoin d'être un expert pour nous rejoindre, chacun apporte sa pierre, petite ou grosse, à l'édifice* +
+​​​​​​​​​​​​​​Nous ne sommes pas là pour juger qui que ce soit, mais pour échanger et apprendre ensemble. +
+Comme le dit le dicton "un débutant est un débutant, un expert est un ancien débutant".
+
+* *Chaque membre est libre de proposer des axes d’amélioration* +
+Tu penses qu'on pourrait changer quelque chose dans le fonctionnement de la communauté ? Tu as une nouvelle activité en tête ? +
+N'hésite pas à en parler ! Pas de différence entre les membres, chacun peut proposer ses idées.
+
+* *Tous les avis sont bienvenus et ont droit au chapitre* +
+Nous aimons débattre, et il arrive que les débats soient le lieu de petites "différences d'opinion" 😜 +
+Nous grandissons par l'échange, aussi tant que les avis sont bienveillants, tous sont acceptés.
+
+* *Nous sommes également une communauté d'entraide* +
+Tu es confronté à un problème technique et tu galères ? Tu as une question ? N'hésite pas à nous la poser 😉
 
 == Informations pratiques
 
