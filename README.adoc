@@ -32,7 +32,7 @@ toc::[]
 
 Veille tech, esprit crafter, Data, DevOps, Agilité... La tech t'intéresse ?
 Alors tu es au bon endroit, la communauté technique *StarTECH* de Softeam te tend les bras ! +
-image:https://github.com/startechsofteam/startech-graphical-elements/blob/master/logo/Star%20Tech%20logo%20-%20fond%20blanc%20-%20vignette.jpg[]
+image:https://github.com/startechsofteam/startech-graphical-elements/blob/master/logo/Star%20Tech%20logo%20-%20fond%20transparent%20-%20vignette.png[]
 
 Qu’est-ce que le StarTECH ? Tout simplement un groupe de *technophiles* qui souhaitent partager une *passion* commune.
 
