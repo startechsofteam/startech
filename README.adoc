@@ -42,11 +42,13 @@ Au menu ? On discute, on partage de la veille, on POC des technos qui nous plais
 Les thèmes sont variés : Design Patterns, Software Craftsmanship, (Big) Data, DevOps, langages alternatifs, frameworks en tout genre, pas de discrimination chez nous, on ratisse large 😉
 
 Tu voudrais en savoir plus sur nous ?
-Tu peux commencer par jeter un oeil ci-dessous à notre *charte*, ainsi qu'à https://ardemius.github.io/slides-startech/slides-starTECH.html[ces quelques slides]
+Tu peux commencer par jeter un oeil ci-dessous à notre *charte*, ainsi qu'à https://ardemius.github.io/slides-startech/slides-starTECH.html[ces quelques slides] +
 Mais le mieux serait de venir échanger avec nous lors d'une de nos *réunions mensuelles*, tous les *1ers mardis* de chaque mois, sur notre *taverne Discord* (Tu en trouveras les comptes rendus sur ce repo)
 
-Et si tu te dis que tout cela est décidément bien sympa, et que tu adhères à nos valeurs, il est alors temps de nous rejoindre !
-Envoie un mailto:61916e0e.laposte.onmicrosoft.com@emea.teams.ms[mail à l'équipe de coordination de la communauté] et sois le bienvenu 🙂
+Sois le ou la bienvenu(e), et @très bientôt 🙂
+
+.Accès à notre serveur Discord
+NOTE: Pour rejoindre notre serveur Discord, envoie simplement un mailto:61916e0e.laposte.onmicrosoft.com@emea.teams.ms?subject=Communaut%C3%A9+StarTECH+%3A+demande+d%27acc%C3%A8s+au+serveur+Discord&body=Bonjour%2C+je+souhaite+participer+aux+r%C3%A9unions+de+la+communaut%C3%A9+technique+StarTECH+🙂[petit mail sympa à notre équipe de coordination] 😉
 
 == Charte
 
