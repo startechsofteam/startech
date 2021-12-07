@@ -11,22 +11,72 @@ ifdef::env-github[]
 :tip-caption: :bulb:
 :warning-caption: :warning:
 endif::[]
-:imagesdir: images
+:imagesdir: ./images
 :source-highlighter: highlightjs
 // Next 2 ones are to handle line breaks in some particular elements (list, footnotes, etc.)
 :lb: pass:[<br> +]
 :sb: pass:[<br>]
 // check https://github.com/Ardemius/personal-wiki/wiki/AsciiDoctor-tips for tips on table of content in GitHub
 :toc: macro
-:toclevels: 4
+:toclevels: 1
+// To number the sections of the table of contents
+:sectnums:
 // To turn off figure caption labels and numbers
-//:figure-caption!:
+:figure-caption!:
 // Same for examples
 //:example-caption!:
 // To turn off ALL captions
-:caption:
+// :caption:
 
-//toc::[]
+toc::[]
 
-Repo contenant les comptes-rendus de réunions de la communauté StarTECH, ainsi que toutes les ressources associées.
+== 2021/10/15
+
+Ordre du jour de la réunion : 
+
+    * Thomas nous parlera de *l'évolution de l'écosystème des containers* : Docker, containerd, CRI-O, runc
+    * échanges sur la veille technologique du moment
+    * et toutes les questions et débats que vous aurez envie de poser et lancer 🙂
+
+== 2021/11/02
+
+Ordre du jour de la réunion : 
+
+    * On commence par une petite présentation (~20 min) sur *comment bien préparer sa présence sur un salon tech*. +
+    On y donnera des conseils pratiques sur la prise de notes (afin d'éviter qu'elles servent uniquement à caler la table...), la création de son planning, le matériel à prendre avec soi, etc etc.
+    * Echanges sur la veille technologique du moment
+    * Et toutes les questions et débats que vous aurez envie de poser et lancer 🙂
+
+Les slides de la présentation sont disponibles sur GitHub :
+
+    * voici le repo : https://github.com/Ardemius/bien-preparer-un-salon-technologique
+    * et voici les slides projetés : https://ardemius.github.io/bien-preparer-un-salon-technologique/slides.html
+
+== 2021/12/07
+
+Ordre du jour de la réunion du 07/12/2021 : 
+
+    * On commence par un petit Rex de Ricardo (~20 min) sur la mise en place d’Azure Cloud sur le projet infogreffe (ITSS).
+    * Echanges sur la veille technologique du moment
+    * Et toutes les questions et débats que vous aurez envie de poser et lancer 🙂
+
+.Etaient présents (9 personnes à 19:23)
+image:20211207_Azure-REX-Ricardo_présents.jpg[]
+
+=== REX de Ricardo
+
+.architecture de la solution
+image:20211207_Azure-REX-Ricardo_01.jpg[]
+
+* leur SolR permet d'encaisser 250 000 requêtes / jour sur les jours ouvrés / heures ouvrées, avec un temps de réponse moyen < 1 sec
+* coût d'une BDD graphe plutôt élevé
+* JanusGraph marche sur du Cassandra, et il y a maintenant une offre managée de Cassandra chez Azure (depuis ~1 an)
+* Ricardo est satisfait de Azure DevOps
+* côté DevOps, l'intégration à Sonar Cloud se fait apparemment bien
+* actuellement, le monitoring et la sécurité n'ont pas encore été mis en place
+
+
+
+
+
 
