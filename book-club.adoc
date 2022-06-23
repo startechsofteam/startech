@@ -1,0 +1,88 @@
+= Book Club de la communauté StarTECH
+Thomas SCHWENDER <icon:github[] https://github.com/Ardemius/[GitHub] / icon:twitter[role="aqua"] https://twitter.com/thomasschwender[@thomasschwender]>
+// Handling GitHub admonition blocks icons
+ifndef::env-github[:icons: font]
+ifdef::env-github[]
+:status:
+:outfilesuffix: .adoc
+:caution-caption: :fire:
+:important-caption: :exclamation:
+:note-caption: :paperclip:
+:tip-caption: :bulb:
+:warning-caption: :warning:
+endif::[]
+:imagesdir: ./images
+:source-highlighter: highlightjs
+:highlightjs-languages: asciidoc
+// We must enable experimental attribute to display Keyboard, button, and menu macros
+:experimental:
+// Next 2 ones are to handle line breaks in some particular elements (list, footnotes, etc.)
+:lb: pass:[<br> +]
+:sb: pass:[<br>]
+// check https://github.com/Ardemius/personal-wiki/wiki/AsciiDoctor-tips for tips on table of content in GitHub
+:toc: macro
+:toclevels: 4
+// To number the sections of the table of contents
+//:sectnums:
+// Add an anchor with hyperlink before the section title
+:sectanchors:
+// To turn off figure caption labels and numbers
+:figure-caption!:
+// Same for examples
+//:example-caption!:
+// To turn off ALL captions
+// :caption:
+
+toc::[]
+
+== Qu'est-ce que le Book Club de la communauté StarTECH ?
+
+Comme son nom l'indique, le Book Club du StarTECH est... un *club de lecture* 😁
+
+Ce club a pour objectif de *faire découvrir* ou d'*approfondir* à plusieurs des *ouvrages de référence* de notre milieu.
+
+Un groupe est créé et va se réunir régulièrement, sur la base d'un planning convenu à l'avance, afin d'échanger sur un certain nombre de chapitres / pages qu'il aura du lire d'une session à l'autre.
+
+== Les règles du Book Club
+
+Les objectifs et règles qui suivent proviennent du *Book Club de Tech.Rocks* que j'apprécie beaucoup 🙂👍 +
+[.small]#(Et les dessins sont de ma petite papatte, or je ne suis pas une merveille en dessin, donc soyez indulgents 😅)# 
+
+=== Les objectifs
+
+.S'enrichir par la discussion
+image:book-club_subschemas_01.jpg[]
+
+.Créer un rythme de lecture pour maintenir le gestion
+image:book-club_subschemas_02.jpg[]
+
+=== Les règles
+
+.Chaque personne est la bienvenue
+image:book-club_subschemas_03.jpg[]
+
+.On est présent
+image:book-club_subschemas_04.jpg[]
+
+.On suit le rythme de lecture. Si on n'a pas lu, on ne vient pas 😝
+image:book-club_subschemas_05.jpg[]
+
+.On laisse parler et on écoute les autres
+image:book-club_subschemas_06.jpg[]
+
+== Et voici un exemple de planning
+
+-> Réunions les *jeudis*, de *12h30 à 13h30*
+
+====
+* 08/09 : Préface et chapitre 1 : "DDD for me". Un petit chapitre pour se "chauffer" 😉
+* 15/09 : Chapitre 2 : "Strategic Design with Bounded Contexts and the Ubiquitous Language 
+* 22/09 : Chapitre 3 "Strategic Design with Subdomains" et 4 "Strategic Design with Context Mapping", mais uniquement la 1ere section "Kinds of Mappings" (fin p60)
+* 29/09 : Fin chapitre 4 et chapitre 5 "Tactical Design with Aggregates" jusqu’à la fin de la section "Aggregate Rules of Thumb" (fin p88)
+* 06/10 : Fin chapitre 5 et chapitre 6 "Tactical Design with Domain Events"
+* 13/10 : Chapitre 7 "Acceleration and Management Tools"
+====
+
+On vise autour d’*1h30 de lecture par semaine*, à réestimer si besoin après 1 ou 2 séances 😉
+
+
