@@ -53,7 +53,7 @@ Les objectifs et règles qui suivent proviennent du *Book Club de Tech.Rocks* qu
 .S'enrichir par la discussion
 image:book-club_subschemas_01.jpg[]
 
-.Créer un rythme de lecture pour maintenir le gestion
+.Créer un rythme de lecture pour maintenir le geste
 image:book-club_subschemas_02.jpg[]
 
 === Les règles
