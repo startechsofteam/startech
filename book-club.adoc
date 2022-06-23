@@ -62,10 +62,10 @@ image:book-club_subschemas_02.jpg[]
 image:book-club_subschemas_03.jpg[]
 
 .On est présent
-image:book-club_subschemas_04.jpg[]
+image:book-club_subschemas_05.jpg[]
 
 .On suit le rythme de lecture. Si on n'a pas lu, on ne vient pas 😝
-image:book-club_subschemas_05.jpg[]
+image:book-club_subschemas_04.jpg[]
 
 .On laisse parler et on écoute les autres
 image:book-club_subschemas_06.jpg[]
